@@ -1,32 +1,36 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar } from "lucide-react";
+import { Calendar, Users, Palette, Code, Rocket } from "lucide-react";
 import { motion } from "framer-motion";
-// Images for the process steps
+
 const processSteps = [
   {
     number: "01",
     title: "Découverte",
     description: "Consultation gratuite pour comprendre vos besoins spécifiques et définir votre stratégie digitale.",
-    image: "/attached_assets/IMG_6189%202_1754009931906.PNG"
+    icon: Users,
+    color: "from-blue-500 to-blue-600"
   },
   {
     number: "02",
     title: "Design",
     description: "Création du design sur-mesure adapté à votre secteur et optimisé pour la conversion.",
-    image: "/attached_assets/IMG_6188%203_1754009940487.PNG"
+    icon: Palette,
+    color: "from-purple-500 to-purple-600"
   },
   {
     number: "03",
     title: "Développement",
     description: "Intégration technique et rédaction des contenus optimisés pour votre audience.",
-    image: "/attached_assets/IMG_6190_1754009924938.PNG"
+    icon: Code,
+    color: "from-green-500 to-green-600"
   },
   {
     number: "04",
     title: "Livraison",
     description: "Mise en ligne de votre site et formation pour la gestion autonome de vos contenus.",
-    image: "/attached_assets/IMG_6191%202_1754009909273.PNG"
+    icon: Rocket,
+    color: "from-orange-500 to-orange-600"
   }
 ];
 
@@ -72,20 +76,9 @@ export default function ProcessSection() {
                   <p className="text-gray-600 text-center mb-4">
                     {step.description}
                   </p>
-                  {/* Image */}
-                  <div className="w-full h-32 bg-gray-200 rounded-lg overflow-hidden">
-                    {step.image ? (
-                      <img 
-                        src={step.image} 
-                        alt={`${step.title} process step`}
-                        className="w-full h-full object-cover"
-                        data-testid={`process-image-${index}`}
-                      />
-                    ) : (
-                      <div className="w-full h-full bg-gradient-to-br from-purple-100 to-violet-100 flex items-center justify-center">
-                        <span className="text-gray-500 text-sm">Étape {step.number}</span>
-                      </div>
-                    )}
+                  {/* Icon Visual */}
+                  <div className={`w-full h-32 bg-gradient-to-br ${step.color} rounded-lg flex items-center justify-center`}>
+                    <step.icon className="w-16 h-16 text-white" />
                   </div>
                 </CardContent>
               </Card>
