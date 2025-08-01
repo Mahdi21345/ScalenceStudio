@@ -44,7 +44,7 @@ export default function HeroSection() {
             Faites passer{" "}
             <span className="text-blue-600 font-bold">votre business</span>
             {" "}au niveau supérieur
-            <br />avec une landing page livrée en 24h
+            <br />Landing page livrée en 24h
           </motion.h1>
           
           <motion.p 
