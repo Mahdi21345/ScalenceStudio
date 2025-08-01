@@ -27,7 +27,14 @@ export default function Header() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-10 flex items-baseline space-x-6">
+              <button 
+                onClick={() => scrollToSection('importance')}
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                data-testid="nav-importance"
+              >
+                Importance
+              </button>
               <button 
                 onClick={() => scrollToSection('benefices')}
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
@@ -43,11 +50,25 @@ export default function Header() {
                 Processus
               </button>
               <button 
+                onClick={() => scrollToSection('pricing')}
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                data-testid="nav-pricing"
+              >
+                Tarifs
+              </button>
+              <button 
+                onClick={() => scrollToSection('faq')}
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                data-testid="nav-faq"
+              >
+                FAQ
+              </button>
+              <button 
                 onClick={() => scrollToSection('contact')}
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-contact"
               >
-                Nous Contacter
+                Contact
               </button>
             </div>
           </div>
@@ -70,6 +91,13 @@ export default function Header() {
           <div className="md:hidden py-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4">
               <button 
+                onClick={() => scrollToSection('importance')}
+                className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
+                data-testid="mobile-nav-importance"
+              >
+                Importance
+              </button>
+              <button 
                 onClick={() => scrollToSection('benefices')}
                 className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
                 data-testid="mobile-nav-benefices"
@@ -84,11 +112,25 @@ export default function Header() {
                 Processus
               </button>
               <button 
+                onClick={() => scrollToSection('pricing')}
+                className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
+                data-testid="mobile-nav-pricing"
+              >
+                Tarifs
+              </button>
+              <button 
+                onClick={() => scrollToSection('faq')}
+                className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
+                data-testid="mobile-nav-faq"
+              >
+                FAQ
+              </button>
+              <button 
                 onClick={() => scrollToSection('contact')}
                 className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
                 data-testid="mobile-nav-contact"
               >
-                Nous Contacter
+                Contact
               </button>
             </div>
           </div>
