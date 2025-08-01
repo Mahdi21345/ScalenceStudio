@@ -13,7 +13,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative z-10 pt-16 pb-20 overflow-hidden">
+    <section className="relative z-10 pt-16 pb-20 overflow-hidden bg-gradient-to-br from-white via-blue-50/30 to-purple-50/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Premium Badge */}
@@ -35,9 +35,9 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Un site internet qui{" "}
-            <span className="gradient-text">convertit</span>
-            <br />pour votre TPE
+            Transformez votre TPE en{" "}
+            <span className="gradient-text">machine à clients</span>
+            <br />en 24h chrono
           </motion.h1>
           
           <motion.p 
@@ -46,7 +46,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Votre entreprise mérite plus qu'un simple site vitrine. Nous créons des sites internet ultra-performants qui transforment chaque visite en opportunité d'affaires. Notre méthode éprouvée propulse les TPE vers le succès digital.
+            Pendant que vos concurrents perdent des clients avec des sites amateurs, vous allez capturer TOUS les prospects de votre secteur. Notre système exclusif transforme votre site en véritable aimant à clients qualifiés.
           </motion.p>
 
           {/* USP Highlights */}
@@ -76,11 +76,11 @@ export default function HeroSection() {
             <Button
               onClick={handleBookCall}
               size="lg"
-              className="gradient-primary hover:shadow-lg transform hover:scale-105 transition-all duration-200 text-white"
+              className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-orange-400"
               data-testid="button-book-call"
             >
               <Calendar className="w-5 h-5 mr-2" />
-              Réserver un appel
+              RÉSERVER UN APPEL
             </Button>
             <Button
               onClick={handleWhatsApp}

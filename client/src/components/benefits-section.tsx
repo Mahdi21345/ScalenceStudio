@@ -5,42 +5,42 @@ import { motion } from "framer-motion";
 const benefits = [
   {
     problem: "Votre site actuel ne reflète pas le professionnalisme de votre entreprise",
-    solution: "Design moderne et professionnel qui inspire confiance",
+    solution: "Nous créons un design moderne et professionnel qui inspire confiance",
     icon: AlertTriangle,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
     problem: "Vous perdez des clients face à la concurrence",
-    solution: "Site qui vous différencie et met en valeur vos atouts",
+    solution: "Nous développons un site qui vous différencie et met en valeur vos atouts",
     icon: Users,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
     problem: "Vous n'avez pas le temps de vous occuper de votre communication",
-    solution: "Solution clé en main, livrée rapidement",
+    solution: "Nous livrons une solution clé en main, rapidement",
     icon: Clock,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
     problem: "Votre site ne génère pas assez de contacts qualifiés",
-    solution: "Optimisation pour la conversion et génération de leads",
+    solution: "Nous optimisons pour la conversion et génération de leads",
     icon: TrendingDown,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
     problem: "Votre site n'est pas adapté aux mobiles",
-    solution: "Design responsive parfait sur tous les appareils",
+    solution: "Nous garantissons un design responsive parfait sur tous les appareils",
     icon: Smartphone,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
     problem: "Budget limité pour la communication digitale",
-    solution: "Tarifs adaptés aux TPE avec un ROI démontré",
+    solution: "Nous proposons des tarifs adaptés aux TPE avec un ROI démontré",
     icon: Euro,
     color: "text-red-600",
     bgColor: "bg-red-500"
