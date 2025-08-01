@@ -4,6 +4,7 @@ import BenefitsSection from "@/components/benefits-section";
 import ImportanceSection from "@/components/importance-section";
 import ProcessSection from "@/components/process-section";
 import PricingSection from "@/components/pricing-section";
+import ContactSection from "@/components/contact-section";
 import FAQSection from "@/components/faq-section";
 import Footer from "@/components/footer";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <ImportanceSection />
       <ProcessSection />
       <PricingSection />
+      <ContactSection />
       <FAQSection />
       <Footer />
     </div>
