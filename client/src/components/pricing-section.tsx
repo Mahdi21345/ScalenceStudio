@@ -136,7 +136,7 @@ export default function PricingSection() {
                     data-testid="pricing-book-call"
                   >
                     <Calendar className="w-6 h-6 mr-3" />
-                    RÉSERVER UN APPEL GRATUIT
+                    COMMANDER MON SITE
                   </Button>
                   
                   <Button
