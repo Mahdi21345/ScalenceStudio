@@ -23,7 +23,7 @@ const faqs = [
 
   {
     question: "Fournissez-vous l'hébergement ?",
-    answer: "Nous pouvons vous conseiller sur l'hébergement et vous aider dans la mise en ligne. Nous travaillons avec des hébergeurs fiables et adaptés aux besoins de votre business."
+    answer: "Oui, l'hébergement est inclus dans notre offre. Votre site sera hébergé de manière sécurisée avec SSL automatique."
   },
   {
     question: "Que se passe-t-il pour le nom de domaine ?",
