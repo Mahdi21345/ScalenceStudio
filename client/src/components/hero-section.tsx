@@ -4,8 +4,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   const handleBookCall = () => {
-    // TODO: Integrate with booking system (Calendly, etc.)
-    window.open('mailto:mahguez368@gmail.com?subject=Demande de consultation gratuite', '_blank');
+    window.open('https://calendly.com/mahguez368/meeting-site-internet-60-min', '_blank');
   };
 
   const handleWhatsApp = () => {
@@ -35,9 +34,9 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Transformez votre TPE en{" "}
-            <span className="gradient-text">machine à clients</span>
-            <br />en 24h chrono
+            Un site internet qui{" "}
+            <span className="text-orange-500 font-extrabold">convertit</span>
+            <br />chaque visiteur en client
           </motion.h1>
           
           <motion.p 
@@ -46,7 +45,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Pendant que vos concurrents perdent des clients avec des sites amateurs, vous allez capturer TOUS les prospects de votre secteur. Notre système exclusif transforme votre site en véritable aimant à clients qualifiés.
+            Nous créons des sites internet sur-mesure qui génèrent des résultats concrets pour votre TPE. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
           </motion.p>
 
           {/* USP Highlights */}

@@ -19,8 +19,10 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent font-mono tracking-wider">
-              ProLanding
+            <h1 className="text-2xl font-bold text-gray-900 font-mono tracking-widest relative">
+              <span className="text-blue-600">Pro</span>
+              <span className="text-gray-900">Landing</span>
+              <span className="absolute -top-1 -right-1 w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
             </h1>
           </div>
           
