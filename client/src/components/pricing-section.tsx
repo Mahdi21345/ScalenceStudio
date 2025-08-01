@@ -162,24 +162,7 @@ export default function PricingSection() {
           </motion.div>
         </div>
 
-        {/* Bottom testimonial */}
-        <motion.div 
-          className="text-center mt-16"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-        >
-          <div className="max-w-3xl mx-auto">
-            <blockquote className="text-lg text-gray-600 italic mb-4">
-              "400€ pour une landing page professionnelle livrée en 24h, avec hébergement inclus. 
-              C'est exactement ce qu'il fallait pour lancer mon business rapidement."
-            </blockquote>
-            <cite className="text-gray-900 font-semibold">
-              — Client satisfait ProLanding
-            </cite>
-          </div>
-        </motion.div>
+
       </div>
     </section>
   );
