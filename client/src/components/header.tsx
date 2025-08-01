@@ -14,15 +14,14 @@ export default function Header() {
   };
 
   return (
-    <header className="relative z-50 bg-black/80 backdrop-blur-md border-b border-purple-500/20">
+    <header className="relative z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-white font-mono tracking-widest relative">
-              <span className="text-purple-400">Pro</span>
-              <span className="text-white">Landing</span>
-              <span className="absolute -top-1 -right-1 w-2 h-2 bg-pink-500 rounded-full animate-pulse"></span>
+            <h1 className="text-2xl font-bold text-gray-900 tracking-tight">
+              <span className="text-blue-600">Pro</span>
+              <span className="text-gray-900">Landing</span>
             </h1>
           </div>
           
@@ -31,21 +30,21 @@ export default function Header() {
             <div className="ml-10 flex items-baseline space-x-8">
               <button 
                 onClick={() => scrollToSection('benefices')}
-                className="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-benefices"
               >
                 Bénéfices
               </button>
               <button 
                 onClick={() => scrollToSection('processus')}
-                className="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-processus"
               >
                 Processus
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-gray-300 hover:text-purple-400 transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-contact"
               >
                 Nous Contacter

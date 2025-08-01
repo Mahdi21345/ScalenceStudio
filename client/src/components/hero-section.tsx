@@ -12,7 +12,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative z-10 pt-16 pb-20 overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900/50 to-black tech-grid">
+    <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Premium Badge */}
@@ -22,31 +22,31 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-purple-500/10 to-violet-500/10 text-purple-600 border border-purple-500/20">
+            <span className="inline-flex items-center px-6 py-3 rounded-full text-sm font-semibold bg-blue-50 text-blue-700 border border-blue-200">
               <Clock className="w-4 h-4 mr-2" />
-              Site internet livré en 24h
+              Livraison garantie en 24h
             </span>
           </motion.div>
           
           <motion.h1 
-            className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight digital-glow"
+            className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             Faites passer{" "}
-            <span className="text-purple-400 font-extrabold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">votre business</span>
+            <span className="text-blue-600 font-bold">votre business</span>
             {" "}au niveau supérieur
             <br />avec une landing page livrée en 24h
           </motion.h1>
           
           <motion.p 
-            className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Nous créons des sites internet sur-mesure qui génèrent des résultats concrets pour votre business. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
+            Nous créons des landing pages sur-mesure qui génèrent des résultats concrets pour votre business. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
           </motion.p>
 
           {/* USP Highlights */}
@@ -76,7 +76,7 @@ export default function HeroSection() {
             <Button
               onClick={handleBookCall}
               size="lg"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-purple-400 digital-glow"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
               data-testid="button-book-call"
             >
               <Calendar className="w-5 h-5 mr-2" />
