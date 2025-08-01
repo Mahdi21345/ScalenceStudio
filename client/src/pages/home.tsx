@@ -5,7 +5,6 @@ import ImportanceSection from "@/components/importance-section";
 import ProcessSection from "@/components/process-section";
 import PricingSection from "@/components/pricing-section";
 import FAQSection from "@/components/faq-section";
-import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -25,7 +24,6 @@ export default function Home() {
       <ProcessSection />
       <PricingSection />
       <FAQSection />
-      <ContactSection />
       <Footer />
     </div>
   );
