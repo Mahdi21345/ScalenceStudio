@@ -46,7 +46,7 @@ export default function PricingSection() {
           </p>
         </motion.div>
 
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -64,21 +64,21 @@ export default function PricingSection() {
               </div>
 
               {/* Inner white content */}
-              <div className="bg-white rounded-3xl p-10 pt-16">
+              <div className="bg-white rounded-3xl p-8 pt-14">
                 {/* Price section with gradient text */}
-                <div className="text-center mb-10">
-                  <div className="flex items-center justify-center mb-4">
-                    <span className="text-7xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">499</span>
-                    <span className="text-3xl text-gray-600 ml-3 font-bold">€</span>
+                <div className="text-center mb-8">
+                  <div className="flex items-center justify-center mb-3">
+                    <span className="text-6xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">499</span>
+                    <span className="text-2xl text-gray-600 ml-2 font-bold">€</span>
                   </div>
-                  <p className="text-xl text-gray-600 font-semibold">
+                  <p className="text-lg text-gray-600 font-semibold">
                     Landing page complète • Livraison 24h
                   </p>
                 </div>
 
                 {/* Features in two columns */}
-                <div className="grid md:grid-cols-2 gap-8 mb-10">
-                  <div className="space-y-5">
+                <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="space-y-4">
                     {features.slice(0, Math.ceil(features.length / 2)).map((feature, index) => (
                       <motion.div
                         key={index}
@@ -88,14 +88,14 @@ export default function PricingSection() {
                         transition={{ duration: 0.5, delay: index * 0.1 }}
                         viewport={{ once: true }}
                       >
-                        <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mr-4 shadow-lg">
-                          <Check className="w-5 h-5 text-white font-bold" />
+                        <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mr-3 shadow-lg">
+                          <Check className="w-4 h-4 text-white font-bold" />
                         </div>
-                        <span className="text-gray-800 font-semibold text-lg">{feature}</span>
+                        <span className="text-gray-800 font-medium text-base">{feature}</span>
                       </motion.div>
                     ))}
                   </div>
-                  <div className="space-y-5">
+                  <div className="space-y-4">
                     {features.slice(Math.ceil(features.length / 2)).map((feature, index) => (
                       <motion.div
                         key={index + Math.ceil(features.length / 2)}
@@ -105,22 +105,22 @@ export default function PricingSection() {
                         transition={{ duration: 0.5, delay: (index + Math.ceil(features.length / 2)) * 0.1 }}
                         viewport={{ once: true }}
                       >
-                        <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mr-4 shadow-lg">
-                          <Check className="w-5 h-5 text-white font-bold" />
+                        <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mr-3 shadow-lg">
+                          <Check className="w-4 h-4 text-white font-bold" />
                         </div>
-                        <span className="text-gray-800 font-semibold text-lg">{feature}</span>
+                        <span className="text-gray-800 font-medium text-base">{feature}</span>
                       </motion.div>
                     ))}
                   </div>
                 </div>
 
                 {/* Additional services with gradient box */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-8 border border-blue-100">
-                  <h4 className="font-bold text-gray-900 mb-4 text-lg">Services complémentaires</h4>
-                  <div className="space-y-3">
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-5 mb-6 border border-blue-100">
+                  <h4 className="font-bold text-gray-900 mb-3 text-base">Services complémentaires</h4>
+                  <div className="space-y-2">
                     {additionalServices.map((service, index) => (
-                      <div key={index} className="flex items-center text-gray-700 font-medium">
-                        <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-4"></div>
+                      <div key={index} className="flex items-center text-gray-700 font-medium text-sm">
+                        <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-3"></div>
                         {service}
                       </div>
                     ))}
