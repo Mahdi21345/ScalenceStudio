@@ -34,7 +34,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Un site internet qui{" "}
+            Une landing page qui{" "}
             <span className="text-orange-500 font-extrabold">convertit</span>
             <br />chaque visiteur en client
           </motion.h1>
