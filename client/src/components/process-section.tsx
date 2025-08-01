@@ -2,34 +2,31 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
 import { motion } from "framer-motion";
-// Images will be handled as URL strings
-const consultationImage = "/attached_assets/IMG_6189_1754006660483.PNG";
-const businessImage = "/attached_assets/IMG_6188_1754006649968.PNG";
-
+// Images for the process steps
 const processSteps = [
   {
     number: "01",
     title: "Découverte",
     description: "Consultation gratuite pour comprendre vos besoins spécifiques et définir votre stratégie digitale.",
-    image: consultationImage
+    image: "/attached_assets/IMG_6189 2_1754009931906.PNG"
   },
   {
     number: "02",
     title: "Design",
     description: "Création du design sur-mesure adapté à votre secteur et optimisé pour la conversion.",
-    image: businessImage
+    image: "/attached_assets/IMG_6188 3_1754009940487.PNG"
   },
   {
     number: "03",
     title: "Développement",
     description: "Intégration technique et rédaction des contenus optimisés pour votre audience.",
-    image: null // Using a placeholder for this step
+    image: "/attached_assets/IMG_6190_1754009924938.PNG"
   },
   {
     number: "04",
     title: "Livraison",
     description: "Mise en ligne de votre site et formation pour la gestion autonome de vos contenus.",
-    image: null // Using a placeholder for this step
+    image: "/attached_assets/IMG_6191 2_1754009909273.PNG"
   }
 ];
 
