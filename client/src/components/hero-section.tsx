@@ -46,7 +46,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Nous créons des sites internet sur-mesure qui génèrent des résultats concrets pour votre TPE. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
+            Nous créons des sites internet sur-mesure qui génèrent des résultats concrets pour votre business. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
           </motion.p>
 
           {/* USP Highlights */}
