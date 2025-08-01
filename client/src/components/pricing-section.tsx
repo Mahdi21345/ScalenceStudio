@@ -55,14 +55,14 @@ export default function PricingSection() {
           >
             <Card className="overflow-hidden shadow-xl border-0 relative bg-white">
               {/* Popular badge */}
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
+              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
                 <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold text-sm flex items-center shadow-2xl border-2 border-white">
                   <Star className="w-5 h-5 mr-2" />
                   OFFRE UNIQUE
                 </div>
               </div>
 
-              <CardContent className="p-8 pt-12">
+              <CardContent className="p-8 pt-16">
                 {/* Price */}
                 <div className="text-center mb-8">
                   <div className="flex items-center justify-center mb-4">
