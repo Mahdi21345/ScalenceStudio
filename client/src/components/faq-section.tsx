@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: "Que se passe-t-il pour le nom de domaine ?",
-    answer: "Le nom de domaine est offert la première année. Après cette période, il faudra le renouveler au tarif de 15€ par an pour maintenir votre site en ligne."
+    answer: "Le nom de domaine est offert la première année. Après cette période, il faudra le renouveler au tarif de 15€ par an pour maintenir votre site en ligne. Nous vous formerons à effectuer cette démarche facilement."
   }
 ];
 
