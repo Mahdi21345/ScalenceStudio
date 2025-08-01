@@ -12,7 +12,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative z-10 pt-16 pb-20 overflow-hidden bg-gradient-to-br from-white via-blue-50/30 to-purple-50/40">
+    <section className="relative z-10 pt-16 pb-20 overflow-hidden bg-gradient-to-br from-white via-cyan-50/30 to-teal-50/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Premium Badge */}
@@ -35,7 +35,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             Une landing page qui fait passer{" "}
-            <span className="text-orange-500 font-extrabold">votre business</span>
+            <span className="text-cyan-500 font-extrabold">votre business</span>
             <br />au niveau supérieur livrée en 24h
           </motion.h1>
           
@@ -75,7 +75,7 @@ export default function HeroSection() {
             <Button
               onClick={handleBookCall}
               size="lg"
-              className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-orange-400"
+              className="bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white font-bold shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-cyan-400"
               data-testid="button-book-call"
             >
               <Calendar className="w-5 h-5 mr-2" />
