@@ -12,7 +12,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative z-10 pt-16 pb-20 overflow-hidden bg-gradient-to-br from-white via-cyan-50/30 to-teal-50/40">
+    <section className="relative z-10 pt-16 pb-20 overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900/50 to-black tech-grid">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Premium Badge */}
@@ -29,19 +29,19 @@ export default function HeroSection() {
           </motion.div>
           
           <motion.h1 
-            className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight"
+            className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight digital-glow"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             Faites passer{" "}
-            <span className="text-cyan-500 font-extrabold">votre business</span>
+            <span className="text-purple-400 font-extrabold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">votre business</span>
             {" "}au niveau supérieur
             <br />avec une landing page livrée en 24h
           </motion.h1>
           
           <motion.p 
-            className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -76,7 +76,7 @@ export default function HeroSection() {
             <Button
               onClick={handleBookCall}
               size="lg"
-              className="bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white font-bold shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-cyan-400"
+              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold shadow-xl hover:shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-purple-400 digital-glow"
               data-testid="button-book-call"
             >
               <Calendar className="w-5 h-5 mr-2" />
