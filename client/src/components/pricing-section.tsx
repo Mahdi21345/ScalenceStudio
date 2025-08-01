@@ -18,13 +18,13 @@ export default function PricingSection() {
     "Optimisation pour la conversion", 
     "Hébergement inclus",
     "SSL automatique inclus",
+    "Domaine offert 1 an",
     "1 révision gratuite incluse",
     "Livraison garantie en 24h"
   ];
 
   const additionalServices = [
     "Modifications supplémentaires : 30€/modification",
-    "Domaine offert 1 an",
     "Déployé automatiquement"
   ];
 
@@ -55,9 +55,9 @@ export default function PricingSection() {
           >
             <Card className="overflow-hidden shadow-xl border-0 relative bg-white">
               {/* Popular badge */}
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-bold text-sm flex items-center shadow-lg">
-                  <Star className="w-4 h-4 mr-2" />
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
+                <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold text-sm flex items-center shadow-2xl border-2 border-white">
+                  <Star className="w-5 h-5 mr-2" />
                   OFFRE UNIQUE
                 </div>
               </div>
