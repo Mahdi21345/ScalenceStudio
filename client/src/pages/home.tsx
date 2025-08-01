@@ -24,8 +24,8 @@ export default function Home() {
       <ImportanceSection />
       <ProcessSection />
       <PricingSection />
-      <ContactSection />
       <FAQSection />
+      <ContactSection />
       <Footer />
     </div>
   );
