@@ -16,7 +16,7 @@ export default function PricingSection() {
     "Landing page responsive sur-mesure",
     "Design professionnel et moderne",
     "Optimisation pour la conversion", 
-    "Hébergement Replit inclus",
+    "Hébergement inclus",
     "SSL automatique inclus",
     "1 révision gratuite incluse",
     "Livraison garantie en 24h"
@@ -25,7 +25,7 @@ export default function PricingSection() {
   const additionalServices = [
     "Modifications supplémentaires : 30€/modification",
     "Domaine personnalisé : En option",
-    "Déployé sur Replit Deployments"
+    "Déployé automatiquement"
   ];
 
   return (
