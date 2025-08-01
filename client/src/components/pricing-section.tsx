@@ -9,7 +9,7 @@ export default function PricingSection() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite commander une landing page à 400€', '_blank');
+    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite commander une landing page à 499€', '_blank');
   };
 
   const features = [
@@ -68,7 +68,7 @@ export default function PricingSection() {
                 {/* Price section with gradient text */}
                 <div className="text-center mb-10">
                   <div className="flex items-center justify-center mb-4">
-                    <span className="text-7xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">400</span>
+                    <span className="text-7xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">499</span>
                     <span className="text-3xl text-gray-600 ml-3 font-bold">€</span>
                   </div>
                   <p className="text-xl text-gray-600 font-semibold">
