@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
 import BenefitsSection from "@/components/benefits-section";
+import ImportanceSection from "@/components/importance-section";
 import ProcessSection from "@/components/process-section";
 import FAQSection from "@/components/faq-section";
 import ContactSection from "@/components/contact-section";
@@ -19,6 +20,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <BenefitsSection />
+      <ImportanceSection />
       <ProcessSection />
       <FAQSection />
       <ContactSection />
