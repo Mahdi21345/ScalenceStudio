@@ -8,13 +8,13 @@ const processSteps = [
     number: "01",
     title: "Découverte",
     description: "Consultation gratuite pour comprendre vos besoins spécifiques et définir votre stratégie digitale.",
-    image: "/attached_assets/IMG_6189 2_1754009931906.PNG"
+    image: "/attached_assets/IMG_6189%202_1754009931906.PNG"
   },
   {
     number: "02",
     title: "Design",
     description: "Création du design sur-mesure adapté à votre secteur et optimisé pour la conversion.",
-    image: "/attached_assets/IMG_6188 3_1754009940487.PNG"
+    image: "/attached_assets/IMG_6188%203_1754009940487.PNG"
   },
   {
     number: "03",
@@ -26,7 +26,7 @@ const processSteps = [
     number: "04",
     title: "Livraison",
     description: "Mise en ligne de votre site et formation pour la gestion autonome de vos contenus.",
-    image: "/attached_assets/IMG_6191 2_1754009909273.PNG"
+    image: "/attached_assets/IMG_6191%202_1754009909273.PNG"
   }
 ];
 
