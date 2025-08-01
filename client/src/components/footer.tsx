@@ -7,7 +7,7 @@ export default function Footer() {
             ProLanding
           </h2>
           <p className="text-gray-400 mb-4">
-            Sites internet professionnels pour TPE - Livraison en 24h
+            Landing pages professionnelles pour entreprises - Livraison en 24h
           </p>
           <p className="text-gray-500 text-sm">
             © 2024 ProLanding. Tous droits réservés.
