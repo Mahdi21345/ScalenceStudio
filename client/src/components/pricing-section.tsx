@@ -127,8 +127,8 @@ export default function PricingSection() {
                   </div>
                 </div>
 
-                {/* CTA Buttons with modern styling */}
-                <div className="space-y-4">
+                {/* CTA Button with modern styling */}
+                <div>
                   <Button
                     onClick={handleBookCall}
                     size="lg"
@@ -137,17 +137,6 @@ export default function PricingSection() {
                   >
                     <Calendar className="w-6 h-6 mr-3" />
                     COMMANDER MON SITE
-                  </Button>
-                  
-                  <Button
-                    onClick={handleWhatsApp}
-                    variant="outline"
-                    size="lg"
-                    className="w-full border-3 border-green-500 text-green-600 hover:bg-green-500 hover:text-white font-bold py-5 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg"
-                    data-testid="pricing-whatsapp"
-                  >
-                    <MessageCircle className="w-6 h-6 mr-3" />
-                    Commander via WhatsApp
                   </Button>
                 </div>
 
