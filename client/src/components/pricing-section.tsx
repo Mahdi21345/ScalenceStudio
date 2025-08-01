@@ -16,15 +16,16 @@ export default function PricingSection() {
     "Landing page responsive sur-mesure",
     "Design professionnel et moderne",
     "Optimisation pour la conversion", 
-    "Hébergement inclus",
+    "Hébergement Replit inclus",
+    "SSL automatique inclus",
     "1 révision gratuite incluse",
-    "Livraison garantie en 24h",
-    "Support technique par email"
+    "Livraison garantie en 24h"
   ];
 
   const additionalServices = [
     "Modifications supplémentaires : 30€/modification",
-    "Certificat SSL : Inclus"
+    "Domaine personnalisé : En option",
+    "Déployé sur Replit Deployments"
   ];
 
   return (
@@ -45,51 +46,70 @@ export default function PricingSection() {
           </p>
         </motion.div>
 
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Card className="overflow-hidden shadow-2xl border-0 relative">
+            <Card className="overflow-hidden shadow-2xl border-0 relative bg-gradient-to-br from-blue-50 to-purple-50">
               {/* Popular badge */}
               <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold text-sm flex items-center">
-                  <Star className="w-4 h-4 mr-2" />
+                <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold text-sm flex items-center shadow-lg">
+                  <Star className="w-5 h-5 mr-2" />
                   OFFRE UNIQUE
                 </div>
               </div>
 
-              <CardContent className="p-8 pt-12">
+              <CardContent className="p-12 pt-16">
                 {/* Price */}
-                <div className="text-center mb-8">
-                  <div className="flex items-center justify-center mb-4">
-                    <span className="text-6xl font-bold text-gray-900">400</span>
-                    <span className="text-2xl text-gray-600 ml-2">€</span>
+                <div className="text-center mb-12">
+                  <div className="flex items-center justify-center mb-6">
+                    <span className="text-8xl font-black text-gray-900">400</span>
+                    <span className="text-3xl text-gray-600 ml-3 font-semibold">€</span>
                   </div>
-                  <p className="text-lg text-gray-600">
+                  <p className="text-xl text-gray-600 font-medium">
                     Landing page complète • Tout inclus
                   </p>
                 </div>
 
                 {/* Features */}
-                <div className="space-y-4 mb-8">
-                  {features.map((feature, index) => (
-                    <motion.div
-                      key={index}
-                      className="flex items-center"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.5, delay: index * 0.05 }}
-                      viewport={{ once: true }}
-                    >
-                      <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3">
-                        <Check className="w-4 h-4 text-green-600" />
-                      </div>
-                      <span className="text-gray-700 font-medium">{feature}</span>
-                    </motion.div>
-                  ))}
+                <div className="grid md:grid-cols-2 gap-6 mb-10">
+                  <div className="space-y-5">
+                    {features.slice(0, Math.ceil(features.length / 2)).map((feature, index) => (
+                      <motion.div
+                        key={index}
+                        className="flex items-center"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.5, delay: index * 0.05 }}
+                        viewport={{ once: true }}
+                      >
+                        <div className="flex-shrink-0 w-7 h-7 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                          <Check className="w-5 h-5 text-green-600 font-bold" />
+                        </div>
+                        <span className="text-gray-800 font-semibold text-lg">{feature}</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                  <div className="space-y-5">
+                    {features.slice(Math.ceil(features.length / 2)).map((feature, index) => (
+                      <motion.div
+                        key={index + Math.ceil(features.length / 2)}
+                        className="flex items-center"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.5, delay: (index + Math.ceil(features.length / 2)) * 0.05 }}
+                        viewport={{ once: true }}
+                      >
+                        <div className="flex-shrink-0 w-7 h-7 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                          <Check className="w-5 h-5 text-green-600 font-bold" />
+                        </div>
+                        <span className="text-gray-800 font-semibold text-lg">{feature}</span>
+                      </motion.div>
+                    ))}
+                  </div>
                 </div>
 
                 {/* Additional services */}
