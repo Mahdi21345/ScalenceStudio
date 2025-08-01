@@ -14,16 +14,13 @@ const faqs = [
   },
   {
     question: "Puis-je modifier mon site après livraison ?",
-    answer: "Absolument ! Nous utilisons des CMS intuitifs et vous formons à leur utilisation. Vous pourrez modifier vos contenus, ajouter des actualités et gérer votre site en autonomie."
+    answer: "Oui, cependant les modifications coûtent 30€ par modification. Nous gardons un accès pour effectuer les changements rapidement selon vos besoins."
   },
   {
     question: "Que se passe-t-il si je ne suis pas satisfait ?",
     answer: "Nous proposons une révision gratuite pour ajuster le design selon vos retours. Notre objectif est votre satisfaction complète et le succès de votre projet."
   },
-  {
-    question: "Le référencement est-il inclus ?",
-    answer: "Oui, nous optimisons votre site pour le référencement local et les mots-clés de votre secteur. Structure, métadonnées et contenu sont pensés pour être bien référencés."
-  },
+
   {
     question: "Fournissez-vous l'hébergement ?",
     answer: "Nous pouvons vous conseiller sur l'hébergement et vous aider dans la mise en ligne. Nous travaillons avec des hébergeurs fiables et adaptés aux besoins de votre business."

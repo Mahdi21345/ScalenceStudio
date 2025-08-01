@@ -24,7 +24,6 @@ export default function PricingSection() {
 
   const additionalServices = [
     "Modifications supplémentaires : 30€/modification",
-    "Référencement de base : Inclus",
     "Certificat SSL : Inclus"
   ];
 
