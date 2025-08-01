@@ -1,91 +1,98 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Users, Palette, Code, Rocket } from "lucide-react";
+import { Calendar, MessageSquare, Pencil, Globe, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 const processSteps = [
   {
     number: "01",
-    title: "Découverte",
-    description: "Consultation gratuite pour comprendre vos besoins spécifiques et définir votre stratégie digitale.",
-    icon: Users,
-    color: "from-blue-500 to-blue-600"
+    title: "Consultation",
+    description: "Analyse de vos besoins et objectifs lors d'un appel de 30-60 minutes entièrement gratuit.",
+    icon: MessageSquare,
+    color: "bg-blue-50",
+    iconColor: "text-blue-600"
   },
   {
     number: "02",
-    title: "Design",
-    description: "Création du design sur-mesure adapté à votre secteur et optimisé pour la conversion.",
-    icon: Palette,
-    color: "from-purple-500 to-purple-600"
+    title: "Création",
+    description: "Design et développement de votre landing page optimisée pour maximiser les conversions.",
+    icon: Pencil,
+    color: "bg-green-50",
+    iconColor: "text-green-600"
   },
   {
     number: "03",
-    title: "Développement",
-    description: "Intégration technique et rédaction des contenus optimisés pour votre audience.",
-    icon: Code,
-    color: "from-green-500 to-green-600"
+    title: "Mise en ligne",
+    description: "Déploiement de votre site avec tous les éléments techniques et de suivi intégrés.",
+    icon: Globe,
+    color: "bg-purple-50",
+    iconColor: "text-purple-600"
   },
   {
     number: "04",
     title: "Livraison",
-    description: "Mise en ligne de votre site et formation pour la gestion autonome de vos contenus.",
-    icon: Rocket,
-    color: "from-orange-500 to-orange-600"
+    description: "Remise de votre site fini avec formation et support pour assurer votre succès.",
+    icon: CheckCircle,
+    color: "bg-orange-50",
+    iconColor: "text-orange-600"
   }
 ];
 
 export default function ProcessSection() {
   const handleBookCall = () => {
-    window.open('mailto:mahguez368@gmail.com?subject=Demande de consultation gratuite', '_blank');
+    window.open('https://calendly.com/mahguez368/meeting-site-internet-60-min', '_blank');
   };
 
   return (
-    <section id="processus" className="py-20 bg-gray-50">
+    <section id="processus" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
-          className="text-center mb-16"
+          className="text-center mb-20"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Notre processus de création
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Comment ça marche ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Création et livraison de votre site internet professionnel en moins de 24h.
+            Un processus simple et transparent pour transformer votre vision en résultats concrets.
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {processSteps.map((step, index) => (
             <motion.div
               key={index}
-              className="relative"
+              className="relative text-center"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
+              transition={{ duration: 0.6, delay: index * 0.15 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <CardContent className="p-6">
-                  <div className="w-16 h-16 gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto">
-                    <span className="text-white font-bold text-xl">{step.number}</span>
-                  </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3 text-center">{step.title}</h3>
-                  <p className="text-gray-600 text-center mb-4">
-                    {step.description}
-                  </p>
-                  {/* Icon Visual */}
-                  <div className={`w-full h-32 bg-gradient-to-br ${step.color} rounded-lg flex items-center justify-center`}>
-                    <step.icon className="w-16 h-16 text-white" />
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Step Number */}
+              <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-lg font-bold mb-6 mx-auto">
+                {step.number}
+              </div>
               
-              {/* Connector line - only show between steps, not after the last one */}
+              {/* Icon */}
+              <div className={`w-20 h-20 ${step.color} rounded-2xl flex items-center justify-center mb-6 mx-auto`}>
+                <step.icon className={`w-10 h-10 ${step.iconColor}`} />
+              </div>
+
+              {/* Content */}
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{step.title}</h3>
+              <p className="text-gray-600 leading-relaxed">
+                {step.description}
+              </p>
+              
+              {/* Connector Arrow - only show between steps, not after the last one */}
               {index < processSteps.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-purple-500 to-violet-500"></div>
+                <div className="hidden lg:block absolute top-16 -right-4 w-8">
+                  <div className="w-6 h-0.5 bg-gray-300"></div>
+                  <div className="w-0 h-0 border-l-4 border-l-gray-300 border-t-2 border-t-transparent border-b-2 border-b-transparent absolute right-0 top-0 transform -translate-y-1"></div>
+                </div>
               )}
             </motion.div>
           ))}
@@ -93,7 +100,7 @@ export default function ProcessSection() {
 
         {/* CTA */}
         <motion.div 
-          className="text-center mt-12"
+          className="text-center mt-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
@@ -102,7 +109,7 @@ export default function ProcessSection() {
           <Button
             onClick={handleBookCall}
             size="lg"
-            className="gradient-primary hover:shadow-lg transform hover:scale-105 transition-all duration-200 text-white"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
             data-testid="button-start-project"
           >
             <Calendar className="w-5 h-5 mr-2" />
