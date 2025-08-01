@@ -16,8 +16,7 @@ export default function PricingSection() {
     "Landing page responsive sur-mesure",
     "Design professionnel et moderne",
     "Optimisation pour la conversion", 
-    "Formulaire de contact intégré",
-    "Hébergement inclus (1 an)",
+    "Hébergement inclus",
     "1 révision gratuite incluse",
     "Livraison garantie en 24h",
     "Support technique par email"
@@ -25,7 +24,6 @@ export default function PricingSection() {
 
   const additionalServices = [
     "Modifications supplémentaires : 30€/modification",
-    "Formations à la gestion : Incluse",
     "Référencement de base : Inclus",
     "Certificat SSL : Inclus"
   ];
