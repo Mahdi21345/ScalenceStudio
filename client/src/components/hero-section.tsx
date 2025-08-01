@@ -36,15 +36,16 @@ export default function HeroSection() {
           </motion.div>
           
           <motion.h1 
-            className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight"
+            className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Faites passer{" "}
+            Une Landing page qui fait passer{" "}
             <span className="text-blue-600 font-bold">votre business</span>
-            {" "}au niveau supérieur
-            <br />Landing page livrée en 24h
+            <br />au stade supérieur
+            <br />
+            <span className="text-3xl md:text-4xl text-gray-700">livrée en 24h</span>
           </motion.h1>
           
           <motion.p 
