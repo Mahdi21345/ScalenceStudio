@@ -34,9 +34,10 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Une landing page qui fait passer{" "}
+            Faites passer{" "}
             <span className="text-cyan-500 font-extrabold">votre business</span>
-            <br />au niveau supérieur livrée en 24h
+            {" "}au niveau supérieur
+            <br />avec une landing page livrée en 24h
           </motion.h1>
           
           <motion.p 
