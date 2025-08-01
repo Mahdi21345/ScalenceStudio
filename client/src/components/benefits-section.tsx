@@ -40,7 +40,7 @@ const benefits = [
   },
   {
     problem: "Budget limité pour la communication digitale",
-    solution: "Nous proposons des tarifs adaptés aux TPE avec un ROI démontré",
+    solution: "Nous proposons des tarifs adaptés à votre business avec un ROI démontré",
     icon: Euro,
     color: "text-red-600",
     bgColor: "bg-red-500"
@@ -62,7 +62,7 @@ export default function BenefitsSection() {
             Pourquoi ProLanding transformera votre business ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nous comprenons les défis uniques des TPE et avons développé une méthode efficace pour les surmonter.
+            Nous comprenons les défis uniques de votre business et avons développé une méthode efficace pour les surmonter.
           </p>
         </motion.div>
 

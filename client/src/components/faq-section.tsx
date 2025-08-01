@@ -6,11 +6,11 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     question: "Pourquoi choisir ProLanding plutôt qu'un freelance ?",
-    answer: "Contrairement à un freelance, nous garantissons les délais, la disponibilité et la qualité. Notre équipe spécialisée TPE comprend vos enjeux spécifiques et propose des solutions adaptées à votre budget."
+    answer: "Contrairement à un freelance, nous garantissons les délais, la disponibilité et la qualité. Notre équipe comprend vos enjeux spécifiques et propose des solutions adaptées à votre business."
   },
   {
     question: "Le délai de 24h est-il vraiment réaliste ?",
-    answer: "Oui, grâce à notre processus optimisé et nos templates pré-conçus pour les TPE. Nous nous concentrons sur l'essentiel : un site professionnel qui convertit, sans fonctionnalités superflues."
+    answer: "Oui, grâce à notre processus optimisé et nos templates pré-conçus pour votre business. Nous nous concentrons sur l'essentiel : un site professionnel qui convertit, sans fonctionnalités superflues."
   },
   {
     question: "Puis-je modifier mon site après livraison ?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     question: "Fournissez-vous l'hébergement ?",
-    answer: "Nous pouvons vous conseiller sur l'hébergement et vous aider dans la mise en ligne. Nous travaillons avec des hébergeurs fiables et adaptés aux besoins des TPE."
+    answer: "Nous pouvons vous conseiller sur l'hébergement et vous aider dans la mise en ligne. Nous travaillons avec des hébergeurs fiables et adaptés aux besoins de votre business."
   }
 ];
 

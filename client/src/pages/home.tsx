@@ -20,10 +20,10 @@ export default function Home() {
 
       <Header />
       <HeroSection />
+      <PortfolioSlider />
       <BenefitsSection />
       <ImportanceSection />
       <ProcessSection />
-      <PortfolioSlider />
       <FAQSection />
       <ContactSection />
       <Footer />
