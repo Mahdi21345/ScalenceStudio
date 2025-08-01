@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero-section";
 import BenefitsSection from "@/components/benefits-section";
 import ImportanceSection from "@/components/importance-section";
 import ProcessSection from "@/components/process-section";
+import PortfolioSlider from "@/components/portfolio-slider";
 import FAQSection from "@/components/faq-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
@@ -22,6 +23,7 @@ export default function Home() {
       <BenefitsSection />
       <ImportanceSection />
       <ProcessSection />
+      <PortfolioSlider />
       <FAQSection />
       <ContactSection />
       <Footer />
