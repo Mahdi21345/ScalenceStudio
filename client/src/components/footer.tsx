@@ -10,7 +10,7 @@ export default function Footer() {
             Landing pages professionnelles pour entreprises - Livraison en 24h
           </p>
           <p className="text-gray-500 text-sm">
-            © 2024 ProLanding. Tous droits réservés.
+            © 2025 ProLanding. Tous droits réservés.
           </p>
         </div>
       </div>
