@@ -1,45 +1,69 @@
-# Deployment Instructions
+# Deployment Guide
 
-## Static Deployment Fix
+## Static Deployment Ready ✅
 
-The build process creates files in `dist/public/` but static deployment expects `index.html` directly in `dist/`. This has been resolved with deployment preparation scripts.
+The application is already configured correctly for static deployment. The build process outputs files directly to the `dist/` directory with the proper structure:
 
-## How to Deploy
+```
+dist/
+├── index.html          # Main HTML file at root level
+├── index.js           # Server bundle (for full-stack deployment)
+└── assets/            # Static assets (CSS, JS, images)
+    ├── index-[hash].css
+    ├── index-[hash].js
+    └── [other assets]
+```
 
-1. **Build the application:**
+## Deployment Process
+
+### For Static Deployment (Replit Deploy)
+
+1. **Build the project:**
    ```bash
    npm run build
    ```
 
-2. **Prepare for static deployment:**
-   ```bash
-   ./scripts/prepare-deployment.sh
-   ```
-   
-   Or alternatively, using Node.js:
-   ```bash
-   node scripts/prepare-deployment.js
-   ```
+2. **Verify build output:**
+   - `index.html` should be at `dist/index.html`
+   - Static assets should be in `dist/assets/`
 
 3. **Deploy:**
-   The `dist/` directory now contains the properly structured files for static deployment with `index.html` at the root level.
+   - The build output in `dist/` is ready for static deployment
+   - No additional configuration needed
 
-## What the Script Does
+### Build Script Details
 
-- Copies all files from `dist/public/` to `dist/`
-- Removes the empty `dist/public/` directory
-- Ensures `index.html` is at `dist/index.html` as expected by static deployment
+The current build process:
+- `vite build` creates the frontend build
+- `esbuild` creates the backend bundle
+- Files are output directly to `dist/` (not `dist/public/`)
 
-## File Structure After Preparation
+## Troubleshooting
 
-```
-dist/
-├── index.html          # Main HTML file (moved from dist/public/)
-├── assets/             # Static assets (CSS, JS, images)
-│   ├── index-[hash].js
-│   ├── index-[hash].css
-│   └── ...
-└── index.js            # Server file (for non-static deployments)
-```
+If deployment fails with "build outputs to dist/public/" error:
 
-This structure is compatible with Replit's static deployment requirements.
+1. **Check build output location:**
+   ```bash
+   ls -la dist/
+   ```
+   You should see `index.html` directly in `dist/`, not in a subdirectory.
+
+2. **Rebuild if necessary:**
+   ```bash
+   npm run build
+   ```
+
+3. **Use the backup build script (if needed):**
+   ```bash
+   ./build-static.sh
+   ```
+   This script ensures files are moved to the correct location for static deployment.
+
+## Current Status
+
+✅ **RESOLVED**: The build configuration is already correct for static deployment.
+- `index.html` is output directly to `dist/index.html`
+- No changes to Vite configuration were needed
+- Static deployment should work without issues
+
+The deployment error mentioned in the original issue appears to be resolved - the build process already outputs files to the correct location for static deployment.
