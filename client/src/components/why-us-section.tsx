@@ -104,7 +104,7 @@ export default function WhyUsSection() {
           ))}
         </div>
 
-        {/* Process timeline */}
+        {/* Launch offer with urgency */}
         <motion.div 
           className="mt-20"
           initial={{ opacity: 0, y: 40 }}
@@ -112,28 +112,63 @@ export default function WhyUsSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Comment ça marche ?
-          </h3>
-          
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
-            {[
-              { step: "1", title: "Appel découverte", desc: "Nous analysons vos besoins" },
-              { step: "2", title: "Maquette gratuite", desc: "Vous voyez votre futur site" },
-              { step: "3", title: "Validation & paiement", desc: "Vous confirmez si ça vous plaît" },
-              { step: "4", title: "Livraison 24h", desc: "Site complet et fonctionnel" }
-            ].map((item, index) => (
-              <div key={index} className="flex flex-col items-center text-center max-w-xs">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl mb-4">
-                  {item.step}
-                </div>
-                <h4 className="font-bold text-lg text-gray-900 mb-2">{item.title}</h4>
-                <p className="text-gray-600">{item.desc}</p>
-                {index < 3 && (
-                  <div className="hidden md:block w-full h-px bg-gradient-to-r from-blue-200 to-purple-200 mt-8"></div>
-                )}
+          <div className="bg-gradient-to-r from-red-600 to-pink-600 rounded-3xl p-8 md:p-12 text-white text-center relative overflow-hidden">
+            {/* Animated background elements */}
+            <div className="absolute top-0 left-0 w-full h-full opacity-10">
+              <div className="absolute top-4 right-4 w-20 h-20 bg-white rounded-full animate-pulse"></div>
+              <div className="absolute bottom-4 left-4 w-16 h-16 bg-white rounded-full animate-pulse delay-1000"></div>
+            </div>
+            
+            <div className="relative z-10">
+              <div className="inline-block bg-white/20 rounded-full px-6 py-2 mb-6">
+                <span className="text-sm font-bold uppercase tracking-wider">🚀 Offre de lancement</span>
               </div>
-            ))}
+              
+              <h3 className="text-4xl font-bold mb-6">
+                Maquette gratuite pour les 10 premiers clients !
+              </h3>
+              
+              <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+                Soyez parmi les premiers à découvrir notre service révolutionnaire. 
+                Après votre appel de consultation, recevez une <strong>maquette personnalisée gratuite</strong> 
+                de votre future landing page. Voyez le résultat avant de vous engager !
+              </p>
+
+              {/* Counter or urgency indicator */}
+              <div className="bg-white/10 rounded-2xl p-6 max-w-2xl mx-auto mb-8">
+                <div className="flex items-center justify-center space-x-6 text-center">
+                  <div>
+                    <div className="text-3xl font-bold">10</div>
+                    <div className="text-sm opacity-80">Places restantes</div>
+                  </div>
+                  <div className="w-px h-12 bg-white/30"></div>
+                  <div>
+                    <div className="text-3xl font-bold">24h</div>
+                    <div className="text-sm opacity-80">Livraison garantie</div>
+                  </div>
+                  <div className="w-px h-12 bg-white/30"></div>
+                  <div>
+                    <div className="text-3xl font-bold">0€</div>
+                    <div className="text-sm opacity-80">Maquette gratuite</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a
+                  href="https://calendly.com/votre-lien"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-red-600 font-bold py-3 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  data-testid="launch-offer-cta"
+                >
+                  RÉSERVER MON APPEL GRATUIT
+                </a>
+                <p className="text-sm opacity-80">
+                  ⏰ Offre limitée - Plus que quelques places !
+                </p>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>
