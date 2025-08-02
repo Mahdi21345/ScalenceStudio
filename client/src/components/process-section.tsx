@@ -7,7 +7,7 @@ const processSteps = [
   {
     number: "01",
     title: "Découverte et premiers pas",
-    description: "Réservez un appel stratégique pour comprendre vos besoins. Remplissez un formulaire d'onboarding et on s'occupe du reste.",
+    description: "Parlez-nous de votre projet en visioconférence. On comprend vos besoins et on s'occupe du reste.",
     icon: MessageSquare,
     color: "bg-blue-50",
     iconColor: "text-blue-600"
