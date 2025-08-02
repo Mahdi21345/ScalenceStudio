@@ -6,23 +6,29 @@ export default function WhyUsSection() {
     {
       icon: Eye,
       title: "Maquette gratuite avant achat",
-      description: "Contrairement à nos concurrents, vous verrez exactement à quoi ressemblera votre site avant de payer. Après notre appel, nous créons une maquette personnalisée gratuite de votre futur site internet.",
+      description: "Vous verrez exactement à quoi ressemblera votre site avant de payer. Après notre appel, nous créons une maquette personnalisée gratuite de votre futur site internet.",
       highlight: true
     },
     {
       icon: Zap,
       title: "Livraison en 24h garantie",
-      description: "Une fois la maquette validée et le paiement effectué, votre site est livré en moins de 24h. Pas de semaines d'attente comme ailleurs."
+      description: "Une fois la maquette validée et le paiement effectué, votre site est livré en moins de 24h. Pas de semaines d'attente comme ailleurs.",
+      highlight: false,
+      color: "green"
     },
     {
       icon: Users,
       title: "Approche 100% transparente",
-      description: "Pas de surprises, pas de frais cachés. Le prix affiché est le prix final. Vous savez exactement ce que vous obtenez avant même de commencer."
+      description: "Pas de surprises, pas de frais cachés. Le prix affiché est le prix final. Vous savez exactement ce que vous obtenez avant même de commencer.",
+      highlight: false,
+      color: "orange"
     },
     {
       icon: CheckCircle,
       title: "Satisfaction garantie",
-      description: "Si le résultat final ne correspond pas à la maquette validée, nous remboursons intégralement. Votre satisfaction est notre priorité absolue."
+      description: "Si le résultat final ne correspond pas à la maquette validée, nous remboursons intégralement. Votre satisfaction est notre priorité absolue.",
+      highlight: false,
+      color: "emerald"
     }
   ];
 
@@ -72,35 +78,75 @@ export default function WhyUsSection() {
 
         {/* Advantages grid */}
         <div className="grid md:grid-cols-2 gap-8">
-          {advantages.map((advantage, index) => (
-            <motion.div
-              key={index}
-              className={`p-8 rounded-2xl ${advantage.highlight 
-                ? 'bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200' 
-                : 'bg-white border border-gray-200'
-              } hover:shadow-xl transition-all duration-300`}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              data-testid={`advantage-${index}`}
-            >
-              <div className={`w-16 h-16 rounded-2xl ${advantage.highlight 
-                ? 'bg-gradient-to-r from-blue-600 to-purple-600' 
-                : 'bg-gray-100'
-              } flex items-center justify-center mb-6`}>
-                <advantage.icon className={`w-8 h-8 ${advantage.highlight ? 'text-white' : 'text-gray-600'}`} />
-              </div>
+          {advantages.map((advantage, index) => {
+            const getColors = (advantage: any) => {
+              if (advantage.highlight) {
+                return {
+                  bg: 'bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200',
+                  iconBg: 'bg-gradient-to-r from-blue-600 to-purple-600',
+                  iconText: 'text-white',
+                  title: 'text-blue-900'
+                };
+              }
               
-              <h3 className={`text-2xl font-bold mb-4 ${advantage.highlight ? 'text-blue-900' : 'text-gray-900'}`}>
-                {advantage.title}
-              </h3>
-              
-              <p className="text-gray-600 leading-relaxed">
-                {advantage.description}
-              </p>
-            </motion.div>
-          ))}
+              switch (advantage.color) {
+                case 'green':
+                  return {
+                    bg: 'bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200',
+                    iconBg: 'bg-gradient-to-r from-green-600 to-emerald-600',
+                    iconText: 'text-white',
+                    title: 'text-green-900'
+                  };
+                case 'orange':
+                  return {
+                    bg: 'bg-gradient-to-br from-orange-50 to-amber-50 border-2 border-orange-200',
+                    iconBg: 'bg-gradient-to-r from-orange-600 to-amber-600',
+                    iconText: 'text-white',
+                    title: 'text-orange-900'
+                  };
+                case 'emerald':
+                  return {
+                    bg: 'bg-gradient-to-br from-emerald-50 to-teal-50 border-2 border-emerald-200',
+                    iconBg: 'bg-gradient-to-r from-emerald-600 to-teal-600',
+                    iconText: 'text-white',
+                    title: 'text-emerald-900'
+                  };
+                default:
+                  return {
+                    bg: 'bg-white border border-gray-200',
+                    iconBg: 'bg-gray-100',
+                    iconText: 'text-gray-600',
+                    title: 'text-gray-900'
+                  };
+              }
+            };
+            
+            const colors = getColors(advantage);
+            
+            return (
+              <motion.div
+                key={index}
+                className={`p-8 rounded-2xl ${colors.bg} hover:shadow-xl transition-all duration-300`}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                viewport={{ once: true }}
+                data-testid={`advantage-${index}`}
+              >
+                <div className={`w-16 h-16 rounded-2xl ${colors.iconBg} flex items-center justify-center mb-6`}>
+                  <advantage.icon className={`w-8 h-8 ${colors.iconText}`} />
+                </div>
+                
+                <h3 className={`text-2xl font-bold mb-4 ${colors.title}`}>
+                  {advantage.title}
+                </h3>
+                
+                <p className="text-gray-600 leading-relaxed">
+                  {advantage.description}
+                </p>
+              </motion.div>
+            );
+          })}
         </div>
 
         {/* Launch offer with urgency */}
@@ -156,9 +202,14 @@ export default function WhyUsSection() {
               <div className="flex justify-center">
                 <button
                   onClick={() => {
-                    const element = document.querySelector('[data-testid="pricing-book-call"]');
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    const pricingSection = document.getElementById('pricing');
+                    if (pricingSection) {
+                      const pricingCard = pricingSection.querySelector('.bg-gradient-to-br');
+                      if (pricingCard) {
+                        pricingCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                      } else {
+                        pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                      }
                     }
                   }}
                   className="bg-white text-red-600 font-bold py-4 px-10 rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
