@@ -3,11 +3,13 @@
 ProLanding is a professional landing page creation service specifically designed for agencies in the French market. The application is a modern full-stack web solution that provides white-label landing page services with 24-hour delivery promises. The platform features a French interface with a focus on agency partnerships, white-label branding, and attractive margins for agencies wanting to offer landing page services to their clients without technical development costs.
 
 ## Recent Changes (Aug 2, 2025)
-- **Complete copywriting overhaul**: Shifted from targeting small businesses (TPE) to targeting agencies
-- **White-label focus**: All messaging now emphasizes white-label service for agencies
-- **Pricing adjustment**: Agency pricing starts at 299€ (down from 499€ for end clients)
-- **Partnership model**: Content now focuses on agency partnerships and reseller opportunities
-- **Navigation updates**: Header navigation labels updated to be more agency-focused
+- **Complete copywriting transformation**: Shifted from agency focus back to direct client sales at 499€
+- **Scalence.co inspiration**: Adopted problem-solution copywriting approach inspired by Scalence.co
+- **Hero section updated**: New tagline "Livrée en 24h" under main title, powerful question-based subtitle
+- **Benefits section**: Problems/solutions modeled after Scalence's approach to selling complexity
+- **Process section**: 4-step process inspired by Scalence's methodology
+- **Pricing restored**: Back to 499€ pricing for direct client sales
+- **Contact form**: "Formulaires intelligents" corrected to "Formulaires de contact" for honesty
 
 # User Preferences
 

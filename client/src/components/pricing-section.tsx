@@ -39,10 +39,10 @@ export default function PricingSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Les prix les plus compétitifs du marché
+            Offres
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Prix imbattables : <span className="font-semibold text-blue-600">499€ seulement</span> pour une landing page qui transforme vos visiteurs en clients.
+            Choisissez le plan qui vous correspond et qui fera scaler votre business. <span className="font-semibold text-blue-600">Landing page prête à convertir en 24h.</span>
           </p>
         </motion.div>
 

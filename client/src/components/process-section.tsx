@@ -6,32 +6,32 @@ import { motion } from "framer-motion";
 const processSteps = [
   {
     number: "01",
-    title: "Vous commandez",
-    description: "Vous nous dites ce que vous voulez et on fait un devis gratuit.",
+    title: "Découverte et premiers pas",
+    description: "Réservez un appel stratégique pour comprendre vos besoins. Remplissez un formulaire d'onboarding et on s'occupe du reste.",
     icon: MessageSquare,
     color: "bg-blue-50",
     iconColor: "text-blue-600"
   },
   {
     number: "02",
-    title: "On crée",
-    description: "On fait votre landing page avec votre nom et vos couleurs.",
+    title: "Copywriting qui convertit",
+    description: "Notre équipe transforme votre offre complexe en message clair qui vend et rassure vos prospects.",
     icon: Pencil,
     color: "bg-green-50",
     iconColor: "text-green-600"
   },
   {
-    number: "03",
-    title: "Livré en 24h",
-    description: "Votre landing page est prête en 24h, vous pouvez la présenter.",
+    number: "03", 
+    title: "Design et développement",
+    description: "Nous créons votre landing page avec un design qui inspire confiance et pousse à l'action.",
     icon: Globe,
     color: "bg-purple-50",
     iconColor: "text-purple-600"
   },
   {
     number: "04",
-    title: "Support inclus",
-    description: "On vous aide si il y a un problème, vous gardez vos clients.",
+    title: "Livraison et optimisation",
+    description: "Landing page livrée en 24h. On programme un appel pour vous la présenter et l'optimiser selon vos retours.",  
     icon: CheckCircle,
     color: "bg-orange-50",
     iconColor: "text-orange-600"
@@ -54,10 +54,10 @@ export default function ProcessSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Comment ça marche
+            Notre processus de conception
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            4 étapes simples pour avoir votre landing page.
+            Création et livraison de votre landing page prête à convertir en moins de 24h
           </p>
         </motion.div>
 

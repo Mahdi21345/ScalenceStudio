@@ -65,10 +65,10 @@ export default function ImportanceSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi une bonne landing page change tout
+            Notre processus de conception
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Une landing page bien faite, c'est plus de clients qui achètent. Voici ce qu'on inclut pour vous.
+            Création et livraison de votre landing page prête à convertir en moins de 24h
           </p>
         </motion.div>
 

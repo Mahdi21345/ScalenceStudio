@@ -4,43 +4,43 @@ import { motion } from "framer-motion";
 
 const benefits = [
   {
-    problem: "Vos visiteurs arrivent sur votre site mais repartent sans rien acheter",
-    solution: "Une landing page qui guide vos visiteurs vers l'achat avec un message clair",
+    problem: "Complexité de votre offre, difficile d'expliquer votre valeur aux prospects",
+    solution: "On explique clairement et simplement votre produit avec des mots que tout le monde comprend",
     icon: AlertTriangle,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Votre site web met trop de temps à convaincre, les gens partent avant d'acheter",
-    solution: "Page qui va droit au but : votre offre, les bénéfices, le bouton d'achat",
+    problem: "Peurs de vos clients, ils hésitent et remettent à plus tard leur achat",
+    solution: "On rassure vos prospects avec des preuves sociales et éléments de confiance",
     icon: Users,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Vous payez pour de la pub mais ça ne se transforme pas en ventes",
-    solution: "Landing page optimisée pour transformer vos visiteurs en clients payants",
+    problem: "Concurrence intense, vous n'arrivez pas à vous différencier clairement",
+    solution: "Une landing page qui vous différencie et rend votre offre irrésistible",
     icon: Clock,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Votre site parle de tout mais ne vend rien de précis",
-    solution: "Une page focalisée sur une seule offre qui pousse à l'action",
+    problem: "Vous perdez du temps à expliquer à tout le monde votre produit/service",
+    solution: "Votre service devient irrésistible grâce au copywriting qui vend",
     icon: TrendingDown,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Vous ne savez pas combien de visiteurs deviennent clients",
-    solution: "Suivi des conversions inclus pour voir exactement ce qui marche",
+    problem: "ROI flou, vos leads ont du mal à quantifier les gains avec votre solution",
+    solution: "On explique vraiment les bénéfices concrets pour vos clients",
     icon: Smartphone,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Votre site n'inspire pas confiance, les gens hésitent à acheter",
-    solution: "Design professionnel qui rassure et donne envie d'acheter chez vous",
+    problem: "Site généraliste qui dilue votre message et confond vos visiteurs",
+    solution: "Page laser-focalisée sur une offre avec un seul objectif : vendre",
     icon: Euro,
     color: "text-red-600",
     bgColor: "bg-red-500"
@@ -59,10 +59,10 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pourquoi vous avez besoin d'une landing page ?
+            Pourquoi ProLanding vous fera vendre plus ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Votre site web ne convertit pas ? Voici les problèmes les plus courants et nos solutions.
+            Vous avez des freins à la vente et nous en sommes conscients. Nous avons trouvé une méthode efficace pour les enlever et vous faire scaler.
           </p>
         </motion.div>
 

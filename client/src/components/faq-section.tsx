@@ -5,28 +5,36 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    question: "Comment fonctionne le service en marque blanche ?",
-    answer: "Vos clients ne voient que votre marque. Nous restons totalement invisibles, vous gardez la relation commerciale complète et récoltez tous les bénéfices de réputation."
+    question: "Quels sont les services de ProLanding ?",
+    answer: "Nous créons des landing pages qui transforment vraiment vos visiteurs en clients. Copywriting optimisé, design professionnel, hébergement inclus et livraison en 24h."
   },
   {
-    question: "Quelles sont les marges pour les agences ?",
-    answer: "Nos tarifs agence commencent à 299€ par landing page. Vous pouvez les revendre à vos clients au prix que vous souhaitez, avec des marges très attractives."
+    question: "En combien de temps mon projet est réalisé ?",
+    answer: "Votre landing page est livrée en 24h maximum. C'est notre engagement pour que vous puissiez commencer à vendre rapidement."
   },
   {
-    question: "Le délai de 24h est-il garanti même pour les agences ?",
-    answer: "Oui, nous garantissons une livraison en 24h maximum pour toutes les commandes, même en marque blanche. C'est notre engagement qualité."
+    question: "Offrez-vous un support après la livraison ?",
+    answer: "Oui, nous incluons le support technique et l'hébergement sécurisé à vie. Vous n'avez plus à vous soucier des aspects techniques."
   },
   {
-    question: "Proposez-vous des tarifs dégressifs pour les volumes ?",
-    answer: "Oui, plus vous commandez, plus les tarifs baissent. Contactez-nous pour connaître notre grille tarifaire selon les volumes."
+    question: "Puis-je voir vos dernières réalisations ?",
+    answer: "Bien sûr ! Contactez-nous et nous vous montrerons des exemples concrets de landing pages qui convertissent pour nos clients."
   },
   {
-    question: "Qui gère le support technique après livraison ?",
-    answer: "Nous gérons tout le support technique et la maintenance. Vos clients peuvent nous contacter directement ou passer par vous, selon votre préférence."
+    question: "Comment puis-je héberger ma landing page ?",
+    answer: "L'hébergement sécurisé est inclus dans le prix. Votre landing page sera accessible 24h/24 avec un nom de domaine professionnel."
   },
   {
-    question: "Comment mes clients peuvent-ils modifier leurs landing pages ?",
-    answer: "Les modifications se font par nos soins au tarif de 30€ par modification. Vos clients peuvent passer par vous ou nous contacter directement selon votre accord de partenariat."
+    question: "Combien de révisions pendant la conception ?",
+    answer: "Nous incluons les révisions nécessaires pour que votre landing page corresponde parfaitement à vos attentes et convertisse au maximum."
+  },
+  {
+    question: "Le SEO est-il inclus dans la production ?",
+    answer: "Oui, nous optimisons votre landing page pour les moteurs de recherche et incluons les analyses de performance pour suivre vos conversions."
+  },
+  {
+    question: "Pourquoi ProLanding et non une autre agence ?",
+    answer: "Nous combinons copywriting qui vend + design qui rassure + livraison ultra-rapide au prix le moins cher. Notre méthode transforme votre offre complexe en message clair qui convertit."
   }
 ];
 
@@ -48,10 +56,10 @@ export default function FAQSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Questions fréquentes des agences
+            Questions fréquemment posées
           </h2>
           <p className="text-xl text-gray-600">
-            Tout ce que vous devez savoir sur notre partenariat agence.
+            Vous avez des questions supplémentaires ? Nous avons des réponses.
           </p>
         </motion.div>
 

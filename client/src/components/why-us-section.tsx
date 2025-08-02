@@ -44,11 +44,11 @@ export default function WhyUsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi nous choisir ?
+            Pourquoi ProLanding et non une autre agence ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            On fait simple et efficace : 
-            <span className="font-semibold text-blue-600"> landing pages qui convertissent au prix le moins cher</span>
+            Création et livraison de votre landing page prête à convertir en moins de 24h.
+            <span className="font-semibold text-blue-600"> Landing pages qui convertissent vraiment au prix le moins cher.</span>
           </p>
         </motion.div>
 
@@ -67,11 +67,11 @@ export default function WhyUsSection() {
               </div>
             </div>
             <h3 className="text-3xl font-bold mb-4">
-              Notre différence : qui convertit et pas cher
+              Notre processus de conception
             </h3>
             <p className="text-xl opacity-90 max-w-4xl mx-auto">
-              On crée des landing pages qui transforment vraiment vos visiteurs en clients. 
-              Livré en 24h, prix imbattables. Vous vous concentrez sur votre business, on s'occupe du reste.
+              On transforme votre offre complexe en message clair qui convertit. 
+              Copywriting qui vend, design qui rassure, livraison ultra-rapide. Vous scalez, on s'occupe du reste.
             </p>
           </div>
         </motion.div>
