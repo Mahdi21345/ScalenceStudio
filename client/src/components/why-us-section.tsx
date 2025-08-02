@@ -18,15 +18,15 @@ export default function WhyUsSection() {
     },
     {
       icon: Users,
-      title: "Prix fixe transparent",
-      description: "499€ tout compris, pas de frais cachés. Vous savez exactement combien ça coûte avant de commencer.",
+      title: "Prix compétitifs",
+      description: "499€ tout compris, le prix le moins cher du marché. Vous savez exactement combien ça coûte avant de commencer.",
       highlight: false,
       color: "orange"
     },
     {
       icon: CheckCircle,
       title: "Support technique inclus",
-      description: "Nous gérons toute la partie technique, l'hébergement et le support. Vous vous concentrez sur votre business.",
+      description: "Vous aurez juste à payer votre nom de domaine à 1€. On vous explique comment faire en visioconférence, c'est tout.",
       highlight: false,
       color: "emerald"
     }

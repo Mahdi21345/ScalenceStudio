@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "Comment puis-je héberger ma landing page ?",
-    answer: "L'hébergement sécurisé est inclus dans le prix. Votre landing page sera accessible 24h/24 avec un nom de domaine professionnel."
+    answer: "L'hébergement est inclus dans le prix. Vous aurez juste à acheter votre nom de domaine à 1€ et on vous explique comment faire en visioconférence."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",
