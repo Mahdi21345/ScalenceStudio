@@ -184,7 +184,6 @@ export default function ContactSection() {
               <h4 className="font-bold text-gray-900 mb-3">⚡ Réponse rapide garantie</h4>
               <ul className="space-y-2 text-gray-700">
                 <li>• Réponse sous 2h en jour ouvré</li>
-                <li>• Devis personnalisé gratuit</li>
                 <li>• Conseils sur mesure pour votre projet</li>
               </ul>
             </div>
