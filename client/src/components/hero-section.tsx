@@ -41,9 +41,9 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Un site internet qui fait passer{" "}
-            <span className="text-blue-600 font-bold">votre business</span>
-            <br />au stade supérieur
+            Passer au niveau supérieur avec{" "}
+            <span className="text-blue-600 font-bold">une Landing Page</span>
+            <br />qui fait tripler votre CA
             <br />
             <span className="text-3xl md:text-4xl text-gray-700">livrée en 24h</span>
           </motion.h1>
@@ -54,7 +54,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Nous créons des landing pages sur-mesure qui génèrent des résultats concrets pour votre business. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
+            Nous créons des sites internet sur-mesure qui génèrent des résultats concrets pour votre business. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
           </motion.p>
 
           {/* USP Highlights */}

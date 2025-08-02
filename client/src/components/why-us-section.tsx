@@ -153,24 +153,15 @@ export default function WhyUsSection() {
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a
-                  href="https://calendly.com/votre-lien"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white text-red-600 font-bold py-3 px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
-                  data-testid="launch-offer-cta"
-                >
-                  RÉSERVER MON APPEL GRATUIT
-                </a>
+              <div className="flex justify-center">
                 <button
                   onClick={() => {
-                    const element = document.getElementById('pricing');
+                    const element = document.querySelector('[data-testid="pricing-book-call"]');
                     if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
+                      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     }
                   }}
-                  className="bg-white/20 border-2 border-white text-white font-bold py-3 px-8 rounded-xl hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:scale-105"
+                  className="bg-white text-red-600 font-bold py-4 px-10 rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
                   data-testid="buy-landing-page-cta"
                 >
                   ACHETER MA LANDING PAGE

@@ -65,10 +65,10 @@ export default function ImportanceSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi avoir une bonne landing page est important ?
+            Pourquoi un bon site internet est essentiel ?
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Une landing page bien conçue n'est pas juste une page web, c'est un outil de conversion puissant qui transforme vos visiteurs en clients.
+            Un site internet bien conçu n'est pas juste une page web, c'est un outil de conversion puissant qui transforme vos visiteurs en clients.
           </p>
         </motion.div>
 
