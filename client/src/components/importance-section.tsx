@@ -21,9 +21,9 @@ const importancePoints = [
   },
   {
     icon: Zap,
-    title: "Formulaires intelligents",
-    description: "Formulaires de contact et commande qui collectent automatiquement les leads.",
-    stat: "Auto",
+    title: "Formulaires de contact",
+    description: "Formulaires simples et efficaces pour collecter vos prospects.",
+    stat: "Contact",
     color: "bg-purple-50",
     iconColor: "text-purple-600"
   },
@@ -113,7 +113,7 @@ export default function ImportanceSection() {
         >
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Tout inclus dans vos 299€
+              Tout inclus dans vos 499€
             </h3>
             <p className="text-gray-600 mb-6">
               Pas de frais cachés. Tout ce dont vous avez besoin pour une landing page qui marche.

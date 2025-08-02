@@ -36,7 +36,7 @@ export default function HeroSection() {
           </motion.div>
           
           <motion.h1 
-            className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight"
+            className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -48,13 +48,22 @@ export default function HeroSection() {
             <span className="text-blue-600 font-bold">votre conversion</span>
           </motion.h1>
           
+          <motion.div
+            className="text-2xl md:text-3xl font-semibold text-gray-700 mb-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+          >
+            Livrée en 24h
+          </motion.div>
+          
           <motion.p 
             className="text-xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Nous créons des landing pages qui transforment vos visiteurs en clients au <span className="font-semibold text-blue-600">prix le moins cher du marché</span>. Livrées en 24h pour que vous puissiez commencer à vendre rapidement.
+            Nous créons des landing pages qui transforment vos visiteurs en clients au <span className="font-semibold text-blue-600">prix le moins cher du marché</span>.
           </motion.p>
 
           {/* USP Highlights */}

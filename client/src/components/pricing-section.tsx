@@ -15,7 +15,7 @@ export default function PricingSection() {
   const features = [
     "Copywriting optimisé par IA",
     "Design UX/UI professionnel", 
-    "Formulaires de contact intelligents",
+    "Formulaires de contact inclus",
     "Hébergement sécurisé à vie",
     "Optimisation mobile automatique",
     "Analyses de performance incluses",
@@ -42,7 +42,7 @@ export default function PricingSection() {
             Les prix les plus compétitifs du marché
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Prix imbattables : <span className="font-semibold text-blue-600">299€ seulement</span> pour une landing page qui transforme vos visiteurs en clients.
+            Prix imbattables : <span className="font-semibold text-blue-600">499€ seulement</span> pour une landing page qui transforme vos visiteurs en clients.
           </p>
         </motion.div>
 
@@ -68,7 +68,7 @@ export default function PricingSection() {
                 {/* Price section with gradient text */}
                 <div className="text-center mb-8">
                   <div className="flex items-center justify-center mb-3">
-                    <span className="text-6xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">299</span>
+                    <span className="text-6xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">499</span>
                     <span className="text-2xl text-gray-600 ml-2 font-bold">€</span>
                   </div>
                   <p className="text-lg text-gray-600 font-semibold">
