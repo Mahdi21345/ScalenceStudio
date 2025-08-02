@@ -5,49 +5,49 @@ import { motion } from "framer-motion";
 const importancePoints = [
   {
     icon: TrendingUp,
-    title: "Marges attractives pour votre agence",
-    description: "Revendez nos landing pages avec une marge confortable et augmentez vos revenus récurrents.",
-    stat: "Profit",
+    title: "Copywriting optimisé par IA",
+    description: "Textes qui convertissent créés automatiquement pour maximiser vos ventes.",
+    stat: "IA",
     color: "bg-green-50",
     iconColor: "text-green-600"
   },
   {
     icon: Target,
-    title: "Service en marque blanche",
-    description: "Vos clients ne voient que votre marque, vous gardez la relation commerciale complète.",
-    stat: "Marque",
+    title: "UX/UI optimisé",
+    description: "Interface utilisateur parfaite qui guide vos visiteurs vers l'achat.",
+    stat: "Design",
     color: "bg-blue-50",
     iconColor: "text-blue-600"
   },
   {
     icon: Zap,
-    title: "Livraison ultra-rapide",
-    description: "Délai de 24h garanti pour impressionner vos clients et vous démarquer de la concurrence.",
-    stat: "Rapidité",
+    title: "Formulaires intelligents",
+    description: "Formulaires de contact et commande qui collectent automatiquement les leads.",
+    stat: "Auto",
     color: "bg-purple-50",
     iconColor: "text-purple-600"
   },
   {
     icon: BarChart3,
-    title: "Support technique inclus",
-    description: "Nous gérons toute la partie technique, vous vous concentrez sur la relation client.",
-    stat: "Support",
+    title: "Analyse de performance",
+    description: "Suivi automatique des conversions et des visiteurs pour optimiser vos résultats.",
+    stat: "Stats",
     color: "bg-orange-50",
     iconColor: "text-orange-600"
   },
   {
     icon: Users,
-    title: "Satisfaction client garantie",
-    description: "Landing pages optimisées qui génèrent des résultats, vos clients seront ravis.",
-    stat: "Qualité",
+    title: "Responsive mobile",
+    description: "Landing page parfaite sur tous les appareils (mobile, tablette, ordinateur).",
+    stat: "Mobile",
     color: "bg-cyan-50",
     iconColor: "text-cyan-600"
   },
   {
     icon: ShieldCheck,
-    title: "Tarifs préférentiels agence",
-    description: "Tarification spéciale pour les agences avec des volumes préférentiels.",
-    stat: "Prix",
+    title: "Hébergement sécurisé inclus",
+    description: "Votre site est hébergé de façon sécurisée avec un nom de domaine professionnel.",
+    stat: "Sécurisé",
     color: "bg-red-50",
     iconColor: "text-red-600"
   }
@@ -68,7 +68,7 @@ export default function ImportanceSection() {
             Pourquoi acheter nos landing pages ?
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Une bonne landing page, c'est plus de clients qui achètent. Simple et efficace pour faire du chiffre.
+            Voici tout ce qui est inclus dans vos landing pages. Des vrais fonctionnalités qui marchent.
           </p>
         </motion.div>
 
@@ -113,20 +113,29 @@ export default function ImportanceSection() {
         >
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Prêt à transformer votre business ?
+              Tout inclus dans vos 299€
             </h3>
             <p className="text-gray-600 mb-6">
-              Ne laissez plus vos prospects partir sans agir. Obtenez une landing page qui convertit vraiment.
+              Pas de frais cachés. Tout ce dont vous avez besoin pour une landing page qui marche.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
               <span className="inline-flex items-center text-green-600 font-semibold">
-                ✓ Consultation gratuite
+                ✓ Hébergement inclus à vie
               </span>
               <span className="inline-flex items-center text-green-600 font-semibold">
-                ✓ Livraison en 24h
+                ✓ Nom de domaine professionnel
               </span>
               <span className="inline-flex items-center text-green-600 font-semibold">
-                ✓ Résultats garantis
+                ✓ Formulaires de contact
+              </span>
+              <span className="inline-flex items-center text-green-600 font-semibold">
+                ✓ Optimisation mobile
+              </span>
+              <span className="inline-flex items-center text-green-600 font-semibold">
+                ✓ Sécurité SSL
+              </span>
+              <span className="inline-flex items-center text-green-600 font-semibold">
+                ✓ Support technique
               </span>
             </div>
           </div>

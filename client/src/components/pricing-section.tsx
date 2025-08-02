@@ -9,17 +9,17 @@ export default function PricingSection() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite devenir partenaire agence pour les landing pages', '_blank');
+    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite commander une landing page', '_blank');
   };
 
   const features = [
-    "Landing page en marque blanche",
-    "Design professionnel et moderne", 
-    "Optimisation pour la conversion",
-    "Hébergement et SSL inclus",
-    "Votre branding intégré",
-    "Support technique inclus",
-    "1 révision gratuite incluse",
+    "Copywriting optimisé par IA",
+    "Design UX/UI professionnel", 
+    "Formulaires de contact intelligents",
+    "Hébergement sécurisé à vie",
+    "Optimisation mobile automatique",
+    "Analyses de performance incluses",
+    "Nom de domaine professionnel",
     "Livraison garantie en 24h"
   ];
 
