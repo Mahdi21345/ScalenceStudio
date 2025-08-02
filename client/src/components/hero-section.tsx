@@ -41,11 +41,11 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Des{" "}
-            <span className="text-blue-600 font-bold">Landing Pages</span>
-            <br />qui convertissent pour vos clients
+            Passez au niveau supérieur avec{" "}
+            <span className="text-blue-600 font-bold">une Landing Page</span>
+            <br />performante qui fait booster
             <br />
-            <span className="text-3xl md:text-4xl text-gray-700">livrées en 24h</span>
+            <span className="text-blue-600 font-bold">votre conversion</span>
           </motion.h1>
           
           <motion.p 
@@ -54,7 +54,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Spécialisés dans la création de landing pages haute conversion pour les agences. Augmentez vos revenus en proposant des landing pages performantes à vos clients sans investir dans une équipe technique.
+            Nous créons des landing pages haute conversion pour les agences au <span className="font-semibold text-blue-600">prix le plus compétitif du marché</span>. Service en marque blanche livré en 24h pour que vos clients soient impressionnés par votre réactivité et votre professionnalisme.
           </motion.p>
 
           {/* USP Highlights */}
@@ -70,7 +70,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center text-green-600 font-medium">
               <Users className="w-5 h-5 mr-2" />
-              Consultation gratuite 30min-1h
+              Prix le plus compétitif du marché
             </div>
           </motion.div>
 

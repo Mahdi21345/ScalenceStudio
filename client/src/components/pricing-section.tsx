@@ -39,10 +39,10 @@ export default function PricingSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Tarifs agence préférentiels
+            Les prix les plus compétitifs du marché
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Une tarification spéciale pour les agences avec des marges attractives. Plus vous commandez, plus c'est avantageux.
+            Tarification imbattable pour les agences : <span className="font-semibold text-blue-600">299€ seulement</span> pour une landing page professionnelle en marque blanche. Revente libre avec marges exceptionnelles.
           </p>
         </motion.div>
 
