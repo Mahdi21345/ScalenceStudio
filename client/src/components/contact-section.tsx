@@ -17,10 +17,10 @@ export default function ContactSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-black text-gray-900 mb-4">
-            Commandez votre landing page
+            Commandez votre landing page qui convertit
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Prêt à avoir une landing page qui convertit ? Contactez-nous pour un devis gratuit.
+            Prêt à transformer vos visiteurs en clients ? Contactez-nous pour un devis gratuit.
           </p>
         </motion.div>
 

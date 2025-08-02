@@ -65,10 +65,10 @@ export default function ImportanceSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi acheter nos landing pages ?
+            Pourquoi une bonne landing page change tout
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Voici tout ce qui est inclus dans vos landing pages. Des vrais fonctionnalités qui marchent.
+            Une landing page bien faite, c'est plus de clients qui achètent. Voici ce qu'on inclut pour vous.
           </p>
         </motion.div>
 

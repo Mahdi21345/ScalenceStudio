@@ -4,43 +4,43 @@ import { motion } from "framer-motion";
 
 const benefits = [
   {
-    problem: "Vos clients demandent des landing pages mais vous n'avez pas l'équipe technique",
-    solution: "Nous créons des landing pages professionnelles à votre marque en 24h",
+    problem: "Vos visiteurs arrivent sur votre site mais repartent sans rien acheter",
+    solution: "Une landing page qui guide vos visiteurs vers l'achat avec un message clair",
     icon: AlertTriangle,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Vous perdez des opportunités de revenus sur les landing pages",
-    solution: "Nous vous proposons un service en marque blanche avec une marge attractive",
+    problem: "Votre site web met trop de temps à convaincre, les gens partent avant d'acheter",
+    solution: "Page qui va droit au but : votre offre, les bénéfices, le bouton d'achat",
     icon: Users,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Pas le temps de former une équipe dédiée aux landing pages",
-    solution: "Nous livrons une solution clé en main que vous revendez directement",
+    problem: "Vous payez pour de la pub mais ça ne se transforme pas en ventes",
+    solution: "Landing page optimisée pour transformer vos visiteurs en clients payants",
     icon: Clock,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Difficile de proposer des délais courts à vos clients",
-    solution: "Livraison garantie en 24h pour satisfaire vos clients les plus exigeants",
+    problem: "Votre site parle de tout mais ne vend rien de précis",
+    solution: "Une page focalisée sur une seule offre qui pousse à l'action",
     icon: TrendingDown,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Vos clients veulent des landing pages optimisées pour mobile",
-    solution: "Nous garantissons un design responsive parfait sur tous les appareils",
+    problem: "Vous ne savez pas combien de visiteurs deviennent clients",
+    solution: "Suivi des conversions inclus pour voir exactement ce qui marche",
     icon: Smartphone,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Coût de développement interne trop élevé pour les petits projets",
-    solution: "Tarification agence attractive qui vous permet de faire du profit",
+    problem: "Votre site n'inspire pas confiance, les gens hésitent à acheter",
+    solution: "Design professionnel qui rassure et donne envie d'acheter chez vous",
     icon: Euro,
     color: "text-red-600",
     bgColor: "bg-red-500"
@@ -59,10 +59,10 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pourquoi acheter vos landing pages chez nous ?
+            Pourquoi vous avez besoin d'une landing page ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            On comprend vos besoins et on a la solution simple pour gagner plus d'argent.
+            Votre site web ne convertit pas ? Voici les problèmes les plus courants et nos solutions.
           </p>
         </motion.div>
 

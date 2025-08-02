@@ -48,7 +48,7 @@ export default function WhyUsSection() {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             On fait simple et efficace : 
-            <span className="font-semibold text-blue-600"> votre nom dessus et prix imbattables</span>
+            <span className="font-semibold text-blue-600"> landing pages qui convertissent au prix le moins cher</span>
           </p>
         </motion.div>
 
@@ -67,11 +67,11 @@ export default function WhyUsSection() {
               </div>
             </div>
             <h3 className="text-3xl font-bold mb-4">
-              Notre différence : simple et pas cher
+              Notre différence : qui convertit et pas cher
             </h3>
             <p className="text-xl opacity-90 max-w-4xl mx-auto">
-              On fait les landing pages avec votre nom dessus. Livré en 24h, prix imbattables, 
-              vous revendez comme vous voulez. On s'occupe de tout, vous vous occupez de vendre.
+              On crée des landing pages qui transforment vraiment vos visiteurs en clients. 
+              Livré en 24h, prix imbattables. Vous vous concentrez sur votre business, on s'occupe du reste.
             </p>
           </div>
         </motion.div>

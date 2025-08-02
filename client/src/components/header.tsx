@@ -40,7 +40,7 @@ export default function Header() {
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-benefices"
               >
-                Pour agences
+                Problèmes/Solutions
               </button>
               <button 
                 onClick={() => scrollToSection('pourquoi-nous')}
@@ -109,7 +109,7 @@ export default function Header() {
                 className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
                 data-testid="mobile-nav-benefices"
               >
-                Pour agences
+                Problèmes/Solutions
               </button>
               <button 
                 onClick={() => scrollToSection('pourquoi-nous')}
