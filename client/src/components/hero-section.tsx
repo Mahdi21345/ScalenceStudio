@@ -63,7 +63,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Nous créons des landing pages qui transforment vos visiteurs en clients au <span className="font-semibold text-blue-600">prix le moins cher du marché</span>.
+            Votre offre est géniale mais personne ne l'achète ? Vendez plus avec une landing page qui explique clairement votre valeur et pousse à l'action. <span className="font-semibold text-blue-600">Au prix le moins cher du marché.</span>
           </motion.p>
 
           {/* USP Highlights */}
