@@ -7,7 +7,7 @@ const processSteps = [
   {
     number: "01",
     title: "Découverte et premiers pas",
-    description: "Parlez-nous de votre projet en visioconférence. On comprend vos besoins et on s'occupe du reste.",
+    description: "Parle-nous de ton projet en visioconférence. On comprend tes besoins et on s'occupe du reste.",
     icon: MessageSquare,
     color: "bg-blue-50",
     iconColor: "text-blue-600"
@@ -15,7 +15,7 @@ const processSteps = [
   {
     number: "02",
     title: "Copywriting qui convertit",
-    description: "Notre équipe transforme votre offre complexe en message clair qui vend et rassure vos prospects.",
+    description: "Notre équipe transforme ton offre complexe en message clair qui vend et rassure tes prospects.",
     icon: Pencil,
     color: "bg-green-50",
     iconColor: "text-green-600"
@@ -23,7 +23,7 @@ const processSteps = [
   {
     number: "03", 
     title: "Design et développement",
-    description: "Nous créons votre landing page avec un design qui inspire confiance et pousse à l'action.",
+    description: "Nous créons ta landing page avec un design qui inspire confiance et pousse à l'action.",
     icon: Globe,
     color: "bg-purple-50",
     iconColor: "text-purple-600"
@@ -31,7 +31,7 @@ const processSteps = [
   {
     number: "04",
     title: "Livraison et optimisation",
-    description: "Landing page livrée en 24h. On programme un appel pour vous la présenter et l'optimiser selon vos retours.",  
+    description: "Landing page livrée en 24h. On programme un appel pour te la présenter et l'optimiser selon tes retours.",  
     icon: CheckCircle,
     color: "bg-orange-50",
     iconColor: "text-orange-600"

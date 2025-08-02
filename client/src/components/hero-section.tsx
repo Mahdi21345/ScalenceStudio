@@ -8,7 +8,7 @@ export default function HeroSection() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite en savoir plus sur vos services de création de landing pages pour agences', '_blank');
+    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite en savoir plus sur tes services de landing pages', '_blank');
   };
 
   return (
@@ -41,11 +41,11 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Passez au niveau supérieur avec{" "}
+            Passe au niveau supérieur avec{" "}
             <span className="text-blue-600 font-bold">une Landing Page</span>
             <br />performante qui fait booster
             <br />
-            <span className="text-blue-600 font-bold">votre conversion</span>
+            <span className="text-blue-600 font-bold">ta conversion</span>
           </motion.h1>
           
           <motion.div
@@ -63,7 +63,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Votre offre est géniale mais personne ne l'achète ? Vendez plus avec une landing page qui explique clairement votre valeur et pousse à l'action. <span className="font-semibold text-blue-600">Au prix le moins cher du marché.</span>
+            Ton offre est géniale mais personne ne l'achète ? Vends plus avec une landing page qui explique clairement ta valeur et pousse à l'action. <span className="font-semibold text-blue-600">Au prix le moins cher du marché.</span>
           </motion.p>
 
           {/* USP Highlights */}

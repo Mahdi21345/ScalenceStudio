@@ -6,27 +6,27 @@ export default function WhyUsSection() {
     {
       icon: Eye,
       title: "Maquette gratuite avant production",
-      description: "Vous validez le design avant qu'on commence. Pas de surprise, vous voyez exactement ce que vous aurez avant de payer.",
+      description: "Tu valides le design avant qu'on commence. Pas de surprise, tu vois exactement ce que tu auras avant de payer.",
       highlight: true
     },
     {
       icon: Zap,
       title: "Livraison en 24h garantie",
-      description: "Délai ultra-court pour que vous puissiez commencer à vendre rapidement. Votre concurrence met des semaines, nous 24h.",
+      description: "Délai ultra-court pour que tu puisses commencer à vendre rapidement. Ta concurrence met des semaines, nous 24h.",
       highlight: false,
       color: "green"
     },
     {
       icon: Users,
       title: "Prix compétitifs",
-      description: "499€ tout compris, le prix le moins cher du marché. Vous savez exactement combien ça coûte avant de commencer.",
+      description: "499€ tout compris, le prix le moins cher du marché. Tu sais exactement combien ça coûte avant de commencer.",
       highlight: false,
       color: "orange"
     },
     {
       icon: CheckCircle,
       title: "Support technique inclus",
-      description: "Vous aurez juste à payer votre nom de domaine à 1€. On vous explique comment faire en visioconférence, c'est tout.",
+      description: "Tu auras juste à payer ton nom de domaine à 1€. On t'explique comment faire en visioconférence, c'est tout.",
       highlight: false,
       color: "emerald"
     }

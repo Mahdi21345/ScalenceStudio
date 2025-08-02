@@ -6,32 +6,32 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     question: "Quels sont les services de ProLanding ?",
-    answer: "Nous créons des landing pages qui transforment vraiment vos visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement inclus et livraison en 24h."
+    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement inclus et livraison en 24h."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
-    answer: "Votre landing page est livrée en 24h maximum. C'est notre engagement pour que vous puissiez commencer à vendre rapidement."
+    answer: "Ta landing page est livrée en 24h maximum. C'est notre engagement pour que tu puisses commencer à vendre rapidement."
   },
   {
     question: "Offrez-vous un support après la livraison ?",
-    answer: "Oui, nous incluons le support technique et l'hébergement sécurisé à vie. Vous n'avez plus à vous soucier des aspects techniques."
+    answer: "Oui, nous incluons le support technique et l'hébergement sécurisé à vie. Tu n'as plus à te soucier des aspects techniques."
   },
 
   {
     question: "Comment puis-je héberger ma landing page ?",
-    answer: "L'hébergement est inclus dans le prix. Vous aurez juste à acheter votre nom de domaine à 1€ et on vous explique comment faire en visioconférence."
+    answer: "L'hébergement est inclus dans le prix. Tu auras juste à acheter ton nom de domaine à 1€ et on t'explique comment faire en visioconférence."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",
-    answer: "Avant de commencer la production, nous créons une maquette gratuite de votre landing page que vous validez. Pas de surprise, vous voyez exactement ce que vous aurez."
+    answer: "Avant de commencer la production, nous créons une maquette gratuite de ta landing page que tu valides. Pas de surprise, tu vois exactement ce que tu auras."
   },
   {
     question: "Le SEO est-il inclus dans la production ?",
-    answer: "Oui, nous optimisons votre landing page pour les moteurs de recherche avec les balises meta, titre et structure appropriées."
+    answer: "Oui, nous optimisons ta landing page pour les moteurs de recherche avec les balises meta, titre et structure appropriées."
   },
   {
     question: "Pourquoi choisir ProLanding ?",
-    answer: "Nous combinons copywriting qui vend + design qui rassure + livraison ultra-rapide au prix le moins cher. Notre méthode transforme votre offre en message clair qui convertit vos visiteurs en clients."
+    answer: "Nous combinons copywriting qui vend + design qui rassure + livraison ultra-rapide au prix le moins cher. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
   }
 ];
 
@@ -56,7 +56,7 @@ export default function FAQSection() {
             Questions fréquemment posées
           </h2>
           <p className="text-xl text-gray-600">
-            Vous avez des questions supplémentaires ? Nous avons des réponses.
+            Tu as des questions supplémentaires ? Nous avons des réponses.
           </p>
         </motion.div>
 

@@ -9,7 +9,7 @@ export default function PricingSection() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite commander une landing page', '_blank');
+    window.open('https://wa.me/33627596376?text=Salut, je veux commander une landing page', '_blank');
   };
 
   const features = [
@@ -42,7 +42,7 @@ export default function PricingSection() {
             Offres
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choisissez le plan qui vous correspond et qui fera scaler votre business. <span className="font-semibold text-blue-600">Landing page prête à convertir en 24h.</span>
+            Choisis le plan qui te correspond et qui fera scaler ton business. <span className="font-semibold text-blue-600">Landing page prête à convertir en 24h.</span>
           </p>
         </motion.div>
 
@@ -59,7 +59,7 @@ export default function PricingSection() {
               <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-20">
                 <div className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold text-sm flex items-center shadow-xl">
                   <Star className="w-4 h-4 mr-2 text-yellow-500" />
-                  TARIF AGENCE
+                  PRIX DIRECT
                 </div>
               </div>
 

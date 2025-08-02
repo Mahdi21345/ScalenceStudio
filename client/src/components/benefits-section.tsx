@@ -4,42 +4,42 @@ import { motion } from "framer-motion";
 
 const benefits = [
   {
-    problem: "Complexité de votre offre, difficile d'expliquer votre valeur aux prospects",
-    solution: "On explique clairement et simplement votre produit avec des mots que tout le monde comprend",
+    problem: "Complexité de ton offre, difficile d'expliquer ta valeur aux prospects",
+    solution: "On explique clairement et simplement ton produit avec des mots que tout le monde comprend",
     icon: AlertTriangle,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Peurs de vos clients, ils hésitent et remettent à plus tard leur achat",
-    solution: "On rassure vos prospects avec des preuves sociales et éléments de confiance",
+    problem: "Peurs de tes clients, ils hésitent et remettent à plus tard leur achat",
+    solution: "On rassure tes prospects avec des preuves sociales et éléments de confiance",
     icon: Users,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Concurrence intense, vous n'arrivez pas à vous différencier clairement",
-    solution: "Une landing page qui vous différencie et rend votre offre irrésistible",
+    problem: "Concurrence intense, tu n'arrives pas à te différencier clairement",
+    solution: "Une landing page qui te différencie et rend ton offre irrésistible",
     icon: Clock,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Vous perdez du temps à expliquer à tout le monde votre produit/service",
-    solution: "Votre service devient irrésistible grâce au copywriting qui vend",
+    problem: "Tu perds du temps à expliquer à tout le monde ton produit/service",
+    solution: "Ton service devient irrésistible grâce au copywriting qui vend",
     icon: TrendingDown,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Message pas clair, vos visiteurs ne comprennent pas votre valeur",
-    solution: "On explique vraiment les bénéfices concrets de votre offre",
+    problem: "Message pas clair, tes visiteurs ne comprennent pas ta valeur",
+    solution: "On explique vraiment les bénéfices concrets de ton offre",
     icon: Smartphone,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Site généraliste qui dilue votre message et confond vos visiteurs",
+    problem: "Site généraliste qui dilue ton message et confond tes visiteurs",
     solution: "Page laser-focalisée sur une offre avec un seul objectif : vendre",
     icon: Euro,
     color: "text-red-600",
@@ -59,10 +59,10 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pourquoi ProLanding vous fera vendre plus ?
+            Pourquoi ProLanding te fera vendre plus ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Vous avez des freins à la vente et nous en sommes conscients. Nous avons trouvé une méthode efficace pour les enlever et vous faire scaler.
+            Tu as des freins à la vente et nous en sommes conscients. Nous avons trouvé une méthode efficace pour les enlever et te faire scaler.
           </p>
         </motion.div>
 

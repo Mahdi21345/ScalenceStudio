@@ -17,10 +17,10 @@ export default function ContactSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-black text-gray-900 mb-4">
-            Prêt à scaler votre business ?
+            Prêt à scaler ton business ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Parlez-nous de votre projet en visioconférence. Notre équipe se charge de transformer votre offre en page qui convertit.
+            Parle-nous de ton projet en visioconférence. Notre équipe se charge de transformer ton offre en page qui convertit.
           </p>
         </motion.div>
 
@@ -35,7 +35,7 @@ export default function ContactSection() {
             <Card className="shadow-xl border-0 bg-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Demandez votre devis gratuit
+                  Demande ton devis gratuit
                 </h3>
                 
                 <form
@@ -45,7 +45,7 @@ export default function ContactSection() {
                 >
                   <div>
                     <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Votre email *
+                      Ton email *
                     </label>
                     <Input
                       type="email"
@@ -53,13 +53,13 @@ export default function ContactSection() {
                       id="email"
                       required
                       className="w-full h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500"
-                      placeholder="votre.email@exemple.com"
+                      placeholder="ton.email@exemple.com"
                     />
                   </div>
 
                   <div>
                     <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Votre nom *
+                      Ton nom *
                     </label>
                     <Input
                       type="text"
@@ -67,20 +67,20 @@ export default function ContactSection() {
                       id="name"
                       required
                       className="w-full h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500"
-                      placeholder="Votre nom complet"
+                      placeholder="Ton nom complet"
                     />
                   </div>
 
                   <div>
                     <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Nom de votre entreprise *
+                      Nom de ton entreprise *
                     </label>
                     <Input
                       type="text"
                       name="company"
                       id="company"
                       className="w-full h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500"
-                      placeholder="Nom de votre entreprise"
+                      placeholder="Nom de ton entreprise"
                       required
                     />
                   </div>
@@ -100,7 +100,7 @@ export default function ContactSection() {
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Votre message *
+                      Ton message *
                     </label>
                     <Textarea
                       name="message"
@@ -108,7 +108,7 @@ export default function ContactSection() {
                       required
                       rows={5}
                       className="w-full rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500 resize-none"
-                      placeholder="Parlez-nous de votre agence, de vos clients, et de vos besoins en landing pages..."
+                      placeholder="Parle-nous de ton business et de tes besoins en landing page..."
                     />
                   </div>
 
