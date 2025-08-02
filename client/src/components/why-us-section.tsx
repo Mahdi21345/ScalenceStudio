@@ -5,28 +5,28 @@ export default function WhyUsSection() {
   const advantages = [
     {
       icon: Eye,
-      title: "Maquette gratuite avant achat",
-      description: "Vous verrez exactement à quoi ressemblera votre site avant de payer. Après notre appel, nous créons une maquette personnalisée gratuite de votre futur site internet.",
+      title: "Service en marque blanche complet",
+      description: "Vos clients ne voient que votre marque. Nous restons invisibles, vous gardez la relation client et récoltez tous les bénéfices de réputation.",
       highlight: true
     },
     {
       icon: Zap,
       title: "Livraison en 24h garantie",
-      description: "Une fois la maquette validée et le paiement effectué, votre site est livré en moins de 24h. Pas de semaines d'attente comme ailleurs.",
+      description: "Délai ultra-court qui vous permet de proposer un service premium à vos clients et de vous démarquer de la concurrence.",
       highlight: false,
       color: "green"
     },
     {
       icon: Users,
-      title: "Approche 100% transparente",
-      description: "Pas de surprises, pas de frais cachés. Le prix affiché est le prix final. Vous savez exactement ce que vous obtenez avant même de commencer.",
+      title: "Tarifs agence préférentiels",
+      description: "Tarification spéciale pour les agences avec des marges confortables. Plus vous commandez, plus vos tarifs baissent.",
       highlight: false,
       color: "orange"
     },
     {
       icon: CheckCircle,
-      title: "Satisfaction garantie",
-      description: "Si le résultat final ne correspond pas à la maquette validée, nous remboursons intégralement. Votre satisfaction est notre priorité absolue.",
+      title: "Support technique inclus",
+      description: "Nous gérons toute la partie technique, les mises à jour et le support. Vous vous concentrez sur la vente et la relation client.",
       highlight: false,
       color: "emerald"
     }
@@ -44,11 +44,11 @@ export default function WhyUsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi nous choisir ?
+            Pourquoi les agences nous choisissent ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nous révolutionnons la création de sites web avec une approche unique : 
-            <span className="font-semibold text-blue-600"> voyez avant d'acheter</span>
+            Nous révolutionnons le partenariat avec les agences : 
+            <span className="font-semibold text-blue-600"> marque blanche et marges attractives</span>
           </p>
         </motion.div>
 
@@ -67,11 +67,11 @@ export default function WhyUsSection() {
               </div>
             </div>
             <h3 className="text-3xl font-bold mb-4">
-              Notre différence : la maquette gratuite
+              Notre différence : le partenariat agence
             </h3>
             <p className="text-xl opacity-90 max-w-4xl mx-auto">
-              Après notre appel de découverte, nous créons une maquette visuelle gratuite de votre futur site internet. 
-              Vous voyez exactement le rendu final avant de prendre votre décision d'achat.
+              Nous comprenons les besoins des agences. Service en marque blanche, tarifs préférentiels, 
+              livraison rapide et support technique inclus pour que vous puissiez vous concentrer sur votre cœur de métier.
             </p>
           </div>
         </motion.div>

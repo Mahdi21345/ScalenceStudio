@@ -1,6 +1,13 @@
 # Overview
 
-ProLanding is a professional website creation service specifically designed for TPE (Très Petites Entreprises - small businesses) in the French market. The application is a modern full-stack web solution that provides a landing page showcasing website creation services with 24-hour delivery promises. The platform features a bilingual interface (French) with a focus on lead generation through contact forms and conversion optimization for small business clients.
+ProLanding is a professional landing page creation service specifically designed for agencies in the French market. The application is a modern full-stack web solution that provides white-label landing page services with 24-hour delivery promises. The platform features a French interface with a focus on agency partnerships, white-label branding, and attractive margins for agencies wanting to offer landing page services to their clients without technical development costs.
+
+## Recent Changes (Aug 2, 2025)
+- **Complete copywriting overhaul**: Shifted from targeting small businesses (TPE) to targeting agencies
+- **White-label focus**: All messaging now emphasizes white-label service for agencies
+- **Pricing adjustment**: Agency pricing starts at 299€ (down from 499€ for end clients)
+- **Partnership model**: Content now focuses on agency partnerships and reseller opportunities
+- **Navigation updates**: Header navigation labels updated to be more agency-focused
 
 # User Preferences
 

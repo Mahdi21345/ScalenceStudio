@@ -17,10 +17,10 @@ export default function ContactSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-black text-gray-900 mb-4">
-            Prêt à transformer votre business ?
+            Prêt à devenir partenaire ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Contactez-nous dès maintenant pour discuter de votre projet et recevoir votre landing page en 24h.
+            Contactez-nous dès maintenant pour découvrir notre offre agence et commencer à proposer des landing pages à vos clients.
           </p>
         </motion.div>
 
@@ -35,7 +35,7 @@ export default function ContactSection() {
             <Card className="shadow-xl border-0 bg-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Envoyez-nous un message
+                  Demande de partenariat agence
                 </h3>
                 
                 <form
@@ -73,14 +73,15 @@ export default function ContactSection() {
 
                   <div>
                     <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Entreprise
+                      Nom de votre agence *
                     </label>
                     <Input
                       type="text"
                       name="company"
                       id="company"
                       className="w-full h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500"
-                      placeholder="Nom de votre entreprise"
+                      placeholder="Nom de votre agence"
+                      required
                     />
                   </div>
 
@@ -107,7 +108,7 @@ export default function ContactSection() {
                       required
                       rows={5}
                       className="w-full rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500 resize-none"
-                      placeholder="Décrivez votre projet, vos besoins, votre secteur d'activité..."
+                      placeholder="Parlez-nous de votre agence, de vos clients, et de vos besoins en landing pages..."
                     />
                   </div>
 

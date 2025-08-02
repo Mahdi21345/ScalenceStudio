@@ -5,49 +5,49 @@ import { motion } from "framer-motion";
 const importancePoints = [
   {
     icon: TrendingUp,
-    title: "Augmente vos conversions",
-    description: "Une landing page optimisée peut augmenter vos taux de conversion de 200% à 300% par rapport à un site classique.",
-    stat: "+200%",
+    title: "Marges attractives pour votre agence",
+    description: "Revendez nos landing pages avec une marge confortable et augmentez vos revenus récurrents.",
+    stat: "Profit",
     color: "bg-green-50",
     iconColor: "text-green-600"
   },
   {
     icon: Target,
-    title: "Cible précisément vos prospects",
-    description: "Message unique et ciblé qui parle directement aux besoins spécifiques de votre audience.",
-    stat: "Focus",
+    title: "Service en marque blanche",
+    description: "Vos clients ne voient que votre marque, vous gardez la relation commerciale complète.",
+    stat: "Marque",
     color: "bg-blue-50",
     iconColor: "text-blue-600"
   },
   {
     icon: Zap,
-    title: "Génère des leads qualifiés",
-    description: "Capture efficacement les informations de prospects intéressés par vos services spécifiques.",
-    stat: "Qualité",
+    title: "Livraison ultra-rapide",
+    description: "Délai de 24h garanti pour impressionner vos clients et vous démarquer de la concurrence.",
+    stat: "Rapidité",
     color: "bg-purple-50",
     iconColor: "text-purple-600"
   },
   {
     icon: BarChart3,
-    title: "Mesure vos performances",
-    description: "Tracking précis pour analyser et optimiser continuellement vos résultats marketing.",
-    stat: "Analytics",
+    title: "Support technique inclus",
+    description: "Nous gérons toute la partie technique, vous vous concentrez sur la relation client.",
+    stat: "Support",
     color: "bg-orange-50",
     iconColor: "text-orange-600"
   },
   {
     icon: Users,
-    title: "Améliore l'expérience client",
-    description: "Parcours utilisateur simplifié qui guide naturellement vers l'action souhaitée.",
-    stat: "UX",
+    title: "Satisfaction client garantie",
+    description: "Landing pages optimisées qui génèrent des résultats, vos clients seront ravis.",
+    stat: "Qualité",
     color: "bg-cyan-50",
     iconColor: "text-cyan-600"
   },
   {
     icon: ShieldCheck,
-    title: "Renforce votre crédibilité",
-    description: "Design professionnel qui inspire confiance et positionne votre entreprise comme experte.",
-    stat: "Trust",
+    title: "Tarifs préférentiels agence",
+    description: "Tarification spéciale pour les agences avec des volumes préférentiels.",
+    stat: "Prix",
     color: "bg-red-50",
     iconColor: "text-red-600"
   }
@@ -65,10 +65,10 @@ export default function ImportanceSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi un bon site internet est essentiel ?
+            Pourquoi les agences choisissent nos landing pages ?
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Un site internet bien conçu n'est pas juste une page web, c'est un outil de conversion puissant qui transforme vos visiteurs en clients.
+            Une landing page bien conçue n'est pas juste une page web, c'est un outil de conversion puissant qui génère des résultats mesurables pour vos clients.
           </p>
         </motion.div>
 

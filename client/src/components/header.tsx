@@ -33,28 +33,28 @@ export default function Header() {
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-importance"
               >
-                Importance
+                Avantages
               </button>
               <button 
                 onClick={() => scrollToSection('benefices')}
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-benefices"
               >
-                Bénéfices
+                Pour agences
               </button>
               <button 
                 onClick={() => scrollToSection('pourquoi-nous')}
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-pourquoi-nous"
               >
-                Pourquoi nous
+                Partenariat
               </button>
               <button 
                 onClick={() => scrollToSection('processus')}
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                 data-testid="nav-processus"
               >
-                Processus
+                Comment ça marche
               </button>
               <button 
                 onClick={() => scrollToSection('pricing')}
@@ -102,28 +102,28 @@ export default function Header() {
                 className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
                 data-testid="mobile-nav-importance"
               >
-                Importance
+                Avantages
               </button>
               <button 
                 onClick={() => scrollToSection('benefices')}
                 className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
                 data-testid="mobile-nav-benefices"
               >
-                Bénéfices
+                Pour agences
               </button>
               <button 
                 onClick={() => scrollToSection('pourquoi-nous')}
                 className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
                 data-testid="mobile-nav-pourquoi-nous"
               >
-                Pourquoi nous
+                Partenariat
               </button>
               <button 
                 onClick={() => scrollToSection('processus')}
                 className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
                 data-testid="mobile-nav-processus"
               >
-                Processus
+                Comment ça marche
               </button>
               <button 
                 onClick={() => scrollToSection('pricing')}

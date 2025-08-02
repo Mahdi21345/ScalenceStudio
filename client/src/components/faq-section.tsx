@@ -5,29 +5,28 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    question: "Pourquoi choisir ProLanding plutôt qu'un freelance ?",
-    answer: "Contrairement à un freelance, nous garantissons les délais, la disponibilité et la qualité. Notre équipe comprend vos enjeux spécifiques et propose des solutions adaptées à votre business."
+    question: "Comment fonctionne le service en marque blanche ?",
+    answer: "Vos clients ne voient que votre marque. Nous restons totalement invisibles, vous gardez la relation commerciale complète et récoltez tous les bénéfices de réputation."
   },
   {
-    question: "Le délai de 24h est-il vraiment réaliste ?",
-    answer: "Oui, grâce à notre processus optimisé et nos templates pré-conçus pour votre business. Nous nous concentrons sur l'essentiel : un site professionnel qui convertit, sans fonctionnalités superflues."
+    question: "Quelles sont les marges pour les agences ?",
+    answer: "Nos tarifs agence commencent à 299€ par landing page. Vous pouvez les revendre à vos clients au prix que vous souhaitez, avec des marges très attractives."
   },
   {
-    question: "Puis-je modifier mon site après livraison ?",
-    answer: "Oui, cependant les modifications coûtent 30€ par modification. Nous gardons un accès pour effectuer les changements rapidement selon vos besoins."
+    question: "Le délai de 24h est-il garanti même pour les agences ?",
+    answer: "Oui, nous garantissons une livraison en 24h maximum pour toutes les commandes, même en marque blanche. C'est notre engagement qualité."
   },
   {
-    question: "Que se passe-t-il si je ne suis pas satisfait ?",
-    answer: "Nous proposons une révision gratuite pour ajuster le design selon vos retours. Notre objectif est votre satisfaction complète et le succès de votre projet."
-  },
-
-  {
-    question: "Fournissez-vous l'hébergement ?",
-    answer: "Oui, l'hébergement est inclus dans notre offre. Votre site sera hébergé de manière sécurisée avec SSL automatique."
+    question: "Proposez-vous des tarifs dégressifs pour les volumes ?",
+    answer: "Oui, plus vous commandez, plus les tarifs baissent. Contactez-nous pour connaître notre grille tarifaire selon les volumes."
   },
   {
-    question: "Que se passe-t-il pour le nom de domaine ?",
-    answer: "Le nom de domaine est offert la première année. Après cette période, il faudra le renouveler au tarif de 15€ par an pour maintenir votre site en ligne. Nous vous formerons à effectuer cette démarche facilement."
+    question: "Qui gère le support technique après livraison ?",
+    answer: "Nous gérons tout le support technique et la maintenance. Vos clients peuvent nous contacter directement ou passer par vous, selon votre préférence."
+  },
+  {
+    question: "Comment mes clients peuvent-ils modifier leurs landing pages ?",
+    answer: "Les modifications se font par nos soins au tarif de 30€ par modification. Vos clients peuvent passer par vous ou nous contacter directement selon votre accord de partenariat."
   }
 ];
 
@@ -49,10 +48,10 @@ export default function FAQSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Questions fréquentes
+            Questions fréquentes des agences
           </h2>
           <p className="text-xl text-gray-600">
-            Nous répondons à vos interrogations en toute transparence.
+            Tout ce que vous devez savoir sur notre partenariat agence.
           </p>
         </motion.div>
 

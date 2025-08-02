@@ -8,7 +8,7 @@ export default function HeroSection() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite en savoir plus sur vos services de création de sites internet', '_blank');
+    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite en savoir plus sur vos services de création de landing pages pour agences', '_blank');
   };
 
   return (
@@ -41,11 +41,11 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Passer au niveau supérieur avec{" "}
-            <span className="text-blue-600 font-bold">une Landing Page</span>
-            <br />qui fait tripler votre CA
+            Des{" "}
+            <span className="text-blue-600 font-bold">Landing Pages</span>
+            <br />qui convertissent pour vos clients
             <br />
-            <span className="text-3xl md:text-4xl text-gray-700">livrée en 24h</span>
+            <span className="text-3xl md:text-4xl text-gray-700">livrées en 24h</span>
           </motion.h1>
           
           <motion.p 
@@ -54,7 +54,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Nous créons des sites internet sur-mesure qui génèrent des résultats concrets pour votre business. Notre expertise en conversion digitale transforme votre présence en ligne en véritable levier de croissance.
+            Spécialisés dans la création de landing pages haute conversion pour les agences. Augmentez vos revenus en proposant des landing pages performantes à vos clients sans investir dans une équipe technique.
           </motion.p>
 
           {/* USP Highlights */}

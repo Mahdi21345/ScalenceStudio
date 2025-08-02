@@ -6,32 +6,32 @@ import { motion } from "framer-motion";
 const processSteps = [
   {
     number: "01",
-    title: "Consultation",
-    description: "Analyse de vos besoins et objectifs lors d'un appel de 30-60 minutes entièrement gratuit.",
+    title: "Partenariat",
+    description: "Présentation de notre offre agence et signature du partenariat en marque blanche.",
     icon: MessageSquare,
     color: "bg-blue-50",
     iconColor: "text-blue-600"
   },
   {
     number: "02",
-    title: "Création",
-    description: "Design et développement de votre landing page optimisée pour maximiser les conversions.",
+    title: "Commande client",
+    description: "Vous nous transmettez les specs de votre client, nous créons la landing page à votre marque.",
     icon: Pencil,
     color: "bg-green-50",
     iconColor: "text-green-600"
   },
   {
     number: "03",
-    title: "Mise en ligne",
-    description: "Déploiement de votre site avec tous les éléments techniques et de suivi intégrés.",
+    title: "Livraison 24h",
+    description: "Landing page livrée en 24h avec votre branding, prête à présenter à votre client.",
     icon: Globe,
     color: "bg-purple-50",
     iconColor: "text-purple-600"
   },
   {
     number: "04",
-    title: "Livraison",
-    description: "Remise de votre site fini avec formation et support pour assurer votre succès.",
+    title: "Support inclus",
+    description: "Support technique et maintenance inclus, vous gardez la relation commerciale.",
     icon: CheckCircle,
     color: "bg-orange-50",
     iconColor: "text-orange-600"
@@ -54,10 +54,10 @@ export default function ProcessSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Comment ça marche ?
+            Comment devenir partenaire ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Un processus simple et transparent pour transformer votre vision en résultats concrets.
+            Un processus simple et transparent pour proposer des landing pages performantes à vos clients.
           </p>
         </motion.div>
 

@@ -4,43 +4,43 @@ import { motion } from "framer-motion";
 
 const benefits = [
   {
-    problem: "Votre site actuel ne reflète pas le professionnalisme de votre entreprise",
-    solution: "Nous créons un design moderne et professionnel qui inspire confiance",
+    problem: "Vos clients demandent des landing pages mais vous n'avez pas l'équipe technique",
+    solution: "Nous créons des landing pages professionnelles à votre marque en 24h",
     icon: AlertTriangle,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Vous perdez des clients face à la concurrence",
-    solution: "Nous développons un site qui vous différencie et met en valeur vos atouts",
+    problem: "Vous perdez des opportunités de revenus sur les landing pages",
+    solution: "Nous vous proposons un service en marque blanche avec une marge attractive",
     icon: Users,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Vous n'avez pas le temps de vous occuper de votre communication",
-    solution: "Nous livrons une solution clé en main, rapidement",
+    problem: "Pas le temps de former une équipe dédiée aux landing pages",
+    solution: "Nous livrons une solution clé en main que vous revendez directement",
     icon: Clock,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Votre site ne génère pas assez de contacts qualifiés",
-    solution: "Nous optimisons pour la conversion et génération de leads",
+    problem: "Difficile de proposer des délais courts à vos clients",
+    solution: "Livraison garantie en 24h pour satisfaire vos clients les plus exigeants",
     icon: TrendingDown,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Votre site n'est pas adapté aux mobiles",
+    problem: "Vos clients veulent des landing pages optimisées pour mobile",
     solution: "Nous garantissons un design responsive parfait sur tous les appareils",
     icon: Smartphone,
     color: "text-red-600",
     bgColor: "bg-red-500"
   },
   {
-    problem: "Budget limité pour la communication digitale",
-    solution: "Nous proposons des tarifs adaptés à votre business",
+    problem: "Coût de développement interne trop élevé pour les petits projets",
+    solution: "Tarification agence attractive qui vous permet de faire du profit",
     icon: Euro,
     color: "text-red-600",
     bgColor: "bg-red-500"
@@ -59,10 +59,10 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pourquoi ProLanding transformera votre business ?
+            Pourquoi ProLanding est parfait pour votre agence ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nous comprenons les défis uniques de votre business et avons développé une méthode efficace pour les surmonter.
+            Nous comprenons les défis des agences et avons développé une solution clé en main pour maximiser vos revenus.
           </p>
         </motion.div>
 

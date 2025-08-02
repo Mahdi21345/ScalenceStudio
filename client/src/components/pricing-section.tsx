@@ -9,16 +9,16 @@ export default function PricingSection() {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite commander une landing page à 499€', '_blank');
+    window.open('https://wa.me/33627596376?text=Bonjour, je souhaite devenir partenaire agence pour les landing pages', '_blank');
   };
 
   const features = [
-    "Landing page responsive sur-mesure",
-    "Design professionnel et moderne",
-    "Optimisation pour la conversion", 
-    "Hébergement inclus",
-    "SSL automatique inclus",
-    "Domaine offert 1 an",
+    "Landing page en marque blanche",
+    "Design professionnel et moderne", 
+    "Optimisation pour la conversion",
+    "Hébergement et SSL inclus",
+    "Votre branding intégré",
+    "Support technique inclus",
     "1 révision gratuite incluse",
     "Livraison garantie en 24h"
   ];
@@ -39,10 +39,10 @@ export default function PricingSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Une seule offre, tout inclus
+            Tarifs agence préférentiels
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Pas de complications, pas de choix difficiles. Une landing page professionnelle qui convertit, à prix fixe.
+            Une tarification spéciale pour les agences avec des marges attractives. Plus vous commandez, plus c'est avantageux.
           </p>
         </motion.div>
 
@@ -59,7 +59,7 @@ export default function PricingSection() {
               <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-20">
                 <div className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold text-sm flex items-center shadow-xl">
                   <Star className="w-4 h-4 mr-2 text-yellow-500" />
-                  OFFRE UNIQUE
+                  TARIF AGENCE
                 </div>
               </div>
 
@@ -68,7 +68,7 @@ export default function PricingSection() {
                 {/* Price section with gradient text */}
                 <div className="text-center mb-8">
                   <div className="flex items-center justify-center mb-3">
-                    <span className="text-6xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">499</span>
+                    <span className="text-6xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">299</span>
                     <span className="text-2xl text-gray-600 ml-2 font-bold">€</span>
                   </div>
                   <p className="text-lg text-gray-600 font-semibold">
