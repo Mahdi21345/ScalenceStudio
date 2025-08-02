@@ -1,83 +1,49 @@
 # Deployment Guide
 
-## Static Deployment Fixed ✅
+## Issue Resolved
+The deployment issue has been fixed where the build system was outputting static files to `dist/public/` but the deployment system expected them directly in `dist/`.
 
-**Issue Resolved**: The deployment error has been fixed. The build process now correctly outputs files to the structure expected by static deployment.
+## Build Process
+1. **Standard Build**: `npm run build`
+   - Builds the React frontend using Vite
+   - Compiles the Express server
+   - Outputs frontend files to `dist/public/`
 
-### Problem Solved
-The original deployment error was:
-```
-The build outputs static files to dist/public/ but deployment expects index.html directly in dist/
-```
+2. **Deployment Preparation**: `node scripts/build-deploy.js`
+   - Moves all files from `dist/public/` to `dist/`
+   - Ensures `index.html` is at `dist/index.html`
+   - Merges asset directories properly
+   - Cleans up the temporary `public/` directory
 
-**Solution Applied**: 
-- Used existing deployment preparation scripts to move files from `dist/public/` to `dist/`
-- Created automated build script for deployment
-- Verified correct file structure for static deployment
-
-## Current Build Structure
-
-After the fix, the deployment structure is:
-
-```
-dist/
-├── index.html          # ✅ Main HTML file at root level (required)
-├── index.js           # Server bundle (for full-stack deployment)
-└── assets/            # ✅ Static assets (CSS, JS, images)
-    ├── index-[hash].css
-    ├── index-[hash].js
-    └── [font files and other assets]
-```
-
-## Deployment Process
-
-### Option 1: Quick Build for Deployment
+## Complete Deployment Workflow
 ```bash
-./build-for-deployment.sh
-```
-This automated script:
-1. Cleans existing build
-2. Runs `npm run build`
-3. Moves files from `dist/public/` to `dist/`
-4. Verifies correct structure
-
-### Option 2: Manual Process
-```bash
-# 1. Standard build
+# Build the application
 npm run build
 
-# 2. Fix file structure for deployment
-node scripts/prepare-deployment.js
+# Prepare for deployment (move files to correct location)
+node scripts/build-deploy.js
+
+# Deploy (using Replit's deployment system)
+# The deploy button will now find index.html at dist/index.html as expected
 ```
 
-### Option 3: Using Shell Script
-```bash
-# Alternative deployment preparation
-./build-static.sh
+## Files Structure After Deployment Preparation
+```
+dist/
+├── index.html          # Main HTML file (required at root for static deployment)
+├── index.js           # Compiled server code
+└── assets/            # CSS, JS, and font assets
+    ├── index-[hash].css
+    ├── index-[hash].js
+    └── font files...
 ```
 
-## Verification
+## Scripts Available
+- `scripts/build-deploy.js` - Node.js script to prepare build for deployment
+- `scripts/prepare-deployment.sh` - Alternative bash script (if needed)
 
-After building, verify the structure:
-```bash
-ls -la dist/
-# Should show:
-# - index.html (at root level)
-# - assets/ (directory)
-# - index.js (server bundle)
-```
-
-## Build Process Details
-
-1. **Vite Build**: Creates frontend files in `dist/public/`
-2. **ESBuild**: Creates server bundle at `dist/index.js`
-3. **Deployment Prep**: Moves files from `dist/public/` to `dist/` root
-4. **Cleanup**: Removes empty `dist/public/` directory
-
-## Status: Ready for Deployment
-
-✅ **FIXED**: Build outputs correct structure for static deployment
-✅ **TESTED**: Deployment preparation scripts work correctly
-✅ **VERIFIED**: `index.html` is at `dist/index.html` (not `dist/public/index.html`)
-
-The project is now ready for static deployment on Replit or any static hosting platform.
+## Notes
+- The Vite configuration outputs to `dist/public/` and cannot be modified
+- The deployment preparation script handles the file restructuring
+- All assets maintain their proper relative paths after the move
+- The server configuration works with both development and production builds

@@ -40,11 +40,14 @@ The server is built with **Express.js** and TypeScript, following a RESTful API 
 - **Issue Resolved (Aug 2, 2025)**: Fixed deployment structure where Vite was outputting to `dist/public/` but static deployment required files at `dist/` root level
 - **Solution Implemented**: Created deployment preparation scripts that automatically move files from `dist/public/` to `dist/` after build
 - **Build Scripts Available**: 
-  - `./build-for-deployment.sh` - Complete automated deployment build
-  - `./build-static.sh` - Alternative build script
-  - `node scripts/prepare-deployment.js` - Manual file restructuring
+  - `node scripts/build-deploy.js` - Node.js script for deployment preparation (WORKING SOLUTION)
+  - `scripts/prepare-deployment.sh` - Alternative bash script with rsync
+- **Deployment Workflow**:
+  1. Run `npm run build` (builds to dist/public/)
+  2. Run `node scripts/build-deploy.js` (moves files to dist/ root)
+  3. Deploy using Replit's deploy button
 - **Current Structure**: Build correctly outputs `index.html` at `dist/index.html` with assets in `dist/assets/` as required for static deployment
-- **Status**: Ready for deployment on Replit Deploy and other static hosting platforms
+- **Status**: ✅ READY FOR DEPLOYMENT - All files correctly positioned for static deployment
 
 **Type Safety**: Comprehensive TypeScript configuration ensures type safety across the entire application with shared types between frontend and backend.
 

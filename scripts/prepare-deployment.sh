@@ -1,24 +1,26 @@
 #!/bin/bash
 
-echo "🚀 Preparing deployment for static hosting..."
+# Prepare build for static deployment
+# This script moves files from dist/public to dist/ to match deployment expectations
+
+echo "🚀 Preparing build for deployment..."
 
 # Check if dist/public exists
 if [ ! -d "dist/public" ]; then
-    echo "❌ Error: dist/public directory not found. Please run 'npm run build' first."
+    echo "❌ Build output not found at dist/public/"
+    echo "Make sure to run 'npm run build' first"
     exit 1
 fi
 
-echo "📁 Found dist/public directory"
+echo "📁 Moving build files from dist/public/ to dist/..."
 
-# Copy all files from dist/public to dist root
-echo "📋 Copying files from dist/public to dist root..."
-cp -r dist/public/* dist/
+# Use rsync to merge directories and files properly
+rsync -av dist/public/ dist/ --remove-source-files
 
-# Remove the public directory after copying
-echo "🗑️  Removing dist/public directory..."
-rm -rf dist/public
+# Remove the now-empty public directory structure
+find dist/public -type d -empty -delete 2>/dev/null || true
+rmdir dist/public 2>/dev/null || true
 
-echo "✅ Deployment preparation complete!"
-echo "Files are now in the correct structure for static deployment:"
-echo "- index.html is now at dist/index.html"
-echo "- All assets are properly organized in dist/"
+echo "✅ Build prepared for deployment!"
+echo "📦 Static files are now available directly in dist/"
+echo "🌐 index.html is now at dist/index.html as expected by deployment"
