@@ -6,7 +6,7 @@ export default function WhyUsSection() {
     {
       icon: Eye,
       title: "Maquette gratuite avant achat",
-      description: "Contrairement à nos concurrents, vous verrez exactement à quoi ressemblera votre site avant de payer. Après notre appel, nous créons une maquette personnalisée gratuite de votre future landing page.",
+      description: "Contrairement à nos concurrents, vous verrez exactement à quoi ressemblera votre site avant de payer. Après notre appel, nous créons une maquette personnalisée gratuite de votre futur site internet.",
       highlight: true
     },
     {
@@ -64,9 +64,8 @@ export default function WhyUsSection() {
               Notre différence : la maquette gratuite
             </h3>
             <p className="text-xl opacity-90 max-w-4xl mx-auto">
-              Après notre appel de découverte, nous créons une maquette visuelle gratuite de votre future landing page. 
-              Vous voyez exactement le rendu final avant de prendre votre décision d'achat. 
-              <strong> Aucun concurrent ne propose cela.</strong>
+              Après notre appel de découverte, nous créons une maquette visuelle gratuite de votre futur site internet. 
+              Vous voyez exactement le rendu final avant de prendre votre décision d'achat.
             </p>
           </div>
         </motion.div>
@@ -131,7 +130,7 @@ export default function WhyUsSection() {
               <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
                 Soyez parmi les premiers à découvrir notre service révolutionnaire. 
                 Après votre appel de consultation, recevez une <strong>maquette personnalisée gratuite</strong> 
-                de votre future landing page. Voyez le résultat avant de vous engager !
+                de votre futur site internet. Voyez le résultat avant de vous engager !
               </p>
 
               {/* Counter or urgency indicator */}
@@ -164,10 +163,22 @@ export default function WhyUsSection() {
                 >
                   RÉSERVER MON APPEL GRATUIT
                 </a>
-                <p className="text-sm opacity-80">
-                  ⏰ Offre limitée - Plus que quelques places !
-                </p>
+                <button
+                  onClick={() => {
+                    const element = document.getElementById('pricing');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  className="bg-white/20 border-2 border-white text-white font-bold py-3 px-8 rounded-xl hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:scale-105"
+                  data-testid="buy-landing-page-cta"
+                >
+                  ACHETER MA LANDING PAGE
+                </button>
               </div>
+              <p className="text-sm opacity-80 mt-4">
+                ⏰ Offre limitée - Plus que quelques places !
+              </p>
             </div>
           </div>
         </motion.div>

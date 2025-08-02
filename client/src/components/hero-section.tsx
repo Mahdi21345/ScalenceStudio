@@ -41,7 +41,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Une Landing page qui fait passer{" "}
+            Un site internet qui fait passer{" "}
             <span className="text-blue-600 font-bold">votre business</span>
             <br />au stade supérieur
             <br />
