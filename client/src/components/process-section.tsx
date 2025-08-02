@@ -6,24 +6,24 @@ import { motion } from "framer-motion";
 const processSteps = [
   {
     number: "01",
-    title: "Partenariat",
-    description: "Présentation de notre offre agence et signature du partenariat en marque blanche.",
+    title: "Vous commandez",
+    description: "Vous nous dites ce que vous voulez et on fait un devis gratuit.",
     icon: MessageSquare,
     color: "bg-blue-50",
     iconColor: "text-blue-600"
   },
   {
     number: "02",
-    title: "Commande client",
-    description: "Vous nous transmettez les specs de votre client, nous créons la landing page à votre marque.",
+    title: "On crée",
+    description: "On fait votre landing page avec votre nom et vos couleurs.",
     icon: Pencil,
     color: "bg-green-50",
     iconColor: "text-green-600"
   },
   {
     number: "03",
-    title: "Livraison 24h",
-    description: "Landing page livrée en 24h avec votre branding, prête à présenter à votre client.",
+    title: "Livré en 24h",
+    description: "Votre landing page est prête en 24h, vous pouvez la présenter.",
     icon: Globe,
     color: "bg-purple-50",
     iconColor: "text-purple-600"
@@ -31,7 +31,7 @@ const processSteps = [
   {
     number: "04",
     title: "Support inclus",
-    description: "Support technique et maintenance inclus, vous gardez la relation commerciale.",
+    description: "On vous aide si il y a un problème, vous gardez vos clients.",
     icon: CheckCircle,
     color: "bg-orange-50",
     iconColor: "text-orange-600"
@@ -54,10 +54,10 @@ export default function ProcessSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Comment devenir partenaire ?
+            Comment ça marche
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Un processus simple et transparent pour proposer des landing pages performantes à vos clients.
+            4 étapes simples pour avoir votre landing page.
           </p>
         </motion.div>
 

@@ -65,10 +65,10 @@ export default function ImportanceSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi les agences choisissent nos landing pages ?
+            Pourquoi acheter nos landing pages ?
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Une landing page bien conçue n'est pas juste une page web, c'est un outil de conversion puissant qui génère des résultats mesurables pour vos clients.
+            Une bonne landing page, c'est plus de clients qui achètent. Simple et efficace pour faire du chiffre.
           </p>
         </motion.div>
 

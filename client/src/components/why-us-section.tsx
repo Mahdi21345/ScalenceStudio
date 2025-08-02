@@ -44,11 +44,11 @@ export default function WhyUsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi les agences nous choisissent ?
+            Pourquoi nous choisir ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nous révolutionnons le partenariat avec les agences : 
-            <span className="font-semibold text-blue-600"> marque blanche et marges attractives</span>
+            On fait simple et efficace : 
+            <span className="font-semibold text-blue-600"> votre nom dessus et prix imbattables</span>
           </p>
         </motion.div>
 
@@ -67,11 +67,11 @@ export default function WhyUsSection() {
               </div>
             </div>
             <h3 className="text-3xl font-bold mb-4">
-              Notre différence : le partenariat agence
+              Notre différence : simple et pas cher
             </h3>
             <p className="text-xl opacity-90 max-w-4xl mx-auto">
-              Nous comprenons les besoins des agences. Service en marque blanche, tarifs préférentiels, 
-              livraison rapide et support technique inclus pour que vous puissiez vous concentrer sur votre cœur de métier.
+              On fait les landing pages avec votre nom dessus. Livré en 24h, prix imbattables, 
+              vous revendez comme vous voulez. On s'occupe de tout, vous vous occupez de vendre.
             </p>
           </div>
         </motion.div>

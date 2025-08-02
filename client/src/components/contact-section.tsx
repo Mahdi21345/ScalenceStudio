@@ -17,10 +17,10 @@ export default function ContactSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-black text-gray-900 mb-4">
-            Prêt à devenir partenaire ?
+            Commandez votre landing page
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Contactez-nous dès maintenant pour découvrir notre offre agence et commencer à proposer des landing pages à vos clients.
+            Prêt à avoir une landing page qui convertit ? Contactez-nous pour un devis gratuit.
           </p>
         </motion.div>
 
@@ -35,7 +35,7 @@ export default function ContactSection() {
             <Card className="shadow-xl border-0 bg-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Demande de partenariat agence
+                  Demandez votre devis gratuit
                 </h3>
                 
                 <form
@@ -73,14 +73,14 @@ export default function ContactSection() {
 
                   <div>
                     <label htmlFor="company" className="block text-sm font-semibold text-gray-700 mb-2">
-                      Nom de votre agence *
+                      Nom de votre entreprise *
                     </label>
                     <Input
                       type="text"
                       name="company"
                       id="company"
                       className="w-full h-12 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500"
-                      placeholder="Nom de votre agence"
+                      placeholder="Nom de votre entreprise"
                       required
                     />
                   </div>

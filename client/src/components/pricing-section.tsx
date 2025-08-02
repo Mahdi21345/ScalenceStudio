@@ -42,7 +42,7 @@ export default function PricingSection() {
             Les prix les plus compétitifs du marché
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tarification imbattable pour les agences : <span className="font-semibold text-blue-600">299€ seulement</span> pour une landing page professionnelle en marque blanche. Revente libre avec marges exceptionnelles.
+            Prix imbattables : <span className="font-semibold text-blue-600">299€ seulement</span> pour une landing page avec votre nom dessus. Vous la revendez au prix que vous voulez.
           </p>
         </motion.div>
 

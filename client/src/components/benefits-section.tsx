@@ -59,10 +59,10 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pourquoi ProLanding est parfait pour votre agence ?
+            Pourquoi acheter vos landing pages chez nous ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nous comprenons les défis des agences et avons développé une solution clé en main pour maximiser vos revenus.
+            On comprend vos besoins et on a la solution simple pour gagner plus d'argent.
           </p>
         </motion.div>
 

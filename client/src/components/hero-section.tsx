@@ -54,7 +54,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Nous créons des landing pages haute conversion pour les agences au <span className="font-semibold text-blue-600">prix le plus compétitif du marché</span>. Service en marque blanche livré en 24h pour que vos clients soient impressionnés par votre réactivité et votre professionnalisme.
+            Nous créons des landing pages qui convertissent pour les agences au <span className="font-semibold text-blue-600">prix le moins cher du marché</span>. Livrées en 24h avec votre nom dessus pour impressionner vos clients.
           </motion.p>
 
           {/* USP Highlights */}
