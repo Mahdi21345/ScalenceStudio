@@ -32,8 +32,8 @@ const benefits = [
     bgColor: "bg-red-500"
   },
   {
-    problem: "ROI flou, vos leads ont du mal à quantifier les gains avec votre solution",
-    solution: "On explique vraiment les bénéfices concrets pour vos clients",
+    problem: "Message pas clair, vos visiteurs ne comprennent pas votre valeur",
+    solution: "On explique vraiment les bénéfices concrets de votre offre",
     icon: Smartphone,
     color: "text-red-600",
     bgColor: "bg-red-500"

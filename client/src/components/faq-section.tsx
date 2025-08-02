@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: "Le SEO est-il inclus dans la production ?",
-    answer: "Oui, nous optimisons votre landing page pour les moteurs de recherche et incluons les analyses de performance pour suivre vos conversions."
+    answer: "Oui, nous optimisons votre landing page pour les moteurs de recherche avec les balises meta, titre et structure appropriées."
   },
   {
     question: "Pourquoi choisir ProLanding ?",

@@ -18,7 +18,7 @@ export default function PricingSection() {
     "Formulaires de contact inclus",
     "Hébergement sécurisé à vie",
     "Optimisation mobile automatique",
-    "Analyses de performance incluses",
+    "SEO de base inclus",
     "Nom de domaine professionnel",
     "Livraison garantie en 24h"
   ];
