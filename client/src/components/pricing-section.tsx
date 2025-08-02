@@ -13,13 +13,13 @@ export default function PricingSection() {
   };
 
   const features = [
+    "Maquette gratuite avant production",
     "Copywriting optimisé par IA",
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
     "Hébergement sécurisé à vie",
     "Optimisation mobile automatique",
     "SEO de base inclus",
-    "Nom de domaine professionnel",
     "Livraison garantie en 24h"
   ];
 

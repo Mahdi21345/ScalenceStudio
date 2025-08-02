@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     question: "Quels sont les services de ProLanding ?",
-    answer: "Nous créons des landing pages qui transforment vraiment vos visiteurs en clients. Copywriting optimisé, design professionnel, hébergement inclus et livraison en 24h."
+    answer: "Nous créons des landing pages qui transforment vraiment vos visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement inclus et livraison en 24h."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
@@ -25,8 +25,8 @@ const faqs = [
     answer: "L'hébergement sécurisé est inclus dans le prix. Votre landing page sera accessible 24h/24 avec un nom de domaine professionnel."
   },
   {
-    question: "Combien de révisions pendant la conception ?",
-    answer: "Nous incluons les révisions nécessaires pour que votre landing page corresponde parfaitement à vos attentes et convertisse au maximum."
+    question: "Comment fonctionne la maquette gratuite ?",
+    answer: "Avant de commencer la production, nous créons une maquette gratuite de votre landing page que vous validez. Pas de surprise, vous voyez exactement ce que vous aurez."
   },
   {
     question: "Le SEO est-il inclus dans la production ?",

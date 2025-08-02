@@ -5,28 +5,28 @@ export default function WhyUsSection() {
   const advantages = [
     {
       icon: Eye,
-      title: "Service en marque blanche complet",
-      description: "Vos clients ne voient que votre marque. Nous restons invisibles, vous gardez la relation client et récoltez tous les bénéfices de réputation.",
+      title: "Maquette gratuite avant production",
+      description: "Vous validez le design avant qu'on commence. Pas de surprise, vous voyez exactement ce que vous aurez avant de payer.",
       highlight: true
     },
     {
       icon: Zap,
       title: "Livraison en 24h garantie",
-      description: "Délai ultra-court qui vous permet de proposer un service premium à vos clients et de vous démarquer de la concurrence.",
+      description: "Délai ultra-court pour que vous puissiez commencer à vendre rapidement. Votre concurrence met des semaines, nous 24h.",
       highlight: false,
       color: "green"
     },
     {
       icon: Users,
-      title: "Tarifs agence préférentiels",
-      description: "Tarification spéciale pour les agences avec des marges confortables. Plus vous commandez, plus vos tarifs baissent.",
+      title: "Prix fixe transparent",
+      description: "499€ tout compris, pas de frais cachés. Vous savez exactement combien ça coûte avant de commencer.",
       highlight: false,
       color: "orange"
     },
     {
       icon: CheckCircle,
       title: "Support technique inclus",
-      description: "Nous gérons toute la partie technique, les mises à jour et le support. Vous vous concentrez sur la vente et la relation client.",
+      description: "Nous gérons toute la partie technique, l'hébergement et le support. Vous vous concentrez sur votre business.",
       highlight: false,
       color: "emerald"
     }
