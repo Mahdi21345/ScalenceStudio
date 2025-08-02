@@ -33,8 +33,8 @@ const faqs = [
     answer: "Oui, nous optimisons votre landing page pour les moteurs de recherche et incluons les analyses de performance pour suivre vos conversions."
   },
   {
-    question: "Pourquoi ProLanding et non une autre agence ?",
-    answer: "Nous combinons copywriting qui vend + design qui rassure + livraison ultra-rapide au prix le moins cher. Notre méthode transforme votre offre complexe en message clair qui convertit."
+    question: "Pourquoi choisir ProLanding ?",
+    answer: "Nous combinons copywriting qui vend + design qui rassure + livraison ultra-rapide au prix le moins cher. Notre méthode transforme votre offre en message clair qui convertit vos visiteurs en clients."
   }
 ];
 

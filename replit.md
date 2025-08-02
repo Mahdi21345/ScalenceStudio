@@ -1,15 +1,16 @@
 # Overview
 
-ProLanding is a professional landing page creation service specifically designed for agencies in the French market. The application is a modern full-stack web solution that provides white-label landing page services with 24-hour delivery promises. The platform features a French interface with a focus on agency partnerships, white-label branding, and attractive margins for agencies wanting to offer landing page services to their clients without technical development costs.
+ProLanding is a professional landing page creation service for businesses and entrepreneurs who need high-converting landing pages to sell their products/services. The application is a modern full-stack web solution that delivers professional landing pages in 24 hours. The platform features a French interface focused on direct client sales, helping businesses transform their visitors into customers with optimized copywriting and professional design.
 
 ## Recent Changes (Aug 2, 2025)
-- **Complete copywriting transformation**: Shifted from agency focus back to direct client sales at 499€
-- **Scalence.co inspiration**: Adopted problem-solution copywriting approach inspired by Scalence.co
-- **Hero section updated**: New tagline "Livrée en 24h" under main title, powerful question-based subtitle
-- **Benefits section**: Problems/solutions modeled after Scalence's approach to selling complexity
-- **Process section**: 4-step process inspired by Scalence's methodology
-- **Pricing restored**: Back to 499€ pricing for direct client sales
-- **Contact form**: "Formulaires intelligents" corrected to "Formulaires de contact" for honesty
+- **Target clarification**: Confirmed focus on direct B2B/B2C clients who need landing pages to sell THEIR products/services
+- **No agency focus**: Completely removed all agency/white-label/reseller messaging - clients are end users
+- **Scalence.co inspiration**: Adopted problem-solution copywriting approach for direct client sales
+- **Hero section**: "Livrée en 24h" tagline with question-based subtitle targeting business owners
+- **Benefits section**: Problems/solutions for businesses needing better conversion on their offers
+- **Process section**: 4-step process for direct client relationships, no intermediaries
+- **Pricing**: 499€ for businesses buying landing pages to sell their own products/services
+- **Contact form**: "Formulaires de contact" - honest about technical capabilities
 
 # User Preferences
 

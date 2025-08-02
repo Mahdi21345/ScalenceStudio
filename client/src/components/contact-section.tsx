@@ -20,7 +20,7 @@ export default function ContactSection() {
             Prêt à scaler votre business ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Réservez un appel stratégique pour comprendre vos besoins. Notre équipe se charge de transformer votre offre en machine à convertir.
+            Parlez-nous de votre projet en visioconférence. Notre équipe se charge de transformer votre offre en page qui convertit.
           </p>
         </motion.div>
 

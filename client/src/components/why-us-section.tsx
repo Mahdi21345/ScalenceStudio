@@ -44,7 +44,7 @@ export default function WhyUsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Pourquoi ProLanding et non une autre agence ?
+            Pourquoi ProLanding ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Création et livraison de votre landing page prête à convertir en moins de 24h.
