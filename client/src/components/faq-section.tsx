@@ -16,10 +16,7 @@ const faqs = [
     question: "Offrez-vous un support après la livraison ?",
     answer: "Oui, nous incluons le support technique et l'hébergement sécurisé à vie. Vous n'avez plus à vous soucier des aspects techniques."
   },
-  {
-    question: "Puis-je voir vos dernières réalisations ?",
-    answer: "Bien sûr ! Contactez-nous et nous vous montrerons des exemples concrets de landing pages qui convertissent pour nos clients."
-  },
+
   {
     question: "Comment puis-je héberger ma landing page ?",
     answer: "L'hébergement est inclus dans le prix. Vous aurez juste à acheter votre nom de domaine à 1€ et on vous explique comment faire en visioconférence."
