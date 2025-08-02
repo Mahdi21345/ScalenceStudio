@@ -27,7 +27,7 @@ export default function Header() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-6">
+            <div className="ml-10 flex items-baseline space-x-5">
               <button 
                 onClick={() => scrollToSection('importance')}
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
@@ -41,6 +41,13 @@ export default function Header() {
                 data-testid="nav-benefices"
               >
                 Bénéfices
+              </button>
+              <button 
+                onClick={() => scrollToSection('pourquoi-nous')}
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                data-testid="nav-pourquoi-nous"
+              >
+                Pourquoi nous
               </button>
               <button 
                 onClick={() => scrollToSection('processus')}
@@ -103,6 +110,13 @@ export default function Header() {
                 data-testid="mobile-nav-benefices"
               >
                 Bénéfices
+              </button>
+              <button 
+                onClick={() => scrollToSection('pourquoi-nous')}
+                className="text-gray-900 hover:text-purple-600 transition-colors duration-200 font-medium text-left"
+                data-testid="mobile-nav-pourquoi-nous"
+              >
+                Pourquoi nous
               </button>
               <button 
                 onClick={() => scrollToSection('processus')}
