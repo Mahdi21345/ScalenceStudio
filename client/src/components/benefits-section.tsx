@@ -40,7 +40,7 @@ const benefits = [
   },
   {
     problem: "Budget limité pour la communication digitale",
-    solution: "Nous proposons des tarifs adaptés à votre business avec un ROI démontré",
+    solution: "Nous proposons des tarifs adaptés à votre business",
     icon: Euro,
     color: "text-red-600",
     bgColor: "bg-red-500"
