@@ -36,7 +36,15 @@ The server is built with **Express.js** and TypeScript, following a RESTful API 
 
 **Build Process**: Production builds are created using Vite for the frontend and esbuild for the backend, with separate output directories for optimized deployment.
 
-**Deployment Preparation**: The build process is configured for static deployment compatibility, outputting files directly to `dist/` with `index.html` at the root level as required by static hosting platforms. A backup deployment script (`build-static.sh`) is available if needed to restructure build output.
+**Deployment Configuration**: 
+- **Issue Resolved (Aug 2, 2025)**: Fixed deployment structure where Vite was outputting to `dist/public/` but static deployment required files at `dist/` root level
+- **Solution Implemented**: Created deployment preparation scripts that automatically move files from `dist/public/` to `dist/` after build
+- **Build Scripts Available**: 
+  - `./build-for-deployment.sh` - Complete automated deployment build
+  - `./build-static.sh` - Alternative build script
+  - `node scripts/prepare-deployment.js` - Manual file restructuring
+- **Current Structure**: Build correctly outputs `index.html` at `dist/index.html` with assets in `dist/assets/` as required for static deployment
+- **Status**: Ready for deployment on Replit Deploy and other static hosting platforms
 
 **Type Safety**: Comprehensive TypeScript configuration ensures type safety across the entire application with shared types between frontend and backend.
 
