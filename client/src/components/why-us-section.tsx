@@ -70,8 +70,8 @@ export default function WhyUsSection() {
               Notre processus de conception
             </h3>
             <p className="text-xl opacity-90 max-w-4xl mx-auto">
-              On transforme votre offre complexe en message clair qui convertit. 
-              Copywriting qui vend, design qui rassure, livraison ultra-rapide. Vous scalez, on s'occupe du reste.
+              On transforme ton offre complexe en message clair qui convertit. 
+              Copywriting qui vend, design qui rassure, livraison ultra-rapide. Tu scales, on s'occupe du reste.
             </p>
           </div>
         </motion.div>
@@ -174,9 +174,9 @@ export default function WhyUsSection() {
               </h3>
               
               <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-                Soyez parmi les premiers à découvrir notre service révolutionnaire. 
-                Après votre appel de consultation, recevez une <strong>maquette personnalisée gratuite</strong> 
-                de votre futur site internet. Voyez le résultat avant de vous engager !
+                Sois parmi les premiers à découvrir notre service révolutionnaire. 
+                Après ton appel de consultation, reçois une <strong>maquette personnalisée gratuite</strong> 
+                de ton futur site internet. Vois le résultat avant de t'engager !
               </p>
 
               {/* Counter or urgency indicator */}

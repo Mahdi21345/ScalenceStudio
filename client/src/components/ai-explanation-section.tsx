@@ -107,7 +107,7 @@ export default function AIExplanationSection() {
               Une solution recommandée, pas incluse
             </h3>
             <p className="text-gray-700 text-sm">
-              Cette app tierce coûte 24€/mois et n'est pas incluse dans notre offre. <span className="font-semibold text-blue-600">On t'expliquera tout en détail lors de la visio</span> pour que tu puisse décider.
+              Cette app tierce coûte 24€/mois et n'est pas incluse dans notre offre. <span className="font-semibold text-blue-600">On t'expliquera tout en détail lors de la visio</span> pour que tu puisses décider.
             </p>
           </div>
         </motion.div>

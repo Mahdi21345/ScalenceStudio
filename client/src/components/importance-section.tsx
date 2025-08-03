@@ -114,10 +114,10 @@ export default function ImportanceSection() {
         >
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Tout inclus dans vos 499€
+              Tout inclus dans tes 499€
             </h3>
             <p className="text-gray-600 mb-6">
-              Pas de frais cachés. Tout ce dont vous avez besoin pour une landing page qui marche.
+              Pas de frais cachés. Tout ce dont tu as besoin pour une landing page qui marche.
             </p>
             <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
               <span className="inline-flex items-center text-green-600 font-semibold">

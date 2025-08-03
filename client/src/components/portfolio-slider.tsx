@@ -4,28 +4,28 @@ import { useState, useEffect } from "react";
 const portfolioItems = [
   {
     id: 1,
-    title: "Fluidifiez vos process grâce à une automatisation qui vous correspond",
+    title: "Fluidifie tes process grâce à une automatisation qui te correspond",
     subtitle: "Optimisation des conversions",
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=500&fit=crop&crop=center",
     darkBg: true
   },
   {
     id: 2,
-    title: "Des Agents IA qui travaillent à votre place",
+    title: "Des Agents IA qui travaillent à ta place",
     subtitle: "Intelligence artificielle",
     image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=500&fit=crop&crop=center",
     darkBg: true
   },
   {
     id: 3,
-    title: "Des Outils qui font Sensation dans votre Business",
+    title: "Des Outils qui font Sensation dans ton Business",
     subtitle: "Solutions personnalisées",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&crop=center",
     darkBg: false
   },
   {
     id: 4,
-    title: "Une Landing Page qui fait passer votre Business au niveau supérieur",
+    title: "Une Landing Page qui fait passer ton Business au niveau supérieur",
     subtitle: "Design & Performance",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=500&fit=crop&crop=center",
     darkBg: false
