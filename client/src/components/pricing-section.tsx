@@ -25,7 +25,7 @@ export default function PricingSection() {
   ];
 
   const additionalServices = [
-    "Hébergement pro : 4€/mois (vs 20-30€ ailleurs)",
+    "Hébergement pro : 4€/mois",
     "Agent IA pour modifications : 24€/mois (app tierce)"
   ];
 
