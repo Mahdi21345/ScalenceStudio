@@ -42,7 +42,7 @@ export default function HeroSection() {
           >
             <span className="inline-flex items-center px-6 py-3 rounded-full text-sm font-semibold bg-blue-50 text-blue-700 border border-blue-200">
               <Clock className="w-4 h-4 mr-2" />
-              Réponse sous 10h en jour ouvré
+              Livraison garantie en 24h
             </span>
           </motion.div>
           
@@ -63,7 +63,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Réponse rapide garantie
+            Transforme tes visiteurs en clients payants
           </motion.div>
           
           <motion.p 
@@ -104,7 +104,7 @@ export default function HeroSection() {
           >
             <div className="flex items-center text-green-600 font-medium">
               <Clock className="w-5 h-5 mr-2" />
-              Réponse sous 10h en jour ouvré
+              Livraison garantie en 24h
             </div>
             <div className="flex items-center text-green-600 font-medium">
               <Users className="w-5 h-5 mr-2" />
