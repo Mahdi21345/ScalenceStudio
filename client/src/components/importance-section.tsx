@@ -66,10 +66,10 @@ export default function ImportanceSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Notre processus de conception
+            Ce que tu auras dans ta landing page
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Création et livraison de votre landing page prête à convertir en moins de 24h
+            Toutes les fonctionnalités incluses dans ta landing page pour maximiser tes conversions
           </p>
         </motion.div>
 
