@@ -6,11 +6,11 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     question: "Quels sont les services de ProLanding ?",
-    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement gratuit à vie et livraison en 24h."
+    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement 4€/mois et livraison en 24h."
   },
   {
-    question: "L'hébergement est-il vraiment gratuit à vie ?",
-    answer: "Oui ! L'hébergement est gratuit à vie après achat de ta landing page à 499€. Plus de frais d'hébergement mensuels ou annuels."
+    question: "Comment fonctionne l'hébergement ?",
+    answer: "L'hébergement professionnel coûte seulement 4€/mois. Pas de frais cachés, service fiable et rapide pour que ton site soit toujours en ligne."
   },
   {
     question: "Comment modifier mon site après achat ?",
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: "Quels sont les vrais coûts après achat ?",
-    answer: "Transparent : Domaine 1€/an, hébergement gratuit à vie. Aucun frais caché. Tout est inclus dans les 499€."
+    answer: "Transparent : Domaine 1€/an, hébergement 4€/mois. Aucun autre frais caché. Le reste est inclus dans les 499€."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "Pourquoi choisir ProLanding ?",
-    answer: "Hébergement gratuit à vie + livraison 24h + au prix le moins cher du marché. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
+    answer: "Hébergement professionnel à 4€/mois + livraison 24h + au prix le moins cher du marché. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
   }
 ];
 

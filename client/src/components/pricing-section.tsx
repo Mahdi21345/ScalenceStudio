@@ -17,7 +17,7 @@ export default function PricingSection() {
     "Copywriting optimisé par IA",
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
-    "Hébergement GRATUIT à vie",
+    "Hébergement professionnel",
     "Domaine à 1€/an seulement",
     "Optimisation mobile automatique",
     "SEO de base inclus",
@@ -25,8 +25,8 @@ export default function PricingSection() {
   ];
 
   const additionalServices = [
-    "Modifications supplémentaires : 30€/modification",
-    "Déployé automatiquement"
+    "Hébergement : 4€/mois seulement",
+    "Modifications supplémentaires : 30€/modification"
   ];
 
   return (
@@ -43,7 +43,7 @@ export default function PricingSection() {
             Offres
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            <span className="font-semibold text-blue-600">Landing page + hébergement gratuit à vie.</span> Choisis le plan qui te correspond et qui fera scaler ton business.
+            <span className="font-semibold text-blue-600">Landing page + hébergement professionnel.</span> Choisis le plan qui te correspond et qui fera scaler ton business.
           </p>
           
           {/* Discrete AI mention above pricing */}
