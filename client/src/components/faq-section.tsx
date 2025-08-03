@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     question: "Comment modifier mon site après achat ?",
-    answer: "Tu peux faire les modifications classiques ou nous demander. En bonus, on peut t'indiquer une app tierce pratique pour les modifications (optionnel)."
+    answer: "Après achat, tu auras accès à un agent IA qui modifie ton site en une ligne de prompt au lieu de passer des heures manuellement. Cette app tierce coûte 24€/mois (optionnel)."
   },
   {
     question: "Quels sont les vrais coûts après achat ?",
-    answer: "Transparent : Domaine 1€/an, hébergement 4€/mois. Aucun autre frais caché. Le reste est inclus dans les 499€."
+    answer: "Transparent : Domaine 1€/an, hébergement 4€/mois. Optionnel : Agent IA pour modifications 24€/mois (app tierce). Aucun autre frais caché."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",

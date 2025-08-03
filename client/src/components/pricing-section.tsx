@@ -26,7 +26,7 @@ export default function PricingSection() {
 
   const additionalServices = [
     "Hébergement : 4€/mois seulement",
-    "Modifications supplémentaires : 30€/modification"
+    "Agent IA pour modifications : 24€/mois (app tierce)"
   ];
 
   return (
@@ -49,7 +49,7 @@ export default function PricingSection() {
           {/* Discrete AI mention above pricing */}
           <div className="mt-8 text-center">
             <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-              💡 <span className="font-medium">Bonus :</span> On t'indiquera une app tierce pour modifier facilement ton site (optionnel)
+              💡 <span className="font-medium">Après achat :</span> Accès à un agent IA qui modifie ton site en une ligne de prompt au lieu de passer des heures manuellement (app tierce 24€/mois)
             </p>
           </div>
         </motion.div>
