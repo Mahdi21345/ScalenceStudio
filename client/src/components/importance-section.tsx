@@ -8,32 +8,32 @@ const importancePoints = [
     title: "Copywriting optimisé par IA",
     description: "Textes qui convertissent créés automatiquement pour maximiser tes ventes.",
     stat: "IA",
-    color: "bg-green-50",
-    iconColor: "text-green-600"
+    color: "bg-blue-50",
+    iconColor: "text-blue-600"
   },
   {
     icon: Target,
     title: "UX/UI optimisé",
     description: "Interface utilisateur parfaite qui guide tes visiteurs vers l'achat.",
     stat: "Design",
-    color: "bg-blue-50",
-    iconColor: "text-blue-600"
+    color: "bg-gray-50",
+    iconColor: "text-gray-700"
   },
   {
     icon: BarChart3,
     title: "Design basé sur ton branding",
     description: "Si tu as un branding existant (couleurs, polices, style), on l'intègre parfaitement dans le design de ta landing page.",
     stat: "Branding",
-    color: "bg-orange-50",
-    iconColor: "text-orange-600"
+    color: "bg-blue-50",
+    iconColor: "text-blue-600"
   },
   {
     icon: Zap,
     title: "Formulaires de contact",
     description: "Formulaires simples et efficaces pour collecter tes prospects.",
     stat: "Contact",
-    color: "bg-purple-50",
-    iconColor: "text-purple-600"
+    color: "bg-gray-50",
+    iconColor: "text-gray-700"
   },
 
   {
@@ -41,16 +41,16 @@ const importancePoints = [
     title: "Responsive mobile",
     description: "Landing page parfaite sur tous les appareils (mobile, tablette, ordinateur).",
     stat: "Mobile",
-    color: "bg-cyan-50",
-    iconColor: "text-cyan-600"
+    color: "bg-blue-50",
+    iconColor: "text-blue-600"
   },
   {
     icon: ShieldCheck,
     title: "Hébergement sécurisé inclus",
     description: "Ton site est hébergé de façon sécurisée avec un nom de domaine professionnel.",
     stat: "Sécurisé",
-    color: "bg-red-50",
-    iconColor: "text-red-600"
+    color: "bg-gray-50",
+    iconColor: "text-gray-700"
   }
 ];
 
