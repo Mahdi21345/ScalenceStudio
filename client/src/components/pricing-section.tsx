@@ -18,7 +18,7 @@ export default function PricingSection() {
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
     "Solution hébergement professionnel",
-    "Domaine à 1€/an seulement",
+
     "Optimisation mobile automatique",
     "SEO de base inclus"
   ];
