@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Contenu du Site"
+    files:
+      - name: "hero"
+        label: "Section Hero"
+        file: "content/hero.json"
+        fields:
+          - {label: "Titre Principal", name: "title", widget: "string"}
+          - {label: "Sous-titre", name: "subtitle", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Texte Bouton", name: "buttonText", widget: "string"}
+          
+      - name: "pricing"
+        label: "Tarifs"
+        file: "content/pricing.json"
+        fields:
+          - {label: "Prix", name: "price", widget: "number"}
+          - {label: "Devise", name: "currency", widget: "string"}
+          - {label: "Description Prix", name: "priceDescription", widget: "string"}
+          - label: "Fonctionnalités"
+            name: "features"
+            widget: "list"
+            field: {label: "Fonctionnalité", name: "feature", widget: "string"}
+            
+      - name: "contact"
+        label: "Contact"
+        file: "content/contact.json"
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Téléphone", name: "phone", widget: "string"}
+          - {label: "Lien WhatsApp", name: "whatsapp", widget: "string"}
+          
+      - name: "faq"
+        label: "FAQ"
+        file: "content/faq.json"
+        fields:
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Réponse", name: "answer", widget: "text"}
