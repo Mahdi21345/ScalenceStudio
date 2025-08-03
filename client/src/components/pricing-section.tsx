@@ -20,7 +20,7 @@ export default function PricingSection() {
     "Solution hébergement professionnel",
 
     "Optimisation mobile automatique",
-    "SEO optimisé inclus"
+    ""
   ];
 
   const additionalServices = [
