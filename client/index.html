@@ -47,14 +47,21 @@
     }
     </script>
   </head>
-  <body style="margin: 0; padding: 0; background-color: #f8fafc; opacity: 0; transition: opacity 0.3s;">
-    <div id="root"></div>
-    <script>
-      // Affiche le contenu une fois que le DOM est chargé
-      document.addEventListener('DOMContentLoaded', function() {
-        document.body.style.opacity = '1';
-      });
-    </script>
+  <body style="margin: 0; padding: 0; background-color: #f8fafc;">
+    <div id="root">
+      <!-- Loading spinner pendant le chargement -->
+      <div style="display: flex; align-items: center; justify-content: center; min-height: 100vh; background-color: #f8fafc;">
+        <div style="text-align: center;">
+          <div style="width: 40px; height: 40px; border: 4px solid #e5e7eb; border-top-color: #2563eb; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 16px;"></div>
+          <p style="font-family: Inter, sans-serif; color: #6b7280; font-size: 14px; margin: 0;">Chargement...</p>
+        </div>
+      </div>
+    </div>
+    <style>
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
     <script type="module" src="/src/main.tsx"></script>
     <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
     <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
