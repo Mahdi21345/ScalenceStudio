@@ -141,6 +141,38 @@ export default function ImportanceSection() {
             </div>
           </div>
         </motion.div>
+
+        {/* CTA Section */}
+        <motion.div 
+          className="text-center mt-12"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 max-w-4xl mx-auto text-white">
+            <h3 className="text-2xl font-bold mb-4">
+              Tu veux tout ça pour seulement 499€ ?
+            </h3>
+            <p className="mb-6 opacity-90">
+              C'est le moment parfait pour passer à l'action et faire décoller ton business.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button 
+                onClick={() => window.open('https://calendly.com/mahguez368/meeting-site-internet-60-min', '_blank')}
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                Réserver un appel gratuit
+              </button>
+              <button 
+                onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 transform hover:scale-105"
+              >
+                Voir l'offre complète
+              </button>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

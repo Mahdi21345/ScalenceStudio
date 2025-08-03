@@ -97,6 +97,38 @@ export default function BenefitsSection() {
             </motion.div>
           ))}
         </div>
+
+        {/* CTA Section */}
+        <motion.div 
+          className="text-center mt-16"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 max-w-4xl mx-auto border border-blue-200">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Prêt à transformer tes visiteurs en clients ?
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Réserve ton appel gratuit maintenant et découvre comment ProLanding va faire exploser tes ventes.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button 
+                onClick={() => window.open('https://calendly.com/mahguez368/meeting-site-internet-60-min', '_blank')}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                Réserver un appel gratuit
+              </button>
+              <button 
+                onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 transform hover:scale-105"
+              >
+                Voir l'offre
+              </button>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
