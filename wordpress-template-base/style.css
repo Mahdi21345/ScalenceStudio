@@ -1,0 +1,20 @@
+/*
+Theme Name: ProLanding Custom
+Description: Landing page générée depuis Replit - Optimisée pour Elementor
+Version: 1.0
+Author: ProLanding
+Text Domain: prolanding
+*/
+
+/* 
+INSTRUCTIONS D'UTILISATION :
+
+1. Copier le CSS depuis assets/index-*.css et le coller ci-dessous
+2. Remplacer les chemins relatifs :
+   - /assets/ → <?php echo get_template_directory_uri(); ?>/assets/
+3. Installer le thème dans WordPress
+4. Utiliser avec Elementor pour permettre l'édition client
+
+*/
+
+/* TON CSS REPLIT VA ICI - Copier depuis dist/public/assets/index-*.css */
