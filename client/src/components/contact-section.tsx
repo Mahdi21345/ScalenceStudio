@@ -20,7 +20,7 @@ export default function ContactSection() {
             Prêt à scaler ton business ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Parle-nous de ton projet en visioconférence. Notre équipe se charge de transformer ton offre en page qui convertit.
+            Parle-nous de ton projet en visioconférence. <span className="font-semibold text-blue-600">Notre équipe se charge de transformer ton offre en page qui convertit.</span>
           </p>
         </motion.div>
 

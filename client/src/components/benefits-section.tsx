@@ -62,7 +62,7 @@ export default function BenefitsSection() {
             Pourquoi ProLanding te fera vendre plus ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tu as des freins à la vente et nous en sommes conscients. Nous avons trouvé une méthode efficace pour les enlever et te faire scaler.
+            Tu as des freins à la vente et nous en sommes conscients. <span className="font-semibold text-blue-600">Nous avons trouvé une méthode efficace pour les enlever et te faire scaler.</span>
           </p>
         </motion.div>
 

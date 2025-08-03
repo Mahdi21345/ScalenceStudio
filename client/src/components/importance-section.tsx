@@ -69,7 +69,7 @@ export default function ImportanceSection() {
             Ce que tu auras dans ta landing page
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Design professionnel adapté à ton branding et fonctionnalités optimisées pour maximiser tes conversions
+            Design professionnel adapté à ton branding et <span className="font-semibold text-blue-600">fonctionnalités optimisées pour maximiser tes conversions</span>
           </p>
         </motion.div>
 

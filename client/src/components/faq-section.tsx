@@ -56,7 +56,7 @@ export default function FAQSection() {
             Questions fréquemment posées
           </h2>
           <p className="text-xl text-gray-600">
-            Tu as des questions supplémentaires ? Nous avons des réponses.
+            Tu as des questions supplémentaires ? <span className="font-semibold text-blue-600">Nous avons des réponses.</span>
           </p>
         </motion.div>
 
