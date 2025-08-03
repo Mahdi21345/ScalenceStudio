@@ -49,7 +49,7 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <section id="benefices" className="py-20 bg-white">
+    <section id="benefices" className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-16"

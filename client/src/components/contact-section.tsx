@@ -7,7 +7,7 @@ import { Mail, MessageCircle, Phone } from 'lucide-react';
 
 export default function ContactSection() {
   return (
-    <section className="py-20 bg-gray-50" id="contact">
+    <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50" id="contact">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
