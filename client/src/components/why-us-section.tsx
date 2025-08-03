@@ -47,7 +47,7 @@ export default function WhyUsSection() {
             Pourquoi ProLanding ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Création et livraison de votre landing page prête à convertir en moins de 24h.
+            Création et livraison de ta landing page prête à convertir en moins de 24h.
             <span className="font-semibold text-blue-600"> Landing pages qui convertissent vraiment au prix le moins cher.</span>
           </p>
         </motion.div>
