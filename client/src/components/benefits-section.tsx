@@ -59,7 +59,7 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pourquoi ProLanding te fera vendre plus ?
+            Pourquoi Choisir une Landing Page Professionnelle ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Tu as des freins à la vente et nous en sommes conscients. <span className="font-semibold text-blue-600">Nous avons trouvé une méthode efficace pour les enlever et te faire scaler.</span>
