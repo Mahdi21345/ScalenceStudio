@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
+import AIAgentSection from "@/components/ai-agent-section";
 import BenefitsSection from "@/components/benefits-section";
 import ImportanceSection from "@/components/importance-section";
 import WhyUsSection from "@/components/why-us-section";
@@ -21,6 +22,7 @@ export default function Home() {
 
       <Header />
       <HeroSection />
+      <AIAgentSection />
       <BenefitsSection />
       <ImportanceSection />
       <WhyUsSection />

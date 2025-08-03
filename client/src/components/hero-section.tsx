@@ -56,13 +56,43 @@ export default function HeroSection() {
           </motion.div>
           
           <motion.p 
-            className="text-xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed"
+            className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             Ton offre est géniale mais personne ne l'achète ? Vends plus avec une landing page qui explique clairement ta valeur et pousse à l'action. <span className="font-semibold text-blue-600">Au prix le moins cher du marché.</span>
           </motion.p>
+
+          {/* Revolutionary AI Agent Feature */}
+          <motion.div 
+            className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-12 max-w-4xl mx-auto border border-blue-200"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+          >
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">🤖 RÉVOLUTION : Agent IA pour Modifications</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                <span className="font-semibold text-blue-600">Fini les heures passées à modifier ton site manuellement !</span> 
+                Après achat, tu auras accès à un agent IA qui exécute toutes tes modifications instantanément.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4 text-sm">
+                <span className="bg-white px-4 py-2 rounded-full text-green-600 font-semibold border border-green-200">
+                  ✅ Hébergement GRATUIT à vie
+                </span>
+                <span className="bg-white px-4 py-2 rounded-full text-green-600 font-semibold border border-green-200">
+                  ✅ Domaine 1€/an
+                </span>
+                <span className="bg-white px-4 py-2 rounded-full text-blue-600 font-semibold border border-blue-200">
+                  🤖 Agent IA : 24€/mois
+                </span>
+                <span className="bg-white px-4 py-2 rounded-full text-purple-600 font-semibold border border-purple-200">
+                  📤 Publication : 4€/mois
+                </span>
+              </div>
+            </div>
+          </motion.div>
 
           {/* USP Highlights */}
           <motion.div 

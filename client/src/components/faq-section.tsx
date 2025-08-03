@@ -5,33 +5,36 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    question: "Quels sont les services de ProLanding ?",
-    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, configuration hébergement et livraison en 24h."
+    question: "Comment fonctionne l'Agent IA pour les modifications ?",
+    answer: "Révolutionnaire ! Après achat, tu auras accès à un agent IA qui modifie ton site instantanément. Plus besoin de passer des heures à modifier manuellement. Tu demandes, l'IA exécute en quelques secondes. Fini le travail technique fastidieux !"
+  },
+  {
+    question: "L'hébergement est-il vraiment gratuit à vie ?",
+    answer: "Oui, absolument ! L'hébergement est GRATUIT À VIE après achat de ta landing page à 499€. Plus de frais d'hébergement mensuels ou annuels. Seuls les services optionnels sont payants : Agent IA (24€/mois) et Publication (4€/mois)."
+  },
+  {
+    question: "Quels sont les vrais coûts après achat ?",
+    answer: "Transparent : Domaine 1€/an, hébergement gratuit à vie. Optionnel : Agent IA pour modifications (24€/mois) et service de publication (4€/mois). Tu peux utiliser ton site sans ces options, mais l'Agent IA révolutionne vraiment l'expérience."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
-    answer: "Ta landing page est livrée en 24h maximum. C'est notre engagement pour que tu puisses commencer à vendre rapidement."
+    answer: "Ta landing page est livrée en 24h maximum. C'est notre engagement pour que tu puisses commencer à vendre rapidement. L'agent IA est configuré immédiatement après."
   },
   {
-    question: "Offrez-vous un support après la livraison ?",
-    answer: "Oui, nous incluons le support technique. Pour l'hébergement, tu paies directement Netlify (environ 5€/mois) et on t'aide à tout configurer en visio."
-  },
-
-  {
-    question: "Comment fonctionne l'hébergement ?",
-    answer: "L'hébergement n'est pas inclus. Tu paies Netlify directement (environ 5€/mois) et on configure tout pour toi. On te donne la méthode pour avoir un nom de domaine à 1€/an. Tout est expliqué en visio."
+    question: "Que peut faire exactement l'Agent IA ?",
+    answer: "Tout ! Modifier textes, prix, couleurs, ajouter sections, changer images, optimiser SEO, A/B tester... Tu demandes en français normal, l'IA comprend et modifie ton site instantanément. Plus jamais de travail technique manuel."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",
-    answer: "Avant de commencer la production, nous créons une maquette gratuite de ta landing page que tu valides. Pas de surprise, tu vois exactement ce que tu auras."
+    answer: "Avant de commencer la production, nous créons une maquette gratuite de ta landing page que tu valides. Pas de surprise, tu vois exactement ce que tu auras. Validation obligatoire avant paiement."
   },
   {
-    question: "Le SEO est-il inclus dans la production ?",
-    answer: "Oui, nous optimisons ta landing page pour les moteurs de recherche avec les balises meta, titre et structure appropriées."
+    question: "Puis-je arrêter l'Agent IA quand je veux ?",
+    answer: "Bien sûr ! L'Agent IA est un abonnement sans engagement à 24€/mois. Tu peux l'arrêter à tout moment. Ton site reste en ligne gratuitement à vie, tu perds juste l'assistance IA pour les modifications."
   },
   {
-    question: "Pourquoi choisir ProLanding ?",
-    answer: "Nous combinons copywriting qui vend + design qui rassure + livraison ultra-rapide au prix le moins cher. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
+    question: "Pourquoi ProLanding révolutionne le marché ?",
+    answer: "Hébergement gratuit à vie + Agent IA pour modifications + livraison 24h. Plus jamais de frais d'hébergement, plus jamais d'heures perdues à modifier ton site. On révolutionne l'expérience avec l'IA."
   }
 ];
 

@@ -17,15 +17,18 @@ export default function PricingSection() {
     "Copywriting optimisé par IA",
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
-    "Méthode nom de domaine 1€/an",
+    "Hébergement GRATUIT à vie",
+    "Domaine à 1€/an seulement",
     "Optimisation mobile automatique",
     "SEO de base inclus",
     "Livraison garantie en 24h"
   ];
 
-  const additionalServices = [
-    "Modifications supplémentaires : 30€/modification",
-    "Déployé automatiquement"
+  const aiFeatures = [
+    "🤖 Agent IA pour modifications : 24€/mois",
+    "📤 Publication automatique : 4€/mois", 
+    "✨ Fini les heures de travail manuel",
+    "⚡ Modifications instantanées par IA"
   ];
 
   return (
@@ -42,7 +45,7 @@ export default function PricingSection() {
             Offres
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choisis le plan qui te correspond et qui fera scaler ton business. <span className="font-semibold text-blue-600">Landing page prête à convertir en 24h.</span>
+            <span className="font-semibold text-blue-600">Landing page + Agent IA révolutionnaire.</span> Hébergement gratuit à vie, modifications par IA instantanées. <span className="font-semibold text-purple-600">Fini le travail manuel !</span>
           </p>
         </motion.div>
 
@@ -114,14 +117,17 @@ export default function PricingSection() {
                   </div>
                 </div>
 
-                {/* Additional services with gradient box */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-5 mb-6 border border-blue-100">
-                  <h4 className="font-bold text-gray-900 mb-3 text-base">Services complémentaires</h4>
-                  <div className="space-y-2">
-                    {additionalServices.map((service, index) => (
-                      <div key={index} className="flex items-center text-gray-700 font-medium text-sm">
-                        <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-3"></div>
-                        {service}
+                {/* Revolutionary AI Agent Section */}
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-6 border-2 border-blue-200">
+                  <div className="text-center mb-4">
+                    <h4 className="font-bold text-gray-900 mb-2 text-lg">🚀 RÉVOLUTION : Agent IA inclus</h4>
+                    <p className="text-gray-700 text-sm font-medium">Plus jamais d'heures perdues à modifier ton site manuellement !</p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {aiFeatures.map((service, index) => (
+                      <div key={index} className="flex items-center text-gray-700 font-medium text-sm bg-white rounded-lg p-3 border border-blue-100">
+                        <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-3 flex-shrink-0"></div>
+                        <span className="text-xs">{service}</span>
                       </div>
                     ))}
                   </div>

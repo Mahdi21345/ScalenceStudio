@@ -2,15 +2,17 @@
 
 ProLanding is a professional landing page creation service for businesses and entrepreneurs who need high-converting landing pages to sell their products/services. The application is a modern full-stack web solution that delivers professional landing pages in 24 hours. The platform features a French interface focused on direct client sales, helping businesses transform their visitors into customers with optimized copywriting and professional design.
 
-## Recent Changes (Aug 2, 2025)
-- **Target clarification**: Confirmed focus on direct B2B/B2C clients who need landing pages to sell THEIR products/services
-- **No agency focus**: Completely removed all agency/white-label/reseller messaging - clients are end users
-- **Scalence.co inspiration**: Adopted problem-solution copywriting approach for direct client sales
-- **Hero section**: "Livrée en 24h" tagline with question-based subtitle targeting business owners
-- **Benefits section**: Problems/solutions for businesses needing better conversion on their offers
-- **Process section**: 4-step process for direct client relationships, no intermediaries
-- **Pricing**: 499€ for businesses buying landing pages to sell their own products/services
-- **Contact form**: "Formulaires de contact" - honest about technical capabilities
+## Recent Changes (Aug 3, 2025)
+- **RÉVOLUTION IA**: Complete pivot to AI-powered service model with agent for site modifications
+- **Revolutionary proposition**: AI agent eliminates manual site editing work for clients forever
+- **Pricing model updated**: 499€ one-time + Free lifetime hosting + 1€ domain + 24€/month AI agent + 4€/month publishing
+- **New value proposition**: "Fini les heures passées à modifier ton site manuellement" - AI does everything
+- **Hero section**: Added prominent AI agent feature highlight with pricing breakdown
+- **New AI Agent section**: Dedicated section explaining revolutionary AI modification capabilities
+- **Pricing section**: Completely redesigned around AI agent + free hosting model
+- **FAQ section**: 8 new questions focused on AI agent functionality and transparent pricing
+- **Benefits section**: Updated messaging to include AI revolution theme
+- **Positioning**: First landing page service with AI agent for modifications - unique market position
 
 # User Preferences
 
