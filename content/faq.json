@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "Combien de temps pour créer ma landing page ?",
+      "answer": "24h chrono ! Dès réception de tes informations (logo, textes, couleurs), on livre ta landing page en moins de 24h. C'est notre promesse."
+    },
+    {
+      "question": "Que se passe-t-il si je ne suis pas satisfait ?",
+      "answer": "Impossible avec notre maquette gratuite ! Tu valides le design avant qu'on commence la production. Si ça ne te plaît pas, tu paies rien."
+    },
+    {
+      "question": "Est-ce que je peux modifier le site après ?",
+      "answer": "Bien sûr ! Tu auras accès à une interface simple pour modifier tes textes, prix et informations sans toucher au code."
+    },
+    {
+      "question": "Combien ça coûte l'hébergement ?",
+      "answer": "~5€/mois sur Netlify (tu paies directement). On configure tout pour toi. Plus notre méthode domaine à 1€/an."
+    },
+    {
+      "question": "C'est adapté à tous les secteurs ?",
+      "answer": "Oui ! E-commerce, consulting, coaching, SaaS, formations... On adapte le copywriting et design à ton secteur spécifique."
+    },
+    {
+      "question": "Je récupère les fichiers du site ?",
+      "answer": "Oui, tu es propriétaire à 100%. Code source, fichiers, tout t'appartient. Liberté totale."
+    }
+  ]
+}
