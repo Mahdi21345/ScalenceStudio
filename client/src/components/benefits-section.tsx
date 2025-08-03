@@ -81,13 +81,13 @@ export default function BenefitsSection() {
                     <div className={`w-12 h-12 ${benefit.bgColor} rounded-lg flex items-center justify-center mr-4`}>
                       <benefit.icon className="w-6 h-6 text-white" />
                     </div>
-                    <h3 className={`text-lg font-semibold ${benefit.color}`}>Votre problème :</h3>
+                    <h3 className={`text-lg font-semibold ${benefit.color}`}>Ton problème :</h3>
                   </div>
                   <p className="text-gray-600 mb-4">{benefit.problem}</p>
                   <div className="border-t pt-4">
                     <div className="flex items-start">
-                      <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-white" />
+                      <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                        <div className="w-3 h-3 bg-white rounded-full"></div>
                       </div>
                       <p className="text-gray-800 font-medium">{benefit.solution}</p>
                     </div>
