@@ -46,12 +46,7 @@ export default function PricingSection() {
             <span className="font-semibold text-blue-600">Landing page + solution hébergement pro au moins cher.</span> Choisis le plan qui te correspond et qui fera scaler ton business.
           </p>
           
-          {/* Discrete AI mention above pricing */}
-          <div className="mt-8 text-center">
-            <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-              💡 <span className="font-medium">Bonus :</span> On te recommande la meilleure app tierce pour modifier ton site facilement (non incluse - expliqué en visio)
-            </p>
-          </div>
+
         </motion.div>
 
         <div className="max-w-3xl mx-auto">
