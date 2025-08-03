@@ -19,7 +19,7 @@ const faqs = [
 
   {
     question: "Comment fonctionne l'hébergement ?",
-    answer: "L'hébergement n'est pas inclus. Tu paies Netlify directement (environ 5€/mois) et on configure tout pour toi. Le nom de domaine coûte environ 10€/an. Tout est expliqué en visio."
+    answer: "L'hébergement n'est pas inclus. Tu paies Netlify directement (environ 5€/mois) et on configure tout pour toi. On te donne la méthode pour avoir un nom de domaine à 1€/an. Tout est expliqué en visio."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",

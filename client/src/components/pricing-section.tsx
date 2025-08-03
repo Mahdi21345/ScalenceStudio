@@ -17,7 +17,7 @@ export default function PricingSection() {
     "Copywriting optimisé par IA",
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
-    "Hébergement sécurisé à vie",
+    "Méthode nom de domaine 1€/an",
     "Optimisation mobile automatique",
     "SEO de base inclus",
     "Livraison garantie en 24h"
