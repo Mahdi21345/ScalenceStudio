@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     question: "Comment fonctionne l'hébergement ?",
-    answer: "L'hébergement professionnel coûte seulement 4€/mois. Pas de frais cachés, service fiable et rapide pour que ton site soit toujours en ligne."
+    answer: "L'hébergement coûte seulement 4€/mois. Pas de frais cachés, service fiable et rapide pour que ton site soit toujours en ligne."
   },
   {
     question: "Comment modifier mon site après achat ?",

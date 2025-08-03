@@ -14,13 +14,13 @@ export default function HeroSection() {
   return (
     <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-white">
       {/* Subtle Grid Background */}
-      <div className="absolute inset-0 opacity-5">
+      <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: `
-            linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px)
+            linear-gradient(rgba(59, 130, 246, 0.15) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.15) 1px, transparent 1px)
           `,
-          backgroundSize: '40px 40px'
+          backgroundSize: '50px 50px'
         }}></div>
       </div>
       
