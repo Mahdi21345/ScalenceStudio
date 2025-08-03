@@ -6,7 +6,7 @@ const importancePoints = [
   {
     icon: TrendingUp,
     title: "Copywriting optimisé par IA",
-    description: "Textes qui convertissent créés automatiquement pour maximiser vos ventes.",
+    description: "Textes qui convertissent créés automatiquement pour maximiser tes ventes.",
     stat: "IA",
     color: "bg-green-50",
     iconColor: "text-green-600"
@@ -14,15 +14,23 @@ const importancePoints = [
   {
     icon: Target,
     title: "UX/UI optimisé",
-    description: "Interface utilisateur parfaite qui guide vos visiteurs vers l'achat.",
+    description: "Interface utilisateur parfaite qui guide tes visiteurs vers l'achat.",
     stat: "Design",
     color: "bg-blue-50",
     iconColor: "text-blue-600"
   },
   {
+    icon: BarChart3,
+    title: "Design basé sur ton branding",
+    description: "Si tu as un branding existant, on l'intègre dans le design pour rester cohérent avec ton identité.",
+    stat: "Branding",
+    color: "bg-orange-50",
+    iconColor: "text-orange-600"
+  },
+  {
     icon: Zap,
     title: "Formulaires de contact",
-    description: "Formulaires simples et efficaces pour collecter vos prospects.",
+    description: "Formulaires simples et efficaces pour collecter tes prospects.",
     stat: "Contact",
     color: "bg-purple-50",
     iconColor: "text-purple-600"
@@ -39,7 +47,7 @@ const importancePoints = [
   {
     icon: ShieldCheck,
     title: "Hébergement sécurisé inclus",
-    description: "Votre site est hébergé de façon sécurisée avec un nom de domaine professionnel.",
+    description: "Ton site est hébergé de façon sécurisée avec un nom de domaine professionnel.",
     stat: "Sécurisé",
     color: "bg-red-50",
     iconColor: "text-red-600"
