@@ -21,7 +21,7 @@ export default function PricingSection() {
     "Domaine à 1€/an seulement",
     "Optimisation mobile automatique",
     "SEO de base inclus",
-    "Livraison garantie en 24h"
+    "Réponse sous 10h en jour ouvré"
   ];
 
   const additionalServices = [

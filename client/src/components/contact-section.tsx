@@ -184,8 +184,7 @@ export default function ContactSection() {
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 border border-blue-100">
               <h4 className="font-bold text-gray-900 mb-3">⚡ Réponse rapide garantie</h4>
               <ul className="space-y-2 text-gray-700">
-                <li>• Réponse sous 2h en jour ouvré</li>
-                <li>• Conseils sur mesure pour votre projet</li>
+                <li>• Réponse sous 10h en jour ouvré</li>
               </ul>
             </div>
           </motion.div>

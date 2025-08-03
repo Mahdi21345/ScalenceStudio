@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
-    answer: "Ta landing page est livrée en 24h maximum. C'est notre engagement pour que tu puisses commencer à vendre rapidement."
+    answer: "Nous répondons sous 10h en jour ouvré maximum. C'est notre engagement pour que tu puisses avancer rapidement sur ton projet."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",

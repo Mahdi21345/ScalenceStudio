@@ -31,7 +31,7 @@ const processSteps = [
   {
     number: "04",
     title: "Livraison et optimisation",
-    description: "Landing page livrée en 24h. On programme un appel pour te la présenter et l'optimiser selon tes retours.",  
+    description: "Réponse sous 10h en jour ouvré. On programme un appel pour te présenter le projet et l'optimiser selon tes retours.",  
     icon: CheckCircle,
     color: "bg-orange-50",
     iconColor: "text-orange-600"

@@ -11,8 +11,8 @@ export default function WhyUsSection() {
     },
     {
       icon: Zap,
-      title: "Livraison en 24h garantie",
-      description: "Délai ultra-court pour que tu puisses commencer à vendre rapidement. Ta concurrence met des semaines, nous 24h.",
+      title: "Réponse rapide garantie",
+      description: "Réponse sous 10h en jour ouvré pour que tu puisses commencer à vendre rapidement. Ta concurrence met des semaines, nous quelques heures.",
       highlight: false,
       color: "green"
     },

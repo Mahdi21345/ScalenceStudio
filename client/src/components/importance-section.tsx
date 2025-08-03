@@ -47,7 +47,7 @@ const importancePoints = [
   {
     icon: ShieldCheck,
     title: "Déploiement et configuration",
-    description: "On configure ton hébergement Netlify et ton nom de domaine. Tout sera expliqué en visio.",
+    description: "On configure ton hébergement et ton nom de domaine. Tout sera expliqué en visio.",
     stat: "Deploy",
     color: "bg-red-50",
     iconColor: "text-red-600"
