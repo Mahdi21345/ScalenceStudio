@@ -27,14 +27,7 @@ const importancePoints = [
     color: "bg-purple-50",
     iconColor: "text-purple-600"
   },
-  {
-    icon: BarChart3,
-    title: "Analyse de performance",
-    description: "Suivi automatique des conversions et des visiteurs pour optimiser vos résultats.",
-    stat: "Stats",
-    color: "bg-orange-50",
-    iconColor: "text-orange-600"
-  },
+
   {
     icon: Users,
     title: "Responsive mobile",
