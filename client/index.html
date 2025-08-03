@@ -47,8 +47,14 @@
     }
     </script>
   </head>
-  <body>
+  <body style="margin: 0; padding: 0; background-color: #f8fafc; opacity: 0; transition: opacity 0.3s;">
     <div id="root"></div>
+    <script>
+      // Affiche le contenu une fois que le DOM est chargé
+      document.addEventListener('DOMContentLoaded', function() {
+        document.body.style.opacity = '1';
+      });
+    </script>
     <script type="module" src="/src/main.tsx"></script>
     <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
     <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
