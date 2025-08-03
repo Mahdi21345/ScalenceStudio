@@ -17,7 +17,7 @@ export default function PricingSection() {
     "Copywriting optimisé par IA",
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
-    "Hébergement inclus",
+    "Solution hébergement professionnel",
     "Domaine à 1€/an seulement",
     "Optimisation mobile automatique",
     "SEO de base inclus",
@@ -25,7 +25,7 @@ export default function PricingSection() {
   ];
 
   const additionalServices = [
-    "Hébergement : 4€/mois seulement",
+    "Hébergement pro : 4€/mois (vs 20-30€ ailleurs)",
     "Agent IA pour modifications : 24€/mois (app tierce)"
   ];
 
@@ -43,7 +43,7 @@ export default function PricingSection() {
             Offres
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            <span className="font-semibold text-blue-600">Landing page + hébergement inclus.</span> Choisis le plan qui te correspond et qui fera scaler ton business.
+            <span className="font-semibold text-blue-600">Landing page + solution hébergement pro au moins cher.</span> Choisis le plan qui te correspond et qui fera scaler ton business.
           </p>
           
           {/* Discrete AI mention above pricing */}

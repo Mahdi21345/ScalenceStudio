@@ -121,7 +121,7 @@ export default function ImportanceSection() {
             </p>
             <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
               <span className="inline-flex items-center text-green-600 font-semibold">
-                ✓ Hébergement inclus à vie
+                ✓ Solution hébergement professionnel
               </span>
               <span className="inline-flex items-center text-green-600 font-semibold">
                 ✓ Nom de domaine professionnel

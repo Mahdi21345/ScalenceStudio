@@ -83,7 +83,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Hébergement professionnel inclus</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Solution hébergement pro au moins cher</h3>
               <div className="flex flex-wrap justify-center gap-4 text-sm">
                 <span className="bg-white px-4 py-2 rounded-full text-blue-600 font-semibold border border-blue-200">
                   🌐 Hébergement : 4€/mois
