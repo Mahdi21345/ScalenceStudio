@@ -13,14 +13,16 @@ export default function HeroSection() {
 
   return (
     <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-white">
-      {/* Subtle Grid Background */}
-      <div className="absolute inset-0 opacity-10">
+      {/* Modern Grid Background */}
+      <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0" style={{
           backgroundImage: `
-            linear-gradient(rgba(59, 130, 246, 0.15) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(59, 130, 246, 0.15) 1px, transparent 1px)
+            linear-gradient(rgba(59, 130, 246, 0.08) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.08) 1px, transparent 1px),
+            radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.03) 0%, transparent 50%),
+            radial-gradient(circle at 75% 75%, rgba(59, 130, 246, 0.03) 0%, transparent 50%)
           `,
-          backgroundSize: '50px 50px'
+          backgroundSize: '40px 40px, 40px 40px, 300px 300px, 300px 300px'
         }}></div>
       </div>
       
@@ -72,7 +74,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Convertit 3 fois plus de clients qu'auparavant. Arrête de perdre des clients qui visitent ton site sans acheter. Transforme chaque visiteur en client payant avec une landing page qui vend à ta place. <span className="font-semibold text-blue-600">Au prix le moins cher du marché.</span>
+            <span className="font-semibold text-blue-600">Convertit 3 fois plus de clients qu'auparavant.</span> Ton business mérite une landing page qui vend réellement. Fini les visiteurs qui repartent sans acheter - notre méthode transforme ton trafic en revenus concrets. <span className="font-semibold text-blue-600">Vends plus, automatiquement.</span>
           </motion.p>
 
           {/* Simple pricing info */}
