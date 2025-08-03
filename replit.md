@@ -57,7 +57,10 @@ The server is built with **Express.js** and TypeScript, following a RESTful API 
   2. Run `node scripts/build-deploy.js` (moves files to dist/ root)
   3. Deploy using Replit's deploy button
 - **Current Structure**: Build correctly outputs `index.html` at `dist/index.html` with assets in `dist/assets/` as required for static deployment
-- **Status**: ✅ READY FOR DEPLOYMENT - All files correctly positioned for static deployment
+- **Status**: ✅ READY FOR NETLIFY DEPLOYMENT - All files correctly positioned for static deployment
+- **Netlify Ready (Aug 3, 2025)**: Created netlify.toml, build-netlify.js, GitHub Actions, and complete deployment instructions
+- **Build Process**: `node build-netlify.js` builds and moves files to dist/ root for Netlify
+- **Deployment Options**: GitHub auto-deploy or manual drag & drop of dist/ folder
 
 **Type Safety**: Comprehensive TypeScript configuration ensures type safety across the entire application with shared types between frontend and backend.
 
