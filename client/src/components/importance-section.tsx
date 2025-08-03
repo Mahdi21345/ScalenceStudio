@@ -22,7 +22,7 @@ const importancePoints = [
   {
     icon: BarChart3,
     title: "Design basé sur ton branding",
-    description: "Si tu as un branding existant, on l'intègre dans le design pour rester cohérent avec ton identité.",
+    description: "Si tu as un branding existant (couleurs, polices, style), on l'intègre parfaitement dans le design de ta landing page.",
     stat: "Branding",
     color: "bg-orange-50",
     iconColor: "text-orange-600"
@@ -69,7 +69,7 @@ export default function ImportanceSection() {
             Ce que tu auras dans ta landing page
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-            Toutes les fonctionnalités incluses dans ta landing page pour maximiser tes conversions
+            Design professionnel adapté à ton branding et fonctionnalités optimisées pour maximiser tes conversions
           </p>
         </motion.div>
 
