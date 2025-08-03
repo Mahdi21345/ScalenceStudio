@@ -41,10 +41,9 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Passe au niveau supérieur avec{" "}
-            <span className="text-blue-600 font-bold">une Landing Page</span>
+            Passe au niveau <span className="text-blue-600 font-bold">supérieur</span> avec une Landing Page
             <br />
-            <span className="text-blue-600 font-bold">qui fait tripler ton taux de conversion</span>
+            qui fait <span className="text-blue-600 font-bold">tripler ton taux de conversion</span>
           </motion.h1>
           
           <motion.div
