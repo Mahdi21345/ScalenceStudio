@@ -72,22 +72,13 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Hébergement et modifications inclus</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                <span className="font-semibold text-blue-600">Après achat, on t'indiquera comment modifier facilement ton site</span> avec un agent IA qu'on a trouvé.
-              </p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Hébergement gratuit à vie inclus</h3>
               <div className="flex flex-wrap justify-center gap-4 text-sm">
                 <span className="bg-white px-4 py-2 rounded-full text-green-600 font-semibold border border-green-200">
                   ✅ Hébergement GRATUIT à vie
                 </span>
                 <span className="bg-white px-4 py-2 rounded-full text-green-600 font-semibold border border-green-200">
                   ✅ Domaine 1€/an
-                </span>
-                <span className="bg-white px-4 py-2 rounded-full text-blue-600 font-semibold border border-blue-200">
-                  🤖 Modifications IA : 24€/mois
-                </span>
-                <span className="bg-white px-4 py-2 rounded-full text-purple-600 font-semibold border border-purple-200">
-                  📤 Publication : 4€/mois
                 </span>
               </div>
             </div>

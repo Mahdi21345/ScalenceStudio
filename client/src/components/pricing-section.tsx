@@ -24,11 +24,9 @@ export default function PricingSection() {
     "Livraison garantie en 24h"
   ];
 
-  const aiFeatures = [
-    "🤖 Modifications avec IA : 24€/mois",
-    "📤 Publication automatique : 4€/mois", 
-    "✨ Modifications faciles et rapides",
-    "⚡ On t'explique comment faire"
+  const additionalServices = [
+    "Modifications supplémentaires : 30€/modification",
+    "Déployé automatiquement"
   ];
 
   return (
@@ -45,8 +43,15 @@ export default function PricingSection() {
             Offres
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            <span className="font-semibold text-blue-600">Landing page + hébergement gratuit à vie.</span> On t'indiquera comment modifier facilement ton site avec un agent IA qu'on a trouvé.
+            <span className="font-semibold text-blue-600">Landing page + hébergement gratuit à vie.</span> Choisis le plan qui te correspond et qui fera scaler ton business.
           </p>
+          
+          {/* Discrete AI mention above pricing */}
+          <div className="mt-8 text-center">
+            <p className="text-sm text-gray-500 max-w-2xl mx-auto">
+              💡 <span className="font-medium">Bonus :</span> On t'indiquera une app tierce pour modifier facilement ton site (optionnel)
+            </p>
+          </div>
         </motion.div>
 
         <div className="max-w-3xl mx-auto">
@@ -117,17 +122,14 @@ export default function PricingSection() {
                   </div>
                 </div>
 
-                {/* Simple AI Info Section */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-6 border border-blue-200">
-                  <div className="text-center mb-4">
-                    <h4 className="font-bold text-gray-900 mb-2 text-lg">Modifications faciles avec IA</h4>
-                    <p className="text-gray-700 text-sm font-medium">On t'indiquera comment modifier ton site avec un agent IA</p>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {aiFeatures.map((service, index) => (
-                      <div key={index} className="flex items-center text-gray-700 font-medium text-sm bg-white rounded-lg p-3 border border-blue-100">
-                        <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-3 flex-shrink-0"></div>
-                        <span className="text-xs">{service}</span>
+                {/* Additional services with gradient box */}
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-5 mb-6 border border-blue-100">
+                  <h4 className="font-bold text-gray-900 mb-3 text-base">Services complémentaires</h4>
+                  <div className="space-y-2">
+                    {additionalServices.map((service, index) => (
+                      <div key={index} className="flex items-center text-gray-700 font-medium text-sm">
+                        <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-3"></div>
+                        {service}
                       </div>
                     ))}
                   </div>

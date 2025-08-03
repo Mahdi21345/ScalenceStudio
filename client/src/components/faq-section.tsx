@@ -10,15 +10,15 @@ const faqs = [
   },
   {
     question: "L'hébergement est-il vraiment gratuit à vie ?",
-    answer: "Oui ! L'hébergement est gratuit à vie après achat de ta landing page à 499€. Plus de frais d'hébergement mensuels. Seuls les services optionnels sont payants."
+    answer: "Oui ! L'hébergement est gratuit à vie après achat de ta landing page à 499€. Plus de frais d'hébergement mensuels ou annuels."
   },
   {
     question: "Comment modifier mon site après achat ?",
-    answer: "On t'indiquera comment modifier facilement ton site avec un agent IA qu'on a trouvé (24€/mois optionnel). Sinon, tu peux faire les modifications classiques ou nous demander."
+    answer: "Tu peux faire les modifications classiques ou nous demander. En bonus, on peut t'indiquer une app tierce pratique pour les modifications (optionnel)."
   },
   {
     question: "Quels sont les vrais coûts après achat ?",
-    answer: "Transparent : Domaine 1€/an, hébergement gratuit à vie. Optionnel : Modifications avec IA (24€/mois) et service de publication (4€/mois). Tu peux utiliser ton site sans ces options."
+    answer: "Transparent : Domaine 1€/an, hébergement gratuit à vie. Aucun frais caché. Tout est inclus dans les 499€."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "Pourquoi choisir ProLanding ?",
-    answer: "Hébergement gratuit à vie + livraison 24h + possibilité de modifications faciles avec IA. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
+    answer: "Hébergement gratuit à vie + livraison 24h + au prix le moins cher du marché. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
   }
 ];
 
