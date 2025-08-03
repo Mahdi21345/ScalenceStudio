@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 const importancePoints = [
   {
     icon: TrendingUp,
-    title: "Copywriting optimisé par IA",
-    description: "Textes qui convertissent créés automatiquement pour maximiser tes ventes.",
+    title: "Copywriting + SEO optimisé par IA",
+    description: "Textes qui convertissent + référencement naturel optimisé pour maximiser tes ventes et ta visibilité.",
     stat: "IA",
     color: "bg-green-50",
     iconColor: "text-green-600"

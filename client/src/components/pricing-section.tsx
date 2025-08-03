@@ -14,7 +14,7 @@ export default function PricingSection() {
 
   const features = [
     "Maquette gratuite avant production",
-    "Copywriting optimisé par IA",
+    "Copywriting + SEO optimisé par IA",
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
     "Solution hébergement professionnel",
