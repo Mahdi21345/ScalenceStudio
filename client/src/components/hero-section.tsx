@@ -43,9 +43,8 @@ export default function HeroSection() {
           >
             Passe au niveau supérieur avec{" "}
             <span className="text-blue-600 font-bold">une Landing Page</span>
-            <br />performante qui fait booster
             <br />
-            <span className="text-blue-600 font-bold">ta conversion</span>
+            <span className="text-blue-600 font-bold">qui fait tripler ton taux de conversion</span>
           </motion.h1>
           
           <motion.div
