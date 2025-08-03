@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     question: "Comment fonctionne l'hébergement ?",
-    answer: "L'hébergement professionnel coûte seulement 4€/mois (vs 20-30€ ailleurs). Pas de frais cachés, service fiable et rapide pour que ton site soit toujours en ligne."
+    answer: "L'hébergement professionnel coûte seulement 4€/mois (alors que de base les gens payent 20-30€/mois). Pas de frais cachés, service fiable et rapide pour que ton site soit toujours en ligne."
   },
   {
     question: "Comment modifier mon site après achat ?",
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: "Quels sont les vrais coûts après achat ?",
-    answer: "Transparent : Domaine 1€/an, hébergement 4€/mois. Optionnel : Agent IA pour modifications 24€/mois (app tierce). Aucun autre frais caché."
+    answer: "Transparent : Domaine 1€/an, hébergement 4€/mois (alors que de base les gens payent 20-30€/mois). Optionnel : Agent IA pour modifications 24€/mois (app tierce). Aucun autre frais caché."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
