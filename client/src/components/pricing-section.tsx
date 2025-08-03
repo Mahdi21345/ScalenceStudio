@@ -18,9 +18,7 @@ export default function PricingSection() {
     "Design UX/UI professionnel", 
     "Formulaires de contact inclus",
     "Solution hébergement professionnel",
-
-    "Optimisation mobile automatique",
-    ""
+    "Optimisation mobile automatique"
   ];
 
   const additionalServices = [
