@@ -16,10 +16,20 @@ try {
   console.log('📂 Preparing deployment structure...');
   execSync('node scripts/build-deploy.js', { stdio: 'inherit' });
   
+  // Copie les fichiers CMS vers dist
+  console.log('🎛️ Copying CMS files...');
+  if (fs.existsSync('public/admin')) {
+    execSync('cp -r public/admin dist/', { stdio: 'inherit' });
+  }
+  if (fs.existsSync('content')) {
+    execSync('cp -r content dist/', { stdio: 'inherit' });
+  }
+  
   // Vérifie que index.html existe à la racine de dist
   if (fs.existsSync('dist/index.html')) {
     console.log('✅ Build completed successfully!');
     console.log('📁 Files ready for deployment in ./dist/');
+    console.log('🎛️ CMS accessible at: /admin/');
   } else {
     throw new Error('index.html not found in dist directory');
   }
