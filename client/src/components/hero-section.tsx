@@ -12,7 +12,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-white">
+    <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-gray-50">
       {/* Modern Grid Background */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0" style={{
@@ -74,28 +74,10 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <span className="font-semibold text-blue-600">Convertit 3 fois plus de clients qu'auparavant.</span> Ton business mérite une landing page qui vend réellement. Fini les visiteurs qui repartent sans acheter - notre méthode transforme ton trafic en revenus concrets. <span className="font-semibold text-blue-600">Vends plus, automatiquement.</span>
+            <span className="font-semibold text-blue-600">Convertit 3 fois plus de clients qu'auparavant.</span> Fini les visiteurs qui repartent sans acheter - transforme ton trafic en revenus concrets. <span className="font-semibold text-blue-600">Vends plus, automatiquement.</span>
           </motion.p>
 
-          {/* Simple pricing info */}
-          <motion.div 
-            className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-12 max-w-4xl mx-auto border border-blue-200"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-          >
-            <div className="text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Solution hébergement pro au moins cher</h3>
-              <div className="flex flex-wrap justify-center gap-4 text-sm">
-                <span className="bg-white px-4 py-2 rounded-full text-blue-600 font-semibold border border-blue-200">
-                  🌐 Hébergement : 4€/mois
-                </span>
-                <span className="bg-white px-4 py-2 rounded-full text-green-600 font-semibold border border-green-200">
-                  ✅ Domaine 1€/an
-                </span>
-              </div>
-            </div>
-          </motion.div>
+
 
           {/* USP Highlights */}
           <motion.div 
@@ -131,14 +113,34 @@ export default function HeroSection() {
               RÉSERVER UN APPEL
             </Button>
             <Button
-              onClick={handleWhatsApp}
+              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
               size="lg"
-              className="bg-green-500 hover:bg-green-600 text-white hover:shadow-lg transform hover:scale-105 transition-all duration-200"
-              data-testid="button-whatsapp"
+              variant="outline"
+              className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+              data-testid="button-see-offer"
             >
-              <MessageCircle className="w-5 h-5 mr-2" />
-              Contacter WhatsApp
+              Voir l'offre
             </Button>
+          </motion.div>
+
+          {/* Solution hébergement info */}
+          <motion.div 
+            className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mt-12 max-w-4xl mx-auto border border-blue-200"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.9 }}
+          >
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Solution hébergement pro au moins cher</h3>
+              <div className="flex flex-wrap justify-center gap-4 text-sm">
+                <span className="bg-white px-4 py-2 rounded-full text-blue-600 font-semibold border border-blue-200">
+                  🌐 Hébergement : 4€/mois
+                </span>
+                <span className="bg-white px-4 py-2 rounded-full text-green-600 font-semibold border border-green-200">
+                  ✅ Domaine 1€/an
+                </span>
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>
