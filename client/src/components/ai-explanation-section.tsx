@@ -48,7 +48,7 @@ export default function AIExplanationSection() {
             Agent IA : Modifie ton site en une ligne
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Après achat, on te donne accès à un agent IA révolutionnaire qui <span className="font-semibold text-blue-600">transforme une simple phrase en modifications sur ton site</span>.
+            <span className="font-semibold text-orange-600">App tierce non incluse</span> - On te recommande la meilleure solution pour modifier facilement ton site. <span className="font-semibold text-blue-600">Tout sera expliqué en visio</span>.
           </p>
           
           {/* Example showcase */}
@@ -104,10 +104,10 @@ export default function AIExplanationSection() {
         >
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 max-w-2xl mx-auto border border-blue-200">
             <h3 className="text-xl font-bold text-gray-900 mb-3">
-              Prêt à arrêter de perdre du temps ?
+              Une solution recommandée, pas incluse
             </h3>
             <p className="text-gray-700 text-sm">
-              L'agent IA est optionnel mais transforme complètement ton expérience. <span className="font-semibold text-blue-600">24€/mois pour ne plus jamais modifier ton site manuellement.</span>
+              Cette app tierce coûte 24€/mois et n'est pas incluse dans notre offre. <span className="font-semibold text-blue-600">On t'expliquera tout en détail lors de la visio</span> pour que tu puisse décider.
             </p>
           </div>
         </motion.div>

@@ -49,7 +49,7 @@ export default function PricingSection() {
           {/* Discrete AI mention above pricing */}
           <div className="mt-8 text-center">
             <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-              💡 <span className="font-medium">Après achat :</span> Accès à un agent IA qui modifie ton site en une ligne de prompt au lieu de passer des heures manuellement (app tierce 24€/mois)
+              💡 <span className="font-medium">Bonus :</span> On te recommande la meilleure app tierce pour modifier ton site facilement (non incluse - expliqué en visio)
             </p>
           </div>
         </motion.div>
