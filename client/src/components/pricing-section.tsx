@@ -21,7 +21,7 @@ export default function PricingSection() {
     "Domaine à 1€/an seulement",
     "Optimisation mobile automatique",
     "SEO de base inclus",
-    "Réponse sous 10h en jour ouvré"
+    ""
   ];
 
   const additionalServices = [
@@ -146,10 +146,7 @@ export default function PricingSection() {
                 {/* Guarantee section with icons */}
                 <div className="text-center mt-8 p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border border-green-200">
                   <div className="flex items-center justify-center space-x-8 text-green-800 font-bold">
-                    <div className="flex items-center">
-                      <Check className="w-5 h-5 mr-2" />
-                      Satisfait ou remboursé
-                    </div>
+
                     <div className="flex items-center">
                       <Check className="w-5 h-5 mr-2" />
                       Pas de frais cachés
