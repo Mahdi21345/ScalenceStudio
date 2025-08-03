@@ -1,0 +1,214 @@
+═══════════════════════════════════════════════════════════════
+🚀 FICHIERS CMS À COPIER SUR GITHUB
+═══════════════════════════════════════════════════════════════
+
+📁 ÉTAPES SUR GITHUB.COM :
+
+1. Va sur : https://github.com/Mahdi21345/ScalenceStudio
+2. Pour chaque fichier ci-dessous :
+   - Clique "Add file" > "Create new file"
+   - Copie le chemin + contenu
+   - Commit
+
+═══════════════════════════════════════════════════════════════
+📄 FICHIER 1 : public/admin/index.html
+═══════════════════════════════════════════════════════════════
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panneau d'Administration - ProLanding</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+</body>
+</html>
+
+═══════════════════════════════════════════════════════════════
+📄 FICHIER 2 : public/admin/config.yml
+═══════════════════════════════════════════════════════════════
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Contenu du Site"
+    files:
+      - name: "hero"
+        label: "Section Hero"
+        file: "content/hero.json"
+        fields:
+          - {label: "Titre Principal", name: "title", widget: "string"}
+          - {label: "Sous-titre", name: "subtitle", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Texte Bouton", name: "buttonText", widget: "string"}
+          
+      - name: "pricing"
+        label: "Tarifs"
+        file: "content/pricing.json"
+        fields:
+          - {label: "Prix", name: "price", widget: "number"}
+          - {label: "Devise", name: "currency", widget: "string"}
+          - {label: "Description Prix", name: "priceDescription", widget: "string"}
+          - label: "Fonctionnalités"
+            name: "features"
+            widget: "list"
+            field: {label: "Fonctionnalité", name: "feature", widget: "string"}
+            
+      - name: "contact"
+        label: "Contact"
+        file: "content/contact.json"
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Téléphone", name: "phone", widget: "string"}
+          - {label: "Lien WhatsApp", name: "whatsapp", widget: "string"}
+          
+      - name: "faq"
+        label: "FAQ"
+        file: "content/faq.json"
+        fields:
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Réponse", name: "answer", widget: "text"}
+
+═══════════════════════════════════════════════════════════════
+📄 FICHIER 3 : content/hero.json
+═══════════════════════════════════════════════════════════════backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Contenu du Site"
+    files:
+      - name: "hero"
+        label: "Section Hero"
+        file: "content/hero.json"
+        fields:
+          - {label: "Titre Principal", name: "title", widget: "string"}
+          - {label: "Sous-titre", name: "subtitle", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Texte Bouton", name: "buttonText", widget: "string"}
+          
+      - name: "pricing"
+        label: "Tarifs"
+        file: "content/pricing.json"
+        fields:
+          - {label: "Prix", name: "price", widget: "number"}
+          - {label: "Devise", name: "currency", widget: "string"}
+          - {label: "Description Prix", name: "priceDescription", widget: "string"}
+          - label: "Fonctionnalités"
+            name: "features"
+            widget: "list"
+            field: {label: "Fonctionnalité", name: "feature", widget: "string"}
+            
+      - name: "contact"
+        label: "Contact"
+        file: "content/contact.json"
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Téléphone", name: "phone", widget: "string"}
+          - {label: "Lien WhatsApp", name: "whatsapp", widget: "string"}
+          
+      - name: "faq"
+        label: "FAQ"
+        file: "content/faq.json"
+        fields:
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Réponse", name: "answer", widget: "text"}{
+  "title": "Passe au niveau supérieur avec une Landing Page qui fait tripler ton taux de conversion",
+  "subtitle": "Livrée en 24h",
+  "description": "Ton offre est géniale mais personne ne l'achète ? Vends plus avec une landing page qui explique clairement ta valeur et pousse à l'action. Au prix le moins cher du marché.",
+  "buttonText": "COMMANDER MON SITE"
+}
+
+═══════════════════════════════════════════════════════════════
+📄 FICHIER 4 : content/pricing.json
+═══════════════════════════════════════════════════════════════
+{
+  "price": 499,
+  "currency": "€",
+  "priceDescription": "Landing page complète • Livraison 24h",
+  "features": [
+    "Maquette gratuite avant production",
+    "Copywriting optimisé par IA",
+    "Design UX/UI professionnel",
+    "Formulaires de contact inclus",
+    "Méthode nom de domaine 1€/an",
+    "Optimisation mobile automatique",
+    "SEO de base inclus",
+    "Livraison garantie en 24h"
+  ]
+}
+
+═══════════════════════════════════════════════════════════════
+📄 FICHIER 5 : content/contact.json
+═══════════════════════════════════════════════════════════════
+{
+  "title": "Prêt à scaler ton business ?",
+  "description": "Parle-nous de ton projet en visioconférence. Notre équipe se charge de transformer ton offre en page qui convertit.",
+  "email": "contact@prolanding.fr",
+  "phone": "+33 6 27 59 63 76",
+  "whatsapp": "https://wa.me/33627596376?text=Salut, je veux commander une landing page"
+}
+
+═══════════════════════════════════════════════════════════════
+📄 FICHIER 6 : content/faq.json
+═══════════════════════════════════════════════════════════════
+{
+  "questions": [
+    {
+      "question": "Combien de temps pour créer ma landing page ?",
+      "answer": "24h chrono ! Dès réception de tes informations (logo, textes, couleurs), on livre ta landing page en moins de 24h. C'est notre promesse."
+    },
+    {
+      "question": "Que se passe-t-il si je ne suis pas satisfait ?",
+      "answer": "Impossible avec notre maquette gratuite ! Tu valides le design avant qu'on commence la production. Si ça ne te plaît pas, tu paies rien."
+    },
+    {
+      "question": "Est-ce que je peux modifier le site après ?",
+      "answer": "Bien sûr ! Tu auras accès à une interface simple pour modifier tes textes, prix et informations sans toucher au code."
+    },
+    {
+      "question": "Combien ça coûte l'hébergement ?",
+      "answer": "~5€/mois sur Netlify (tu paies directement). On configure tout pour toi. Plus notre méthode domaine à 1€/an."
+    },
+    {
+      "question": "C'est adapté à tous les secteurs ?",
+      "answer": "Oui ! E-commerce, consulting, coaching, SaaS, formations... On adapte le copywriting et design à ton secteur spécifique."
+    },
+    {
+      "question": "Je récupère les fichiers du site ?",
+      "answer": "Oui, tu es propriétaire à 100%. Code source, fichiers, tout t'appartient. Liberté totale."
+    }
+  ]
+}
+
+🎯 APRÈS AVOIR COPIÉ TOUS LES FICHIERS :
+1. Netlify va rebuilder automatiquement
+2. Va sur : https://scalencez.netlify.app/admin/
+3. Interface CMS disponible !
+4. Invite ton client via Netlify Identity
+
+✅ FINI !
