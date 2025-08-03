@@ -151,10 +151,7 @@ export default function PricingSection() {
                       <Check className="w-5 h-5 mr-2" />
                       Pas de frais cachés
                     </div>
-                    <div className="flex items-center">
-                      <Check className="w-5 h-5 mr-2" />
-                      Livraison garantie
-                    </div>
+
                   </div>
                 </div>
               </div>
