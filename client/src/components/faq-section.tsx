@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     question: "Quels sont les services de ProLanding ?",
-    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement inclus et livraison en 24h."
+    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, configuration hébergement et livraison en 24h."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
@@ -14,12 +14,12 @@ const faqs = [
   },
   {
     question: "Offrez-vous un support après la livraison ?",
-    answer: "Oui, nous incluons le support technique et l'hébergement sécurisé à vie. Tu n'as plus à te soucier des aspects techniques."
+    answer: "Oui, nous incluons le support technique. Pour l'hébergement, tu paies directement Netlify (environ 5€/mois) et on t'aide à tout configurer en visio."
   },
 
   {
-    question: "Comment puis-je héberger ma landing page ?",
-    answer: "L'hébergement est inclus dans le prix. Tu auras juste à acheter ton nom de domaine à 1€ et on t'explique comment faire en visioconférence."
+    question: "Comment fonctionne l'hébergement ?",
+    answer: "L'hébergement n'est pas inclus. Tu paies Netlify directement (environ 5€/mois) et on configure tout pour toi. Le nom de domaine coûte environ 10€/an. Tout est expliqué en visio."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",

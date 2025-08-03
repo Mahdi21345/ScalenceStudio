@@ -46,9 +46,9 @@ const importancePoints = [
   },
   {
     icon: ShieldCheck,
-    title: "Hébergement sécurisé inclus",
-    description: "Ton site est hébergé de façon sécurisée avec un nom de domaine professionnel.",
-    stat: "Sécurisé",
+    title: "Déploiement et configuration",
+    description: "On configure ton hébergement Netlify et ton nom de domaine. Tout sera expliqué en visio.",
+    stat: "Deploy",
     color: "bg-red-50",
     iconColor: "text-red-600"
   }
