@@ -20,8 +20,7 @@ export default function PricingSection() {
     "Solution hébergement professionnel",
     "Domaine à 1€/an seulement",
     "Optimisation mobile automatique",
-    "SEO de base inclus",
-    ""
+    "SEO de base inclus"
   ];
 
   const additionalServices = [
@@ -150,6 +149,10 @@ export default function PricingSection() {
                     <div className="flex items-center">
                       <Check className="w-5 h-5 mr-2" />
                       Pas de frais cachés
+                    </div>
+                    <div className="flex items-center">
+                      <Check className="w-5 h-5 mr-2" />
+                      Livraison garantie
                     </div>
 
                   </div>
