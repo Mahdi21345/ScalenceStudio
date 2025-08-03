@@ -25,10 +25,10 @@ export default function PricingSection() {
   ];
 
   const aiFeatures = [
-    "🤖 Agent IA pour modifications : 24€/mois",
+    "🤖 Modifications avec IA : 24€/mois",
     "📤 Publication automatique : 4€/mois", 
-    "✨ Fini les heures de travail manuel",
-    "⚡ Modifications instantanées par IA"
+    "✨ Modifications faciles et rapides",
+    "⚡ On t'explique comment faire"
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function PricingSection() {
             Offres
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            <span className="font-semibold text-blue-600">Landing page + Agent IA révolutionnaire.</span> Hébergement gratuit à vie, modifications par IA instantanées. <span className="font-semibold text-purple-600">Fini le travail manuel !</span>
+            <span className="font-semibold text-blue-600">Landing page + hébergement gratuit à vie.</span> On t'indiquera comment modifier facilement ton site avec un agent IA qu'on a trouvé.
           </p>
         </motion.div>
 
@@ -117,11 +117,11 @@ export default function PricingSection() {
                   </div>
                 </div>
 
-                {/* Revolutionary AI Agent Section */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-6 border-2 border-blue-200">
+                {/* Simple AI Info Section */}
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mb-6 border border-blue-200">
                   <div className="text-center mb-4">
-                    <h4 className="font-bold text-gray-900 mb-2 text-lg">🚀 RÉVOLUTION : Agent IA inclus</h4>
-                    <p className="text-gray-700 text-sm font-medium">Plus jamais d'heures perdues à modifier ton site manuellement !</p>
+                    <h4 className="font-bold text-gray-900 mb-2 text-lg">Modifications faciles avec IA</h4>
+                    <p className="text-gray-700 text-sm font-medium">On t'indiquera comment modifier ton site avec un agent IA</p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {aiFeatures.map((service, index) => (

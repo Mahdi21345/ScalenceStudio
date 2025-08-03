@@ -59,10 +59,10 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Pourquoi ProLanding révolutionne ton business ?
+            Pourquoi ProLanding te fera vendre plus ?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tu as des freins à la vente et nous en sommes conscients. <span className="font-semibold text-blue-600">Nous avons trouvé une méthode révolutionnaire avec l'IA pour les enlever et te faire scaler.</span> <span className="font-semibold text-purple-600">Plus jamais de travail manuel sur ton site !</span>
+            Tu as des freins à la vente et nous en sommes conscients. <span className="font-semibold text-blue-600">Nous avons trouvé une méthode efficace pour les enlever et te faire scaler.</span>
           </p>
         </motion.div>
 

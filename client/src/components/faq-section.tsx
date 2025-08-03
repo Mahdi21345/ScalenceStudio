@@ -5,36 +5,36 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    question: "Comment fonctionne l'Agent IA pour les modifications ?",
-    answer: "Révolutionnaire ! Après achat, tu auras accès à un agent IA qui modifie ton site instantanément. Plus besoin de passer des heures à modifier manuellement. Tu demandes, l'IA exécute en quelques secondes. Fini le travail technique fastidieux !"
+    question: "Quels sont les services de ProLanding ?",
+    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement gratuit à vie et livraison en 24h."
   },
   {
     question: "L'hébergement est-il vraiment gratuit à vie ?",
-    answer: "Oui, absolument ! L'hébergement est GRATUIT À VIE après achat de ta landing page à 499€. Plus de frais d'hébergement mensuels ou annuels. Seuls les services optionnels sont payants : Agent IA (24€/mois) et Publication (4€/mois)."
+    answer: "Oui ! L'hébergement est gratuit à vie après achat de ta landing page à 499€. Plus de frais d'hébergement mensuels. Seuls les services optionnels sont payants."
+  },
+  {
+    question: "Comment modifier mon site après achat ?",
+    answer: "On t'indiquera comment modifier facilement ton site avec un agent IA qu'on a trouvé (24€/mois optionnel). Sinon, tu peux faire les modifications classiques ou nous demander."
   },
   {
     question: "Quels sont les vrais coûts après achat ?",
-    answer: "Transparent : Domaine 1€/an, hébergement gratuit à vie. Optionnel : Agent IA pour modifications (24€/mois) et service de publication (4€/mois). Tu peux utiliser ton site sans ces options, mais l'Agent IA révolutionne vraiment l'expérience."
+    answer: "Transparent : Domaine 1€/an, hébergement gratuit à vie. Optionnel : Modifications avec IA (24€/mois) et service de publication (4€/mois). Tu peux utiliser ton site sans ces options."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
-    answer: "Ta landing page est livrée en 24h maximum. C'est notre engagement pour que tu puisses commencer à vendre rapidement. L'agent IA est configuré immédiatement après."
-  },
-  {
-    question: "Que peut faire exactement l'Agent IA ?",
-    answer: "Tout ! Modifier textes, prix, couleurs, ajouter sections, changer images, optimiser SEO, A/B tester... Tu demandes en français normal, l'IA comprend et modifie ton site instantanément. Plus jamais de travail technique manuel."
+    answer: "Ta landing page est livrée en 24h maximum. C'est notre engagement pour que tu puisses commencer à vendre rapidement."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",
-    answer: "Avant de commencer la production, nous créons une maquette gratuite de ta landing page que tu valides. Pas de surprise, tu vois exactement ce que tu auras. Validation obligatoire avant paiement."
+    answer: "Avant de commencer la production, nous créons une maquette gratuite de ta landing page que tu valides. Pas de surprise, tu vois exactement ce que tu auras."
   },
   {
-    question: "Puis-je arrêter l'Agent IA quand je veux ?",
-    answer: "Bien sûr ! L'Agent IA est un abonnement sans engagement à 24€/mois. Tu peux l'arrêter à tout moment. Ton site reste en ligne gratuitement à vie, tu perds juste l'assistance IA pour les modifications."
+    question: "Le SEO est-il inclus dans la production ?",
+    answer: "Oui, nous optimisons ta landing page pour les moteurs de recherche avec les balises meta, titre et structure appropriées."
   },
   {
-    question: "Pourquoi ProLanding révolutionne le marché ?",
-    answer: "Hébergement gratuit à vie + Agent IA pour modifications + livraison 24h. Plus jamais de frais d'hébergement, plus jamais d'heures perdues à modifier ton site. On révolutionne l'expérience avec l'IA."
+    question: "Pourquoi choisir ProLanding ?",
+    answer: "Hébergement gratuit à vie + livraison 24h + possibilité de modifications faciles avec IA. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
   }
 ];
 
