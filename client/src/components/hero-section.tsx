@@ -63,7 +63,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Transforme tes visiteurs en clients payants
+            Livrée en 24h
           </motion.div>
           
           <motion.p 
@@ -72,7 +72,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Ton offre est géniale mais personne ne l'achète ? Vends plus avec une landing page qui explique clairement ta valeur et pousse à l'action. <span className="font-semibold text-blue-600">Au prix le moins cher du marché.</span>
+            Arrête de perdre des clients qui visitent ton site sans acheter. Transforme chaque visiteur en client payant avec une landing page qui vend à ta place. <span className="font-semibold text-blue-600">Au prix le moins cher du marché.</span>
           </motion.p>
 
           {/* Simple pricing info */}
