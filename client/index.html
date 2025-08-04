@@ -50,16 +50,8 @@
     }
     </script>
   </head>
-  <body style="margin: 0; padding: 0; background: linear-gradient(to bottom right, #dbeafe, #ffffff, #faf5ff);">
-    <div id="root">
-      <!-- Loading spinner pendant le chargement -->
-      <div style="display: flex; align-items: center; justify-content: center; min-height: 100vh; background: linear-gradient(to bottom right, #dbeafe, #ffffff, #faf5ff);">
-        <div style="text-align: center;">
-          <div style="width: 40px; height: 40px; border: 4px solid #e5e7eb; border-top-color: #2563eb; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 16px;"></div>
-          <p style="font-family: Inter, sans-serif; color: #6b7280; font-size: 14px; margin: 0;">Chargement...</p>
-        </div>
-      </div>
-    </div>
+  <body style="margin: 0; padding: 0; background: linear-gradient(to bottom right, #dbeafe, #ffffff, #faf5ff); overflow-x: hidden;">
+    <div id="root"></div>
     <style>
       @keyframes spin {
         to { transform: rotate(360deg); }

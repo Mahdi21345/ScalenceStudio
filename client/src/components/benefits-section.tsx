@@ -70,12 +70,13 @@ export default function BenefitsSection() {
           {benefits.map((benefit, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              transition={{ duration: 0.3, delay: index * 0.05 }}
               viewport={{ once: true }}
+              className="motion-div"
             >
-              <Card className="h-full hover:shadow-lg transition-shadow duration-300">
+              <Card className="h-full hover:shadow-lg transition-shadow duration-200 card bg-white">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     <div className={`w-12 h-12 ${benefit.bgColor} rounded-lg flex items-center justify-center mr-4`}>
