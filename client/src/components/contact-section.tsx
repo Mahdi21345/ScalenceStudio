@@ -35,7 +35,7 @@ export default function ContactSection() {
             <Card className="shadow-xl border-0 bg-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Demande ton devis gratuit
+                  Contactez nous
                 </h3>
                 
                 <form
