@@ -26,7 +26,7 @@ export default function WhyUsSection() {
     {
       icon: CheckCircle,
       title: "Support technique inclus",
-      description: "Tu auras juste à payer ton nom de domaine à 1€. On t'explique comment faire en visioconférence, c'est tout.",
+      description: "Support complet inclus avec formation en visioconférence. On t'accompagne pour la mise en ligne de ta landing page.",
       highlight: false,
       color: "emerald"
     }

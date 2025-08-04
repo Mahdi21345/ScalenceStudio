@@ -47,7 +47,7 @@ const importancePoints = [
   {
     icon: ShieldCheck,
     title: "Déploiement et configuration",
-    description: "On configure ton hébergement et ton nom de domaine. Tout sera expliqué en visio.",
+    description: "On configure ton hébergement professionnel. Tout sera expliqué en visio pour une mise en ligne parfaite.",
     stat: "Deploy",
     color: "bg-red-50",
     iconColor: "text-red-600"
@@ -125,7 +125,7 @@ export default function ImportanceSection() {
                 ✓ Solution hébergement professionnel
               </span>
               <span className="inline-flex items-center text-green-600 font-semibold">
-                ✓ Nom de domaine professionnel
+                ✓ Configuration complète
               </span>
               <span className="inline-flex items-center text-green-600 font-semibold">
                 ✓ Formulaires de contact
