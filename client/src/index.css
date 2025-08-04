@@ -177,23 +177,39 @@ html {
 .bg-emerald-100 { --bg-color: rgb(209, 250, 229) !important; }
 .bg-emerald-50 { --bg-color: rgb(236, 253, 245) !important; }
 
-/* MOBILE FIX SIMPLE - GARDE TOUT LE DESIGN, SUPPRIME JUSTE LES ANIMATIONS */
+/* MOBILE ULTRA PERFORMANCE - GARDE DESIGN, SUPPRIME ANIMATIONS */
 @media (max-width: 768px) {
-  /* Supprime seulement les animations/transitions */
+  /* Performance maximale mobile */
   * {
     transition: none !important;
     animation: none !important;
     animation-delay: 0s !important;
     transition-delay: 0s !important;
+    will-change: auto !important;
+    backface-visibility: hidden !important;
   }
   
-  /* Force affichage immédiat sans changer les couleurs */
+  /* Force affichage immédiat */
   [data-framer-appear], [data-framer-appear-id], [class*="motion"], [data-testid] {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
     animation: none !important;
     visibility: visible !important;
+  }
+  
+  /* Optimisation rendu mobile */
+  section, div, article, main {
+    transform: translateZ(0) !important;
+    backface-visibility: hidden !important;
+  }
+  
+  /* Désactive hover sur mobile */
+  .hover\\:shadow-lg:hover, .hover\\:shadow-xl:hover, .hover\\:-translate-y-1:hover,
+  .hover\\:bg-blue-600:hover, .hover\\:bg-blue-700:hover {
+    transform: none !important;
+    box-shadow: inherit !important;
+    background-color: inherit !important;
   }
 }
 

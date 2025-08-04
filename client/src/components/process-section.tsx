@@ -57,7 +57,7 @@ export default function ProcessSection() {
             Notre processus de conception
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Création et livraison de ta landing page <span className="font-semibold text-blue-600">prête à convertir en moins de 24h</span>
+            Création et livraison de ta landing page <span className="font-semibold text-blue-600">prête à convertir en moins de 48h</span>
           </p>
         </motion.div>
 

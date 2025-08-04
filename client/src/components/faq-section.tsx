@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     question: "Quels sont les services de ProLanding ?",
-    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement 4€/mois et livraison en 24h."
+    answer: "Nous créons des landing pages qui transforment vraiment tes visiteurs en clients. Maquette gratuite pour validation, copywriting optimisé, design professionnel, hébergement 4€/mois et livraison en 48h."
   },
   {
     question: "Comment fonctionne l'hébergement ?",
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "En combien de temps mon projet est réalisé ?",
-    answer: "Ton projet est livré en 24h garanties. C'est notre engagement pour que tu puisses lancer rapidement ta landing page et commencer à convertir."
+    answer: "Ton projet est livré en 48h garanties. C'est notre engagement pour que tu puisses lancer rapidement ta landing page et commencer à convertir."
   },
   {
     question: "Comment fonctionne la maquette gratuite ?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "Pourquoi choisir ProLanding ?",
-    answer: "Hébergement professionnel à 4€/mois + livraison 24h + au prix le moins cher du marché. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
+    answer: "Hébergement professionnel à 4€/mois + livraison 48h + au prix le moins cher du marché. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
   }
 ];
 

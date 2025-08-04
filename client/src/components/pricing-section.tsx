@@ -72,7 +72,7 @@ export default function PricingSection() {
                     <span className="text-2xl text-gray-600 ml-2 font-bold">€</span>
                   </div>
                   <p className="text-lg text-gray-600 font-semibold">
-                    Landing page complète • Livraison 24h
+                    Landing page complète • Livraison 48h
                   </p>
                 </div>
 
