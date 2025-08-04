@@ -46,7 +46,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section id="faq" className="py-20" style={{backgroundColor: 'white', background: 'white'}}>
+    <section id="faq" className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-16"

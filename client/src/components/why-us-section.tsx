@@ -33,7 +33,7 @@ export default function WhyUsSection() {
   ];
 
   return (
-    <section id="pourquoi-nous" className="py-24" style={{backgroundColor: 'white', background: 'white', backgroundImage: 'none', opacity: 1}}>
+    <section id="pourquoi-nous" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div 
@@ -132,13 +132,7 @@ export default function WhyUsSection() {
                 transition={{ duration: 0 }}
                 viewport={{ once: true }}
                 data-testid={`advantage-${index}`}
-                style={{ 
-                  backgroundColor: advantage.color === 'green' ? 'rgb(240, 253, 244)' : 
-                                 advantage.color === 'orange' ? 'rgb(255, 247, 237)' : 
-                                 advantage.color === 'emerald' ? 'rgb(236, 253, 245)' : 
-                                 advantage.highlight ? 'rgb(239, 246, 255)' : 'white',
-                  opacity: 1
-                }}
+
               >
                 <div className={`w-16 h-16 rounded-2xl ${colors.iconBg} flex items-center justify-center mb-6`}>
                   <advantage.icon className={`w-8 h-8 ${colors.iconText}`} />

@@ -215,39 +215,22 @@ section[class*="bg-gradient-to-br"] {
   background: white !important;
 }
 
-/* ULTRA FIX MOBILE - ZERO BUG TOLERANCE */
+/* FIX MOBILE INTELLIGENT - GARDE LE DESIGN, SUPPRIME LES FLASHS */
 @media (max-width: 768px) {
+  /* Supprime uniquement les animations problématiques */
   * {
-    background-color: white !important;
-    opacity: 1 !important;
     transition: none !important;
     animation: none !important;
+    animation-delay: 0s !important;
+    transition-delay: 0s !important;
+  }
+  
+  /* Force l'affichage immédiat sans supprimer les couleurs */
+  [data-testid*="advantage"], .motion-div {
+    opacity: 1 !important;
     transform: none !important;
-    will-change: auto !important;
-  }
-  
-  /* Force tous les éléments à s'afficher immédiatement */
-  section, div, main, body, header, nav, article, aside, footer {
-    background: white !important;
-    background-color: white !important;
-    background-image: none !important;
-    background-gradient: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    display: block !important;
-  }
-  
-  /* Supprime tous les gradients sur mobile */
-  [class*="bg-gradient"], [class*="gradient"] {
-    background: white !important;
-    background-image: none !important;
-  }
-  
-  /* Force l'affichage des textes */
-  h1, h2, h3, h4, h5, h6, p, span, div {
-    opacity: 1 !important;
-    color: #1f2937 !important;
-    visibility: visible !important;
+    transition: none !important;
+    animation: none !important;
   }
   
   /* Supprime complètement Framer Motion sur mobile */
@@ -258,11 +241,10 @@ section[class*="bg-gradient-to-br"] {
     animation: none !important;
   }
   
-  /* Force les boutons et liens à être visibles */
-  button, a, input {
-    opacity: 1 !important;
-    visibility: visible !important;
-    background-color: initial !important;
+  /* Empêche les hover effects qui causent des flashs */
+  .hover\\:shadow-lg:hover, .hover\\:shadow-xl:hover, .hover\\:-translate-y-1:hover {
+    transform: none !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   }
 }
 

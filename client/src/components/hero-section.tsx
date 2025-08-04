@@ -12,16 +12,25 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative z-10 pt-20 pb-32 overflow-hidden" style={{backgroundColor: 'white', background: 'white', backgroundImage: 'none'}}>
-      {/* Simplified background for mobile stability */}
-      <div className="hidden md:block absolute inset-0 opacity-30">
+    <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      {/* Modern Grid Background */}
+      <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0" style={{
           backgroundImage: `
             linear-gradient(rgba(59, 130, 246, 0.08) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(59, 130, 246, 0.08) 1px, transparent 1px)
+            linear-gradient(90deg, rgba(59, 130, 246, 0.08) 1px, transparent 1px),
+            radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.03) 0%, transparent 50%),
+            radial-gradient(circle at 75% 75%, rgba(59, 130, 246, 0.03) 0%, transparent 50%)
           `,
-          backgroundSize: '40px 40px, 40px 40px'
+          backgroundSize: '40px 40px, 40px 40px, 300px 300px, 300px 300px'
         }}></div>
+      </div>
+      
+      {/* Background Elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100/20 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-100/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-50/20 rounded-full blur-3xl"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
