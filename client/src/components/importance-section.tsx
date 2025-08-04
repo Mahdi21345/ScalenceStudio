@@ -60,9 +60,9 @@ export default function ImportanceSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-20"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0 }}
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -83,9 +83,9 @@ export default function ImportanceSection() {
               viewport={{ once: true }}
               className="motion-div"
             >
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 card" style={{ backgroundColor: 'white' }}>
-                <CardContent className="p-8">
-                  <div className={`w-16 h-16 ${point.color} rounded-2xl flex items-center justify-center mb-6`}>
+              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 card" style={{ backgroundColor: 'white', background: 'white' }}>
+                <CardContent className="p-8" style={{ backgroundColor: 'white' }}>
+                  <div className={`w-16 h-16 ${point.color} rounded-2xl flex items-center justify-center mb-6`} style={{ backgroundColor: point.color === 'bg-blue-100' ? 'rgb(219, 234, 254)' : point.color === 'bg-green-100' ? 'rgb(220, 252, 231)' : point.color === 'bg-purple-100' ? 'rgb(243, 232, 255)' : point.color === 'bg-red-100' ? 'rgb(254, 226, 226)' : point.color === 'bg-yellow-100' ? 'rgb(254, 249, 195)' : 'rgb(224, 231, 255)', opacity: 1 }}>
                     <point.icon className={`w-8 h-8 ${point.iconColor}`} />
                   </div>
                   
@@ -108,9 +108,9 @@ export default function ImportanceSection() {
         {/* Call-to-action bottom */}
         <motion.div 
           className="text-center mt-16"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0 }}
           viewport={{ once: true }}
         >
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
