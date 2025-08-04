@@ -33,14 +33,14 @@ export default function WhyUsSection() {
   ];
 
   return (
-    <section id="pourquoi-nous" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="pourquoi-nous" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50" style={{backgroundColor: 'rgb(239, 246, 255)', opacity: 1}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div 
           className="text-center mb-20"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0 }}
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -55,9 +55,9 @@ export default function WhyUsSection() {
         {/* Main differentiator */}
         <motion.div 
           className="mb-16"
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0 }}
           viewport={{ once: true }}
         >
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-8 md:p-12 text-white text-center">
@@ -127,11 +127,18 @@ export default function WhyUsSection() {
               <motion.div
                 key={index}
                 className={`p-8 rounded-2xl ${colors.bg} hover:shadow-xl transition-all duration-300`}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 1, y: 0 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                transition={{ duration: 0 }}
                 viewport={{ once: true }}
                 data-testid={`advantage-${index}`}
+                style={{ 
+                  backgroundColor: advantage.color === 'green' ? 'rgb(240, 253, 244)' : 
+                                 advantage.color === 'orange' ? 'rgb(255, 247, 237)' : 
+                                 advantage.color === 'emerald' ? 'rgb(236, 253, 245)' : 
+                                 advantage.highlight ? 'rgb(239, 246, 255)' : 'white',
+                  opacity: 1
+                }}
               >
                 <div className={`w-16 h-16 rounded-2xl ${colors.iconBg} flex items-center justify-center mb-6`}>
                   <advantage.icon className={`w-8 h-8 ${colors.iconText}`} />

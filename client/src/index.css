@@ -70,6 +70,13 @@
     position: relative;
     width: 100vw;
     max-width: 100%;
+    /* ULTRA ACCELERATION GPU + HYPER SPEED */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    will-change: auto;
+    text-rendering: optimizeSpeed;
+    font-display: block;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -142,20 +149,33 @@ html {
   background: white !important;
 }
 
-/* Force les couleurs des carrés d'icônes - FIX FLASH SECTION IMPORTANCE */
-.bg-blue-100, .bg-green-100, .bg-purple-100, .bg-red-100, .bg-yellow-100, .bg-indigo-100 {
+/* Force les couleurs des carrés d'icônes - FIX FLASH TOUTES SECTIONS */
+.bg-blue-100, .bg-green-100, .bg-purple-100, .bg-red-100, .bg-yellow-100, .bg-indigo-100, 
+.bg-blue-50, .bg-green-50, .bg-purple-50, .bg-red-50, .bg-yellow-50, .bg-indigo-50,
+.bg-orange-50, .bg-orange-100, .bg-emerald-50, .bg-emerald-100 {
   background-color: var(--bg-color) !important;
   opacity: 1 !important;
   transition: none !important;
+  animation: none !important;
 }
 
-/* Couleurs forcées pour éliminer les flashs */
-.bg-blue-100 { --bg-color: rgb(219, 234, 254); }
-.bg-green-100 { --bg-color: rgb(220, 252, 231); }
-.bg-purple-100 { --bg-color: rgb(243, 232, 255); }
-.bg-red-100 { --bg-color: rgb(254, 226, 226); }
-.bg-yellow-100 { --bg-color: rgb(254, 249, 195); }
-.bg-indigo-100 { --bg-color: rgb(224, 231, 255); }
+/* Couleurs forcées pour éliminer tous les flashs */
+.bg-blue-100 { --bg-color: rgb(219, 234, 254) !important; }
+.bg-blue-50 { --bg-color: rgb(239, 246, 255) !important; }
+.bg-green-100 { --bg-color: rgb(220, 252, 231) !important; }
+.bg-green-50 { --bg-color: rgb(240, 253, 244) !important; }
+.bg-purple-100 { --bg-color: rgb(243, 232, 255) !important; }
+.bg-purple-50 { --bg-color: rgb(250, 245, 255) !important; }
+.bg-red-100 { --bg-color: rgb(254, 226, 226) !important; }
+.bg-red-50 { --bg-color: rgb(254, 242, 242) !important; }
+.bg-yellow-100 { --bg-color: rgb(254, 249, 195) !important; }
+.bg-yellow-50 { --bg-color: rgb(254, 252, 232) !important; }
+.bg-indigo-100 { --bg-color: rgb(224, 231, 255) !important; }
+.bg-indigo-50 { --bg-color: rgb(238, 242, 255) !important; }
+.bg-orange-100 { --bg-color: rgb(255, 237, 213) !important; }
+.bg-orange-50 { --bg-color: rgb(255, 247, 237) !important; }
+.bg-emerald-100 { --bg-color: rgb(209, 250, 229) !important; }
+.bg-emerald-50 { --bg-color: rgb(236, 253, 245) !important; }
 
 /* Accélération maximale - supprime tous les délais */
 * {
@@ -163,18 +183,30 @@ html {
   animation-delay: 0s !important;
 }
 
-/* Empêche les changements de couleur sur hover mobile */
+/* ÉLIMINATION TOTALE DES FLASHS - ULTRA AGGRESSIVE */
 @media (max-width: 768px) {
   .hover\\:shadow-lg:hover, .hover\\:shadow-xl:hover, .hover\\:-translate-y-1:hover {
     transform: none !important;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   }
   
-  /* Force l'affichage immédiat des couleurs de fond */
-  [class*="bg-"] {
+  /* Force l'affichage immédiat de TOUS les éléments */
+  [class*="bg-"], [class*="motion-"], [class*="rounded-"], [data-testid*="advantage"], 
+  .p-8, .rounded-2xl, .transition-all, .duration-300 {
     transition: none !important;
     animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    background-color: var(--bg-color, white) !important;
   }
+}
+
+/* FORCE GLOBALE POUR TOUS LES ÉCRANS - ZERO FLASH */
+[data-testid*="advantage"] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
 }
 
 @layer utilities {
