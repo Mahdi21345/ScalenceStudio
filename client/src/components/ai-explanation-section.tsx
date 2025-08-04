@@ -39,9 +39,9 @@ export default function AIExplanationSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-16"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0 }}
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -72,9 +72,9 @@ export default function AIExplanationSection() {
           {benefits.map((benefit, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 1, y: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              transition={{ duration: 0 }}
               viewport={{ once: true }}
             >
               <Card className="h-full hover:shadow-lg transition-shadow duration-300 border-gray-200">
@@ -97,9 +97,9 @@ export default function AIExplanationSection() {
         {/* Bottom CTA */}
         <motion.div 
           className="text-center mt-16"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0 }}
           viewport={{ once: true }}
         >
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 max-w-2xl mx-auto border border-blue-200">
