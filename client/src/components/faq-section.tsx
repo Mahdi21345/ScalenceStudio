@@ -28,10 +28,7 @@ const faqs = [
     question: "Comment fonctionne la maquette gratuite ?",
     answer: "Avant de commencer la production, nous créons une maquette gratuite de ta landing page que tu valides. Pas de surprise, tu vois exactement ce que tu auras."
   },
-  {
-    question: "Le SEO est-il inclus dans la production ?",
-    answer: "Oui, nous optimisons ta landing page pour les moteurs de recherche avec les balises meta, titre et structure appropriées."
-  },
+
   {
     question: "Pourquoi choisir ProLanding ?",
     answer: "Hébergement professionnel à 4€/mois + livraison 48h + au prix le moins cher du marché. Notre méthode transforme ton offre en message clair qui convertit tes visiteurs en clients."
