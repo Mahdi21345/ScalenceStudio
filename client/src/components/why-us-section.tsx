@@ -33,7 +33,7 @@ export default function WhyUsSection() {
   ];
 
   return (
-    <section id="pourquoi-nous" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50" style={{backgroundColor: 'rgb(239, 246, 255)', opacity: 1}}>
+    <section id="pourquoi-nous" className="py-24" style={{backgroundColor: 'white', background: 'white', backgroundImage: 'none', opacity: 1}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div 

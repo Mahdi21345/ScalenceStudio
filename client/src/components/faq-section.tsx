@@ -46,13 +46,13 @@ export default function FAQSection() {
   };
 
   return (
-    <section id="faq" className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section id="faq" className="py-20" style={{backgroundColor: 'white', background: 'white'}}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-16"
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0 }}
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

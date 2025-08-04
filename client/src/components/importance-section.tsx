@@ -56,7 +56,7 @@ const importancePoints = [
 
 export default function ImportanceSection() {
   return (
-    <section id="importance" className="py-24 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section id="importance" className="py-24" style={{backgroundColor: 'white', background: 'white'}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-20"

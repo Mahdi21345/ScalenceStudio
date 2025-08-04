@@ -215,13 +215,54 @@ section[class*="bg-gradient-to-br"] {
   background: white !important;
 }
 
-/* FORCE IMMEDIATE DISPLAY MOBILE */
+/* ULTRA FIX MOBILE - ZERO BUG TOLERANCE */
 @media (max-width: 768px) {
-  section, div, main, body {
+  * {
     background-color: white !important;
     opacity: 1 !important;
     transition: none !important;
     animation: none !important;
+    transform: none !important;
+    will-change: auto !important;
+  }
+  
+  /* Force tous les éléments à s'afficher immédiatement */
+  section, div, main, body, header, nav, article, aside, footer {
+    background: white !important;
+    background-color: white !important;
+    background-image: none !important;
+    background-gradient: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+  }
+  
+  /* Supprime tous les gradients sur mobile */
+  [class*="bg-gradient"], [class*="gradient"] {
+    background: white !important;
+    background-image: none !important;
+  }
+  
+  /* Force l'affichage des textes */
+  h1, h2, h3, h4, h5, h6, p, span, div {
+    opacity: 1 !important;
+    color: #1f2937 !important;
+    visibility: visible !important;
+  }
+  
+  /* Supprime complètement Framer Motion sur mobile */
+  [data-framer-appear], [data-framer-appear-id] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+  
+  /* Force les boutons et liens à être visibles */
+  button, a, input {
+    opacity: 1 !important;
+    visibility: visible !important;
+    background-color: initial !important;
   }
 }
 

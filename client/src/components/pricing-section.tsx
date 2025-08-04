@@ -27,7 +27,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <section id="pricing" className="py-24 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section id="pricing" className="py-24" style={{backgroundColor: 'white', background: 'white'}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="text-center mb-16 motion-div"
