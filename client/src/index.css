@@ -209,6 +209,22 @@ html {
   animation: none !important;
 }
 
+/* FORCE BACKGROUND BLANC HERO SECTION - ANTI FLASH */
+section[class*="bg-gradient-to-br"] {
+  background-color: white !important;
+  background: white !important;
+}
+
+/* FORCE IMMEDIATE DISPLAY MOBILE */
+@media (max-width: 768px) {
+  section, div, main, body {
+    background-color: white !important;
+    opacity: 1 !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
 @layer utilities {
   .gradient-primary {
     background: linear-gradient(135deg, hsl(var(--pro-secondary)), hsl(var(--pro-accent)));

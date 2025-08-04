@@ -12,7 +12,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section className="relative z-10 pt-20 pb-32 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50" style={{backgroundColor: 'white', background: 'white'}}>
       {/* Modern Grid Background */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0" style={{
