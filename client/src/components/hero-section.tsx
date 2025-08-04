@@ -68,9 +68,9 @@ export default function HeroSection() {
           
           <motion.p 
             className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed"
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0 }}
           >
             <span className="font-semibold text-blue-600">Convertit 3 fois plus de clients qu'auparavant.</span> Fini les visiteurs qui repartent sans acheter - transforme ton trafic en revenus concrets. <span className="font-semibold text-blue-600">Vends plus, automatiquement.</span>
           </motion.p>
@@ -80,9 +80,9 @@ export default function HeroSection() {
           {/* USP Highlights */}
           <motion.div 
             className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-10"
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ duration: 0 }}
           >
             <div className="flex items-center text-green-600 font-medium">
               <Clock className="w-5 h-5 mr-2" />
@@ -97,9 +97,9 @@ export default function HeroSection() {
           {/* Double CTA */}
           <motion.div 
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            transition={{ duration: 0 }}
           >
             <Button
               onClick={handleBookCall}
@@ -124,9 +124,9 @@ export default function HeroSection() {
           {/* Solution hébergement info */}
           <motion.div 
             className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6 mt-12 max-w-4xl mx-auto border border-blue-200"
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
+            transition={{ duration: 0 }}
           >
             <div className="text-center">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Solution hébergement pro au moins cher</h3>

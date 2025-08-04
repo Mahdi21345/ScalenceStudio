@@ -177,47 +177,9 @@ html {
 .bg-emerald-100 { --bg-color: rgb(209, 250, 229) !important; }
 .bg-emerald-50 { --bg-color: rgb(236, 253, 245) !important; }
 
-/* Accélération maximale - supprime tous les délais */
-* {
-  transition-delay: 0s !important;
-  animation-delay: 0s !important;
-}
-
-/* ÉLIMINATION TOTALE DES FLASHS - ULTRA AGGRESSIVE */
+/* MOBILE FIX SIMPLE - GARDE TOUT LE DESIGN, SUPPRIME JUSTE LES ANIMATIONS */
 @media (max-width: 768px) {
-  .hover\\:shadow-lg:hover, .hover\\:shadow-xl:hover, .hover\\:-translate-y-1:hover {
-    transform: none !important;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
-  }
-  
-  /* Force l'affichage immédiat de TOUS les éléments */
-  [class*="bg-"], [class*="motion-"], [class*="rounded-"], [data-testid*="advantage"], 
-  .p-8, .rounded-2xl, .transition-all, .duration-300 {
-    transition: none !important;
-    animation: none !important;
-    opacity: 1 !important;
-    transform: none !important;
-    background-color: var(--bg-color, white) !important;
-  }
-}
-
-/* FORCE GLOBALE POUR TOUS LES ÉCRANS - ZERO FLASH */
-[data-testid*="advantage"] {
-  opacity: 1 !important;
-  transform: none !important;
-  transition: none !important;
-  animation: none !important;
-}
-
-/* FORCE BACKGROUND BLANC HERO SECTION - ANTI FLASH */
-section[class*="bg-gradient-to-br"] {
-  background-color: white !important;
-  background: white !important;
-}
-
-/* FIX MOBILE INTELLIGENT - GARDE LE DESIGN, SUPPRIME LES FLASHS */
-@media (max-width: 768px) {
-  /* Supprime uniquement les animations problématiques */
+  /* Supprime seulement les animations/transitions */
   * {
     transition: none !important;
     animation: none !important;
@@ -225,41 +187,14 @@ section[class*="bg-gradient-to-br"] {
     transition-delay: 0s !important;
   }
   
-  /* Force l'affichage immédiat sans supprimer les couleurs */
-  [data-testid*="advantage"], .motion-div, [class*="motion-"] {
+  /* Force affichage immédiat sans changer les couleurs */
+  [data-framer-appear], [data-framer-appear-id], [class*="motion"], [data-testid] {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
     animation: none !important;
     visibility: visible !important;
   }
-  
-  /* Supprime complètement Framer Motion sur mobile */
-  [data-framer-appear], [data-framer-appear-id] {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
-    animation: none !important;
-  }
-  
-  /* Force tous les éléments motion à être visibles */
-  [class*="motion"], [data-testid] {
-    opacity: 1 !important;
-    visibility: visible !important;
-    display: block !important;
-  }
-  
-  /* Empêche les hover effects qui causent des flashs */
-  .hover\\:shadow-lg:hover, .hover\\:shadow-xl:hover, .hover\\:-translate-y-1:hover {
-    transform: none !important;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
-  }
-}
-
-/* FORCE GLOBAL AFFICHAGE - TOUS ÉCRANS */
-[class*="motion"], [data-testid] {
-  opacity: 1 !important;
-  visibility: visible !important;
 }
 
 @layer utilities {
