@@ -38,9 +38,9 @@ export default function HeroSection() {
           {/* Premium Badge */}
           <motion.div 
             className="mb-8 motion-div"
-            initial={{ opacity: 0, y: 10 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0 }}
           >
             <span className="inline-flex items-center px-6 py-3 rounded-full text-sm font-semibold bg-blue-50 text-blue-700 border border-blue-200">
               <Clock className="w-4 h-4 mr-2" />
@@ -50,18 +50,18 @@ export default function HeroSection() {
           
           <motion.h1 
             className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight motion-div"
-            initial={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.1 }}
+            transition={{ duration: 0 }}
           >
             Landing Page Professionnelle qui <span className="text-blue-600 font-bold">Convertit 3 Fois Plus</span> de Clients
           </motion.h1>
           
           <motion.div
             className="text-2xl md:text-3xl font-semibold text-gray-700 mb-8 motion-div"
-            initial={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.15 }}
+            transition={{ duration: 0 }}
           >
             Livrée en 24h
           </motion.div>

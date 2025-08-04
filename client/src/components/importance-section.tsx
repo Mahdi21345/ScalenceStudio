@@ -77,13 +77,13 @@ export default function ImportanceSection() {
           {importancePoints.map((point, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 1, y: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: index * 0.05 }}
+              transition={{ duration: 0 }}
               viewport={{ once: true }}
               className="motion-div"
             >
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 card bg-white">
+              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 card" style={{ backgroundColor: 'white' }}>
                 <CardContent className="p-8">
                   <div className={`w-16 h-16 ${point.color} rounded-2xl flex items-center justify-center mb-6`}>
                     <point.icon className={`w-8 h-8 ${point.iconColor}`} />

@@ -67,13 +67,13 @@ export default function FAQSection() {
           {faqs.map((faq, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 1, y: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: index * 0.03 }}
+              transition={{ duration: 0 }}
               viewport={{ once: true }}
               className="motion-div"
             >
-              <Card className="overflow-hidden card bg-white">
+              <Card className="overflow-hidden card" style={{ backgroundColor: 'white' }}>
                 <button
                   className="flex justify-between items-center w-full px-6 py-4 text-left hover:bg-gray-50 transition-colors duration-200"
                   onClick={() => toggleFAQ(index)}
