@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     question: "Comment modifier mon site après achat ?",
-    answer: "Après achat, tu auras accès à un agent IA qui modifie ton site en une ligne de prompt au lieu de passer des heures manuellement. Cette app tierce coûte 24€/mois (optionnel)."
+    answer: "Après achat, tu auras accès à un agent IA GRATUIT qui modifie ton site en une ligne de prompt au lieu de passer des heures manuellement."
   },
   {
     question: "Quels sont les vrais coûts après achat ?",
