@@ -12,19 +12,6 @@ const portfolioItems = [
 ];
 
 export default function PortfolioSlider() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % portfolioItems.length);
-    }, 4000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const goToSlide = (index: number) => {
-    setCurrentIndex(index);
-  };
 
   return (
     <section className="py-24 bg-gray-900 overflow-hidden">
