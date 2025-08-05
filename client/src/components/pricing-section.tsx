@@ -23,7 +23,7 @@ export default function PricingSection() {
 
   const additionalServices = [
     "Hébergement pro : 4€/mois",
-    "Agent IA pour modifications : 24€/mois (app tierce)"
+    "Agent IA pour modifications : GRATUIT"
   ];
 
   return (
