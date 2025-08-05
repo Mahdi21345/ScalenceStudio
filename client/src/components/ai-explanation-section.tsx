@@ -27,10 +27,10 @@ export default function AIExplanationSection() {
     },
     {
       icon: DollarSign,
-      title: "App tierce - 24€/mois",
-      description: "Service optionnel qui révolutionne la façon de gérer ton site web.",
-      color: "text-orange-600",
-      bgColor: "bg-orange-100"
+      title: "Service GRATUIT",
+      description: "Agent IA inclus gratuitement pour modifier facilement ton site web.",
+      color: "text-green-600",
+      bgColor: "bg-green-100"
     }
   ];
 
