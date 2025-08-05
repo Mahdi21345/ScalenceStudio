@@ -25,6 +25,7 @@ export default function Home() {
       <HeroSection />
       <BenefitsSection />
       <ImportanceSection />
+      <PortfolioSlider />
       <WhyUsSection />
       <ProcessSection />
       <AIExplanationSection />
