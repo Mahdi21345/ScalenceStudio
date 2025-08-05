@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero-section";
 import AIExplanationSection from "@/components/ai-explanation-section";
 import BenefitsSection from "@/components/benefits-section";
 import ImportanceSection from "@/components/importance-section";
+import PortfolioSlider from "@/components/portfolio-slider";
 import WhyUsSection from "@/components/why-us-section";
 import ProcessSection from "@/components/process-section";
 import PricingSection from "@/components/pricing-section";
