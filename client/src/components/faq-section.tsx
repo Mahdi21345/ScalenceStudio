@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     question: "Comment modifier mon site après achat ?",
-    answer: "Après achat, tu auras accès à un agent IA qui modifie ton site en une ligne de prompt au lieu de passer des heures manuellement. Cette app tierce coûte 24€/mois (optionnel)."
+    answer: "Après achat, tu auras accès à un agent IA GRATUIT qui modifie ton site en une ligne de prompt au lieu de passer des heures manuellement."
   },
   {
     question: "Quels sont les vrais coûts après achat ?",
-    answer: "Transparent : hébergement 4€/mois (alors que de base les gens payent 20-30€/mois). Optionnel : Agent IA pour modifications 24€/mois (app tierce). Aucun autre frais caché."
+    answer: "Transparent : hébergement 4€/mois seulement (alors que de base les gens payent 20-30€/mois). Agent IA pour modifications GRATUIT. Aucun autre frais caché."
   },
   {
     question: "En combien de temps mon projet est réalisé ?",

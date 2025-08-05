@@ -54,7 +54,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0 }}
           >
-            Landing Page Professionnelle qui <span className="text-blue-600 font-bold">Convertit 3 Fois Plus</span> de Clients
+            <span className="text-blue-600">Landing Page</span> Professionnelle qui <span className="text-blue-600 font-bold">Convertit 3 Fois Plus</span> de Clients
           </motion.h1>
           
           <motion.div

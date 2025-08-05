@@ -1,34 +1,21 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const portfolioItems = [
   {
     id: 1,
-    title: "Fluidifie tes process grâce à une automatisation qui te correspond",
-    subtitle: "Optimisation des conversions",
-    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=500&fit=crop&crop=center",
-    darkBg: true
+    title: "INEA AI - Intelligence Artificielle",
+    subtitle: "Solution IA avancée",
+    image: "https://cdn.builder.io/api/v1/image/assets%2Fb62a2f1ec364434aa883b9a76b1352af%2F38fb7d6a961440c580a85d96063b3378?format=webp&width=800",
+    isEmpty: false
   },
   {
     id: 2,
-    title: "Des Agents IA qui travaillent à ta place",
-    subtitle: "Intelligence artificielle",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=500&fit=crop&crop=center",
-    darkBg: true
-  },
-  {
-    id: 3,
-    title: "Des Outils qui font Sensation dans ton Business",
-    subtitle: "Solutions personnalisées",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&crop=center",
-    darkBg: false
-  },
-  {
-    id: 4,
-    title: "Une Landing Page qui fait passer ton Business au niveau supérieur",
-    subtitle: "Design & Performance",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=500&fit=crop&crop=center",
-    darkBg: false
+    title: "Votre Projet Suivant",
+    subtitle: "Prêt à créer quelque chose d'exceptionnel ?",
+    image: "",
+    isEmpty: true
   }
 ];
 
@@ -38,7 +25,7 @@ export default function PortfolioSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % portfolioItems.length);
-    }, 4000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -47,9 +34,34 @@ export default function PortfolioSlider() {
     setCurrentIndex(index);
   };
 
+  const nextSlide = () => {
+    setCurrentIndex((prev) => (prev + 1) % portfolioItems.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prev) => (prev - 1 + portfolioItems.length) % portfolioItems.length);
+  };
+
   return (
-    <section className="py-24 bg-gray-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-24 bg-gradient-to-br from-blue-50 via-white to-purple-50 relative overflow-hidden">
+      {/* Modern Grid Background */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `
+            linear-gradient(rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.05) 1px, transparent 1px)
+          `,
+          backgroundSize: '40px 40px, 40px 40px'
+        }}></div>
+      </div>
+
+      {/* Background Elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100/20 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-100/20 rounded-full blur-3xl"></div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Header */}
         <motion.div 
           className="text-center mb-16"
@@ -58,61 +70,104 @@ export default function PortfolioSlider() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Nos Solutions
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Notre <span className="text-blue-600">Portfolio</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Découvrez comment nous transformons votre business avec des solutions sur-mesure
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Découvrez nos réalisations et imaginez votre projet
           </p>
         </motion.div>
 
         {/* Slider Container */}
-        <div className="relative h-[500px] rounded-2xl overflow-hidden">
-          {portfolioItems.map((item, index) => (
-            <motion.div
-              key={item.id}
-              className="absolute inset-0 w-full h-full"
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ 
-                opacity: index === currentIndex ? 1 : 0,
-                x: index === currentIndex ? 0 : 100
-              }}
-              transition={{ duration: 0.7, ease: "easeInOut" }}
-            >
-              <div className="relative w-full h-full">
-                {/* Background Image */}
-                <img 
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover"
-                />
-                
-                {/* Overlay */}
-                <div className={`absolute inset-0 ${item.darkBg ? 'bg-black/60' : 'bg-white/20'}`}></div>
-                
-                {/* Content */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center max-w-4xl px-8">
-                    <motion.div
-                      initial={{ opacity: 0, y: 30 }}
-                      animate={{ 
-                        opacity: index === currentIndex ? 1 : 0,
-                        y: index === currentIndex ? 0 : 30
-                      }}
-                      transition={{ duration: 0.8, delay: 0.3 }}
-                    >
-                      <p className={`text-lg mb-4 ${item.darkBg ? 'text-blue-400' : 'text-blue-600'} font-semibold`}>
-                        {item.subtitle}
-                      </p>
-                      <h3 className={`text-3xl md:text-5xl font-bold mb-8 ${item.darkBg ? 'text-white' : 'text-gray-900'} leading-tight`}>
-                        {item.title}
-                      </h3>
-                    </motion.div>
+        <div className="relative">
+          <div className="relative h-[500px] rounded-2xl overflow-hidden bg-white shadow-2xl border border-blue-100">
+            {portfolioItems.map((item, index) => (
+              <motion.div
+                key={item.id}
+                className="absolute inset-0 w-full h-full"
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ 
+                  opacity: index === currentIndex ? 1 : 0,
+                  x: index === currentIndex ? 0 : (index > currentIndex ? 100 : -100)
+                }}
+                transition={{ duration: 0.7, ease: "easeInOut" }}
+              >
+                {item.isEmpty ? (
+                  // Empty slide design
+                  <div className="w-full h-full bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
+                    <div className="text-center p-8">
+                      <motion.div
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ 
+                          opacity: index === currentIndex ? 1 : 0,
+                          scale: index === currentIndex ? 1 : 0.8
+                        }}
+                        transition={{ duration: 0.8, delay: 0.3 }}
+                      >
+                        <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full flex items-center justify-center border-4 border-dashed border-blue-300">
+                          <span className="text-6xl text-blue-500">+</span>
+                        </div>
+                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                          {item.title}
+                        </h3>
+                        <p className="text-xl text-blue-600 font-semibold mb-8">
+                          {item.subtitle}
+                        </p>
+                        <button 
+                          onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+                          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
+                        >
+                          Commencer Maintenant
+                        </button>
+                      </motion.div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </motion.div>
-          ))}
+                ) : (
+                  // Image slide
+                  <div className="relative w-full h-full">
+                    <img 
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full h-full object-contain bg-gradient-to-br from-gray-900 to-black"
+                    />
+                    
+                    {/* Content Overlay */}
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-8">
+                      <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ 
+                          opacity: index === currentIndex ? 1 : 0,
+                          y: index === currentIndex ? 0 : 30
+                        }}
+                        transition={{ duration: 0.8, delay: 0.3 }}
+                      >
+                        <p className="text-blue-400 font-semibold mb-2">
+                          {item.subtitle}
+                        </p>
+                        <h3 className="text-2xl md:text-3xl font-bold text-white">
+                          {item.title}
+                        </h3>
+                      </motion.div>
+                    </div>
+                  </div>
+                )}
+              </motion.div>
+            ))}
+          </div>
+
+          {/* Navigation Arrows */}
+          <button
+            onClick={prevSlide}
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-blue-600 p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 z-10"
+          >
+            <ChevronLeft className="w-6 h-6" />
+          </button>
+          <button
+            onClick={nextSlide}
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-blue-600 p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 z-10"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
         </div>
 
         {/* Navigation Dots */}
@@ -123,15 +178,15 @@ export default function PortfolioSlider() {
               onClick={() => goToSlide(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
                 index === currentIndex 
-                  ? 'bg-blue-500 scale-125' 
-                  : 'bg-gray-500 hover:bg-gray-400'
+                  ? 'bg-blue-600 scale-125' 
+                  : 'bg-gray-300 hover:bg-blue-400'
               }`}
               data-testid={`portfolio-dot-${index}`}
             />
           ))}
         </div>
 
-        {/* Bottom CTA */}
+        {/* Bottom Info */}
         <motion.div 
           className="text-center mt-16"
           initial={{ opacity: 0, y: 30 }}
@@ -139,17 +194,23 @@ export default function PortfolioSlider() {
           transition={{ duration: 0.8, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              Prêt à transformer votre business ?
+          <div className="bg-white rounded-2xl p-8 max-w-4xl mx-auto shadow-lg border border-blue-100">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Prêt pour votre <span className="text-blue-600">Landing Page</span> ?
             </h3>
-            <p className="text-blue-100 mb-6">
-              Rejoignez les entreprises qui ont déjà fait le choix de l'excellence digitale
+            <p className="text-gray-600 mb-6">
+              Rejoignez nos clients satisfaits avec une landing page qui convertit
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-blue-100">
-              <span className="font-semibold">✓ Solutions sur-mesure</span>
-              <span className="font-semibold">✓ Résultats garantis</span>
-              <span className="font-semibold">✓ Support 24/7</span>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm">
+              <span className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold border border-blue-200">
+                ✓ Livraison 48h
+              </span>
+              <span className="bg-green-50 text-green-600 px-4 py-2 rounded-full font-semibold border border-green-200">
+                ✓ Prix compétitif
+              </span>
+              <span className="bg-purple-50 text-purple-600 px-4 py-2 rounded-full font-semibold border border-purple-200">
+                ✓ Design professionnel
+              </span>
             </div>
           </div>
         </motion.div>
